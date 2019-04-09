@@ -47,4 +47,7 @@ if __name__ == "__main__":
     model.restore(session)
     while True:
       text = input("Document text: ")
-      print_predictions(make_predictions(text, model))
+      x = make_predictions(text, model)
+      print(x)
+      print('------------------')
+      print_predictions(x)
