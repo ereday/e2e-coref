@@ -60,7 +60,7 @@ def get_offsets(text):
     assert token[0]==text[token[1]:token[2]]
   return result
 
-def _myfunc(word_offsets,toff,word):
+def _get_indices(word_offsets,toff,word):
   res = []
   is_multi = False
   is_end= False
@@ -81,14 +81,37 @@ def _myfunc(word_offsets,toff,word):
         res.append(ix)
   return res
 
+# Pronoun'un oldugu cluster'da dogru coref elemani var mi yok mu diye bakacagiz
+# Tabi burda partial mi yoksa fully mi bakacagiz ondan emin degilim
+def gap_evaluate(pix,aix,bix,example,a_coref,b_coref):
+  if a_coref:
+    target = aix
+  else:
+    target = bix
+    
+  words = util.flatten(example["sentences"])
+  result = False
+  for cluster in example["predicted_clusters"]:
+    elements = list(set([p[0] for p in cluster] + [p[1] for p in cluster]))
+    if pix[0] in elements: # Target cluster
+      # full_check
+      if sum([xx in elements for xx in target]) == len(target):
+        result = True
+      # first element only
+      if target[0] in elements:
+        result = True
+    else:
+      continue
+    return result
+    
   
 def get_indices(row):
   word_offsets = get_offsets(row['Text'])
-  poff,aoff,boff = row['Pronoun-offset'],row['A-offset'],row['B-offset']
-  pronoun,A,B    = row['Pronoun'],row['A'],row['B']  
-  pix = _myfunc(word_offsets,poff,pronoun)
-  aix = _myfunc(word_offsets,aoff,A)
-  bix = _myfunc(word_offsets,boff,B)
+  poff,aoff,boff  = row['Pronoun-offset'],row['A-offset'],row['B-offset']
+  pronoun,A,B     = row['Pronoun'],row['A'],row['B']
+  pix = _get_indices(word_offsets,poff,pronoun)
+  aix = _get_indices(word_offsets,aoff,A)
+  bix = _get_indices(word_offsets,boff,B)
   return pix,aix,bix
 
 if __name__ == "__main__":
@@ -96,13 +119,18 @@ if __name__ == "__main__":
   model = cm.CorefModel(config)
   with tf.Session() as session:
     model.restore(session)
-    fname = ''
+    fname = 'gapx-merged.tsv'
     df = prepare_data(fname)
     for index,row in df.iterrows():
         text = row['Text']
+        a_coref,b_coref = row['A-coref'],row['B-coref']
         pix,aix,bix = get_indices(row)
         example = make_predictions(text,model)
-
+        result = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
+        print(example)
+        print("----------------------")
+        print("result:",result)
+        text = input("Continue?")
 #    while True:
 #      text = input("Document text: ")
 #      print_predictions(make_predictions(text, model))
