@@ -45,6 +45,52 @@ def prepare_data(fname):
     df = pd.read_table(fname)
     return df
 
+def spans(txt):
+    tokens=nltk.word_tokenize(txt)
+    offset = 0
+    for token in tokens:
+        offset = txt.find(token, offset)
+        yield token, offset, offset+len(token)
+        offset += len(token)
+
+def get_offsets(text):
+  result = []
+  for token in spans(text):
+    result.append(token)
+    assert token[0]==text[token[1]:token[2]]
+  return result
+
+def _myfunc(word_offsets,toff,word):
+  res = []
+  is_multi = False
+  is_end= False
+  for ix,wp in enumerate(word_offsets):
+    if wp[1] == toff:
+      res.append(ix)      
+      if wp[0] == word:
+        return res
+      else:
+        is_multi = True
+        is_end = False
+    elif is_end:
+      return res
+    elif is_multi:
+      if wp[2]-toff > len(word):
+        is_end = True
+      else:
+        res.append(ix)
+  return res
+
+  
+def get_indices(row):
+  word_offsets = get_offsets(row['Text'])
+  poff,aoff,boff = row['Pronoun-offset'],row['A-offset'],row['B-offset']
+  pronoun,A,B    = row['Pronoun'],row['A'],row['B']  
+  pix = _myfunc(word_offsets,poff,pronoun)
+  aix = _myfunc(word_offsets,aoff,A)
+  bix = _myfunc(word_offsets,boff,B)
+  return pix,aix,bix
+
 if __name__ == "__main__":
   config = util.initialize_from_env()
   model = cm.CorefModel(config)
@@ -54,10 +100,9 @@ if __name__ == "__main__":
     df = prepare_data(fname)
     for index,row in df.iterrows():
         text = row['Text']
-        Poffset,Aoffset,Boffset = row['Pronoun-offset'],row['A-offset'],row['B-offset']
-        A,B = row['A'],row['B']
+        pix,aix,bix = get_indices(row)
         example = make_predictions(text,model)
-        
+
 #    while True:
 #      text = input("Document text: ")
 #      print_predictions(make_predictions(text, model))
