@@ -1,0 +1,3 @@
+pip install tensorflow-gpu==1.0
+pip install pyhocon
+pip install nltk
