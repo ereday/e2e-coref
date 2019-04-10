@@ -146,7 +146,7 @@ if __name__ == "__main__":
       result = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
       evaluations.append(result)
     df['Result'] = evaluations
-    df.to_csv('gapx-merged-evaluation.tsv')
+    df.to_csv('gapx-merged-evaluation.tsv',sep='\t',index=False)
     #print(util.flatten(example['sentences']))
         #print(example['predicted_clusters'])
         #print("aix:",aix," bix:",bix)
