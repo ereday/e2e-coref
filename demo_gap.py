@@ -117,44 +117,13 @@ def gap_evaluate(pix,aix,bix,example,a_coref,b_coref):
   
 def get_indices(row):
   word_offsets = get_offsets(row['Text'])
-  print("word_offsets:")
-  print(word_offsets)
   poff,aoff,boff  = row['Pronoun-offset'],row['A-offset'],row['B-offset']
   pronoun,A,B     = row['Pronoun'],row['A'],row['B']
   pix = _get_indices(word_offsets,poff,pronoun)
-  print("now aix:")
   aix = _get_indices(word_offsets,aoff,A)
-  print(aix)
-  print("now biX:")
   bix = _get_indices(word_offsets,boff,B)
-  print("A:",A," B:",B," ID:",row['ID'])
   return pix,aix,bix
 
-
-def debug():
-    config = util.initialize_from_env()
-    model = cm.CorefModel(config)
-    evaluations = []
-    with tf.Session() as session:
-      model.restore(session)
-      fname = 'gapx-merged.tsv'
-      df = prepare_data(fname)
-      target_id = input('target index')
-      for index,row in df.iterrows():
-        if target_id != index:
-          continue        
-        text = row['Text']
-        a_coref,b_coref = row['A-coref'],row['B-coref']
-        if a_coref == False and b_coref == False:
-          result = False
-          evaluations.append(result)
-          continue        
-        pix,aix,bix = get_indices(row)
-        example = make_predictions(text,model)
-        result = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
-        evaluations.append(result)
-      df['Result'] = evaluations
-      df.to_csv('gapx-merged-evaluation.tsv')
 
 if __name__ == "__main__":
   config = util.initialize_from_env()
@@ -164,22 +133,21 @@ if __name__ == "__main__":
     model.restore(session)
     fname = 'gapx-merged.tsv'
     df = prepare_data(fname)
-    for index,row in df.iterrows():
-        if index %100 == 0:
-          print(100*index/len(df),"% of the input completed ",index,"/",len(df))      
-        text = row['Text']
-        a_coref,b_coref = row['A-coref'],row['B-coref']
-        if a_coref == False and b_coref == False:
-          result = False
-          evaluations.append(result)
-          continue        
-        pix,aix,bix = get_indices(row)
-        example = make_predictions(text,model)
-        result = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
+    for index,row in df.iterrows():      
+      print("index:",index)
+      text = row['Text']
+      a_coref,b_coref = row['A-coref'],row['B-coref']
+      if a_coref == False and b_coref == False:
+        result = False
         evaluations.append(result)
+        continue        
+      pix,aix,bix = get_indices(row)
+      example = make_predictions(text,model)
+      result = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
+      evaluations.append(result)
     df['Result'] = evaluations
     df.to_csv('gapx-merged-evaluation.tsv')
-        #print(util.flatten(example['sentences']))
+    #print(util.flatten(example['sentences']))
         #print(example['predicted_clusters'])
         #print("aix:",aix," bix:",bix)
         #print("----------------------")
