@@ -53,6 +53,16 @@ def spans(txt):
         yield token, offset, offset+len(token)
         offset += len(token)
 
+def spans2(txt):
+    tokens=nltk.word_tokenize(txt)
+    offset = 0
+    res = [] 
+    for token in tokens:
+        offset = txt.find(token, offset)
+        res.append((token, offset, offset+len(token)))
+        offset += len(token)
+    return res
+  
 def get_offsets(text):
   result = []
   for token in spans(text):
@@ -117,6 +127,7 @@ def get_indices(row):
 if __name__ == "__main__":
   config = util.initialize_from_env()
   model = cm.CorefModel(config)
+  evaluations = []
   with tf.Session() as session:
     model.restore(session)
     fname = 'gapx-merged.tsv'
@@ -127,12 +138,18 @@ if __name__ == "__main__":
         pix,aix,bix = get_indices(row)
         example = make_predictions(text,model)
         result = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
-        print(util.flatten(example['sentences']))
-        print(example['predicted_clusters'])
-        print("aix:",aix," bix:",bix)
-        print("----------------------")
-        print("result:",result)
-        text = input("Continue?")
+        evaluations.append(result)
+        if index %100 == 0:
+          print(100*index/len(df),"% of the input completed")
+    df['Result'] = evaluations
+    df.to_csv('gapx-merged-evaluation.tsv')
+        #print(util.flatten(example['sentences']))
+        #print(example['predicted_clusters'])
+        #print("aix:",aix," bix:",bix)
+        #print("----------------------")
+        #print_predictions(example)
+        #print("result:",result)
+        #text = input("Continue?")
 #    while True:
 #      text = input("Document text: ")
 #      print_predictions(make_predictions(text, model))
