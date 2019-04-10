@@ -97,22 +97,23 @@ def gap_evaluate(pix,aix,bix,example,a_coref,b_coref):
   if a_coref:
     target = aix
   else:
-    target = bix
-    
+    target = bix  
   words = util.flatten(example["sentences"])
   result = False
   for cluster in example["predicted_clusters"]:
     elements = list(set([p[0] for p in cluster] + [p[1] for p in cluster]))
     if pix[0] in elements: # Target cluster
       # full_check
-      if sum([xx in elements for xx in target]) == len(target):
-        result = True
+      #if sum([xx in elements for xx in target]) == len(target):
+      #  result = True
+      #  break
       # first element only
       if target[0] in elements:
         result = True
+        break      
     else:
       continue
-    return result
+  return result
     
   
 def get_indices(row):
