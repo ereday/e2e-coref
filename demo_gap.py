@@ -133,14 +133,18 @@ if __name__ == "__main__":
     fname = 'gapx-merged.tsv'
     df = prepare_data(fname)
     for index,row in df.iterrows():
+        if index %100 == 0:
+          print(100*index/len(df),"% of the input completed ",index,"/",len(df))      
         text = row['Text']
         a_coref,b_coref = row['A-coref'],row['B-coref']
+        if a_coref == False and b_coref == False:
+          result = False
+          evaluations.append(result)
+          continue        
         pix,aix,bix = get_indices(row)
         example = make_predictions(text,model)
         result = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
         evaluations.append(result)
-        if index %100 == 0:
-          print(100*index/len(df),"% of the input completed")
     df['Result'] = evaluations
     df.to_csv('gapx-merged-evaluation.tsv')
         #print(util.flatten(example['sentences']))
