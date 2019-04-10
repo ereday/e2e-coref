@@ -122,6 +122,7 @@ def get_indices(row):
   pix = _get_indices(word_offsets,poff,pronoun)
   aix = _get_indices(word_offsets,aoff,A)
   bix = _get_indices(word_offsets,boff,B)
+  print("A:",A," B:",B," ID:",row['ID'])
   return pix,aix,bix
 
 if __name__ == "__main__":
