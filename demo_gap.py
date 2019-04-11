@@ -1,3 +1,4 @@
+# 6c01266 (HEAD -> gapX, origin/gapX) WIP8 <- google nl gelmeden onceki calisan version
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -52,7 +53,7 @@ def spans(txt):
         offset = txt.find(token, offset)
         yield token, offset, offset+len(token)
         offset += len(token)
-
+        
 def spans2(txt):
     tokens=nltk.word_tokenize(txt)
     offset = 0
@@ -91,8 +92,7 @@ def _get_indices(word_offsets,toff,word):
         res.append(ix)
   return res
 
-# Pronoun'un oldugu cluster'da dogru coref elemani var mi yok mu diye bakacagiz
-# Tabi burda partial mi yoksa fully mi bakacagiz ondan emin degilim
+# burayi iste aix[0] i olsun bix[0] i olmasin vs diye yapabilriiz. yapmaliyiz ya da?
 def gap_evaluate(pix,aix,bix,example,a_coref,b_coref):
   if a_coref:
     target = aix
@@ -103,11 +103,6 @@ def gap_evaluate(pix,aix,bix,example,a_coref,b_coref):
   for cluster in example["predicted_clusters"]:
     elements = list(set([p[0] for p in cluster] + [p[1] for p in cluster]))
     if pix[0] in elements: # Target cluster
-      # full_check
-      #if sum([xx in elements for xx in target]) == len(target):
-      #  result = True
-      #  break
-      # first element only
       if target[0] in elements:
         result = True
         break      
@@ -126,13 +121,30 @@ def get_indices(row):
   return pix,aix,bix
 
 
+def _get_indices_google_nl(word_offsets,toff,word):
+  res = []
+  for ix,word in enumerate(word_offsets):
+    if word[1] == toff:
+      return res.append[ix]
+  return res
+
+def get_indices_google_nl(row):
+  word_offsets = get_offsets(row['Text'])
+  poff,aoff,boff  = row['Pronoun-offset'],row['A_head_offset'],row['B_head_offset']
+  pronoun,A,B     = row['Pronoun'],row['A'],row['B']
+  pix = _get_indices_google_nl(word_offsets,poff,pronoun)
+  aix = _get_indices_google_nl(word_offsets,aoff,A)
+  bix = _get_indices_google_nl(word_offsets,boff,B)
+  return pix,aix,bix
+
+
 if __name__ == "__main__":
   config = util.initialize_from_env()
   model = cm.CorefModel(config)
   evaluations = []
   with tf.Session() as session:
     model.restore(session)
-    fname = 'gapx-merged.tsv'
+    fname = 'gapx-merged-nl-head.tsv'
     df = prepare_data(fname)
     for index,row in df.iterrows():      
       print("index:",index)
@@ -142,12 +154,13 @@ if __name__ == "__main__":
         result = False
         evaluations.append(result)
         continue        
-      pix,aix,bix = get_indices(row)
+      pix,aix,bix = get_indices_google_nl(row)
+      print("pix:",pix," aix:",aix," bix:",bix)
       example = make_predictions(text,model)
       result = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
       evaluations.append(result)
     df['Result'] = evaluations
-    df.to_csv('gapx-merged-evaluation.tsv',sep='\t',index=False)
+    df.to_csv('gapx-merged-evaluation_debug_googlenl.tsv',sep='\t',index=False)
     #print(util.flatten(example['sentences']))
         #print(example['predicted_clusters'])
         #print("aix:",aix," bix:",bix)
