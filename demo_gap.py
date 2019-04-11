@@ -125,7 +125,7 @@ def _get_indices_google_nl(word_offsets,toff,word):
   res = []
   for ix,word in enumerate(word_offsets):
     if word[1] == toff:
-      return res.append[ix]
+      return res.append(ix)
   return res
 
 def get_indices_google_nl(row):
