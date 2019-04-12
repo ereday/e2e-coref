@@ -126,16 +126,28 @@ def get_indices(row):
 
 
 # Google nl icin ne yapiyorum:
-def _get_indices_google_nl(word_offsets,toff,word,is_pronoun=False):
+#def _get_indices_google_nl(word_offsets,toff,word,is_pronoun=False):
+#  res = []
+#  for ix,word in enumerate(word_offsets):
+#    #if word[1] == toff:
+#    if is_pronoun:
+#      if word[1] == toff:
+#        res.append(ix)
+#    else:    
+#      if word[1] <= toff and word[2] >= toff:
+#        res.append(ix)
+#  return res
+
+# Burada ne yapiyorum:
+# kelimeleri tek tek geziyorum offsetleri ile beraber
+# elimde head'in offseti var.
+# Eger wordun offseti word[1] >= head offseti ve word[2] > headoffseti ise olur 
+def _get_indices_google_nl(word_offsets,toff,word):
   res = []
   for ix,word in enumerate(word_offsets):
     #if word[1] == toff:
-    if is_pronoun:
-      if word[1] == toff:
-        res.append(ix)
-    else:    
-      if word[1] <= toff and word[2] >= toff:
-        res.append(ix)
+    if word[1] <= toff and word[2] > toff:
+      res.append(ix)
   return res
 
 def get_indices_google_nl(row):
