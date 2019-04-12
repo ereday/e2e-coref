@@ -101,7 +101,10 @@ def gap_evaluate(pix,aix,bix,example,a_coref,b_coref):
   words = util.flatten(example["sentences"])
   result = False
   for cluster in example["predicted_clusters"]:
-    elements = list(set([p[0] for p in cluster] + [p[1] for p in cluster]))
+    #elements = list(set([p[0] for p in cluster] + [p[1] for p in cluster]))
+    elements = []
+    for p in cluster:
+      elements = elements + list(range(p[0],p[1]+1))
     if pix[0] in elements: # Target cluster
       if target[0] in elements:
         result = True
