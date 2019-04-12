@@ -61,6 +61,7 @@ def spans2(txt):
     for token in tokens:
         offset = txt.find(token, offset)
         res.append((token, offset, offset+len(token)))
+        print(token," ",offset," ",offset+len(token))
         offset += len(token)
     return res
   
@@ -124,19 +125,24 @@ def get_indices(row):
   return pix,aix,bix
 
 
-def _get_indices_google_nl(word_offsets,toff,word):
+# Google nl icin ne yapiyorum:
+def _get_indices_google_nl(word_offsets,toff,word,is_pronoun=False):
   res = []
   for ix,word in enumerate(word_offsets):
     #if word[1] == toff:
-    if word[1] <= toff and word[2] >= toff:
-      res.append(ix)
+    if is_pronoun:
+      if word[1] == toff:
+        res.append(ix)
+    else:    
+      if word[1] <= toff and word[2] >= toff:
+        res.append(ix)
   return res
 
 def get_indices_google_nl(row):
   word_offsets = get_offsets(row['Text'])
   poff,aoff,boff  = row['Pronoun-offset'],row['A_head_offset'],row['B_head_offset']
   pronoun,A,B     = row['Pronoun'],row['A'],row['B']
-  pix = _get_indices_google_nl(word_offsets,poff,pronoun)
+  pix = _get_indices_google_nl(word_offsets,poff,pronoun,is_pronoun=True)
   aix = _get_indices_google_nl(word_offsets,aoff,A)
   bix = _get_indices_google_nl(word_offsets,boff,B)
   return pix,aix,bix
