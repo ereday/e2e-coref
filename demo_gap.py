@@ -154,7 +154,8 @@ def get_indices_google_nl(row):
   word_offsets = get_offsets(row['Text'])
   poff,aoff,boff  = row['Pronoun-offset'],row['A_head_offset'],row['B_head_offset']
   pronoun,A,B     = row['Pronoun'],row['A'],row['B']
-  pix = _get_indices_google_nl(word_offsets,poff,pronoun,is_pronoun=True)
+  #pix = _get_indices_google_nl(word_offsets,poff,pronoun,is_pronoun=True)
+  pix = _get_indices_google_nl(word_offsets,poff,pronoun)
   aix = _get_indices_google_nl(word_offsets,aoff,A)
   bix = _get_indices_google_nl(word_offsets,boff,B)
   return pix,aix,bix
