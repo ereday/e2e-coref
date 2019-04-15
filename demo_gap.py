@@ -165,19 +165,6 @@ def gap_evaluate2(pix,aix,bix,example,a_coref,b_coref):
         return "__ERROR__"
 
 
-  for cluster in example["predicted_clusters"]:
-    #elements = list(set([p[0] for p in cluster] + [p[1] for p in cluster]))
-    elements = []
-    for p in cluster:
-      elements = elements + list(range(p[0],p[1]+1))
-    if pix[0] in elements: # Target cluster
-      if target[0] in elements:
-        result = True
-        break      
-    else:
-      continue
-  return result
-
 def _get_indices_google_nl(word_offsets,toff,word):
   res = []
   for ix,word in enumerate(word_offsets):
