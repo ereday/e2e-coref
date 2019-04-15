@@ -144,9 +144,8 @@ def gap_evaluate2(pix,aix,bix,example,a_coref,b_coref):
         return "__ERROR__"
     elif a_coref == True:
         if   result_a == True and  result_b == True:
-            return TP
+            return FP
             # do something according to e-mail
-            pass
         elif result_a == True and  result_b == False:
             return TP 
         elif result_a == False and result_b == True:
@@ -156,7 +155,7 @@ def gap_evaluate2(pix,aix,bix,example,a_coref,b_coref):
             return FN
     elif b_coref == True:
         if result_a   == True and  result_b == True:
-            return TP
+            return FP
             # do something according to e-mail
             pass
         elif result_a == True and  result_b == False:
