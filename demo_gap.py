@@ -17,6 +17,7 @@ import util
 import nltk
 nltk.download("punkt")
 from nltk.tokenize import sent_tokenize, word_tokenize
+import pandas as pd
 
 class CorefRequestHandler(BaseHTTPRequestHandler):
   model = None
