@@ -133,7 +133,13 @@ def gap_evaluate2(pix,aix,bix,example,a_coref,b_coref):
                     
     if a_coref == False and b_coref == False:
         # DO something according to mail
-        return "__IGNORE__"
+        if result_a ==True or result_b == True:
+            return FP
+        elif result_a == False and result_b == False:
+            return TN
+        else:
+            print("something is wrong, this line should not be printed #0")
+            return "__IGNORE__"
     elif a_coref == True and b_coref == True:
         return "__ERROR__"
     elif a_coref == True:
@@ -161,7 +167,7 @@ def gap_evaluate2(pix,aix,bix,example,a_coref,b_coref):
             # do something according to e-mail I think this one is FN
             return FN            
     else:
-        print("something is wrong, this line should not be printed")
+        print("something is wrong, this line should not be printed #1")
         return "__ERROR__"
 
 
@@ -211,10 +217,10 @@ if __name__ == "__main__":
         print("index:",index)
         text = row['Text']
         a_coref,b_coref = row['A-coref'],row['B-coref']
-        if a_coref == False and b_coref == False:
-            result = False
-            evaluations.append(result)
-            continue
+        #if a_coref == False and b_coref == False:
+        #    result = False
+        #    evaluations.append(result)
+        #    continue
         pix,aix,bix = get_indices_google_nl(row)
         print("pix:",pix," aix:",aix," bix:",bix)
         example = make_predictions(text,model)
@@ -223,7 +229,50 @@ if __name__ == "__main__":
         evaluations.append(result)
     df['Result'] = evaluations
     df.to_csv('gapx-merged-evaluation_debug_googlenl.tsv',sep='\t',index=False)
-    
-    #while True:
-    #    text = raw_input("Document text: ")
-    #    print_predictions(make_predictions(text, model))
+
+
+# Below code was used before f1 oriented performance calculation
+
+#if __name__ == "__main__":
+#  util.set_gpus()
+#
+#  name = sys.argv[1]
+#  if len(sys.argv) > 2:
+#    port = int(sys.argv[2])
+#  else:
+#    port = None
+#
+#  print "Running experiment: {}.".format(name)
+#  config = util.get_config("experiments.conf")[name]
+#  config["log_dir"] = util.mkdirs(os.path.join(config["log_root"], name))
+#
+#  util.print_config(config)
+#  model = cm.CorefModel(config)
+#
+#  saver = tf.train.Saver()
+#  log_dir = config["log_dir"]
+#  evaluations = []
+#  with tf.Session() as session:
+#    checkpoint_path = os.path.join(log_dir, "model.max.ckpt")
+#    saver.restore(session, checkpoint_path)
+#    fname = 'gapx-merged-nl-head.tsv'
+#    df = prepare_data(fname)
+#    for index,row in df.iterrows():
+#        print("index:",index)
+#        text = row['Text']
+#        a_coref,b_coref = row['A-coref'],row['B-coref']
+#        if a_coref == False and b_coref == False:
+#            result = False
+#            evaluations.append(result)
+#            continue
+#        pix,aix,bix = get_indices_google_nl(row)
+#        print("pix:",pix," aix:",aix," bix:",bix)
+#        example = make_predictions(text,model)
+#        result = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
+#        evaluations.append(result)
+#    df['Result'] = evaluations
+#    df.to_csv('gapx-merged-evaluation_debug_googlenl.tsv',sep='\t',index=False)
+#    
+#    #while True:
+#    #    text = raw_input("Document text: ")
+#    #    print_predictions(make_predictions(text, model))
