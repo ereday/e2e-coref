@@ -148,7 +148,7 @@ if __name__ == "__main__":
 
   saver = tf.train.Saver()
   log_dir = config["log_dir"]
-
+  evaluations = []
   with tf.Session() as session:
     checkpoint_path = os.path.join(log_dir, "model.max.ckpt")
     saver.restore(session, checkpoint_path)
