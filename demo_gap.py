@@ -111,6 +111,70 @@ def gap_evaluate(pix,aix,bix,example,a_coref,b_coref):
       continue
   return result
 
+# a_coref,b_coref = either of True,False
+def gap_evaluate2(pix,aix,bix,example,a_coref,b_coref):
+    words = util.flatten(example["sentences"])
+    result_a = False
+    result_b = False
+    TP="True Positive"
+    FP="False Positive"
+    FN="False Negative"
+    TN="True Negative"
+    for cluster in example["predicted_clusters"]:
+        #elements = list(set([p[0] for p in cluster] + [p[1] for p in cluster]))
+        elements = []
+        for p in cluster:
+            elements = elements + list(range(p[0],p[1]+1))
+            if pix[0] in elements: # Target cluster
+                if aix[0] in elements:
+                    result_a = True
+                if bix[0] in elements:
+                    result_b = True
+                    
+    if a_coref == False and b_coref == False:
+        # DO something according to mail
+        return "__IGNORE__"
+    elif a_coref == True and b_coref == True:
+        return "__ERROR__"
+    elif a_coref == True:
+        if   result_a == True and  result_b == True:
+            return TP
+            # do something according to e-mail
+            pass
+        elif result_a == True and  result_b == False:
+            return TP 
+        elif result_a == False and result_b == True:
+            return FP
+        else: # result_a == False and result_b == False:
+            # do something according to e-mail. I think this one is FN
+            return FN
+    elif b_coref == True:
+        if result_a   == True and  result_b == True:
+            return TP
+            # do something according to e-mail
+            pass
+        elif result_a == True and  result_b == False:
+            return FP
+        elif result_a == False and result_b == True:
+            return TP
+        else: # result_a == False and result_b == False:
+            # do something according to e-mail I think this one is FN
+            return FN            
+  return result
+
+
+  for cluster in example["predicted_clusters"]:
+    #elements = list(set([p[0] for p in cluster] + [p[1] for p in cluster]))
+    elements = []
+    for p in cluster:
+      elements = elements + list(range(p[0],p[1]+1))
+    if pix[0] in elements: # Target cluster
+      if target[0] in elements:
+        result = True
+        break      
+    else:
+      continue
+  return result
 
 def _get_indices_google_nl(word_offsets,toff,word):
   res = []
@@ -165,7 +229,8 @@ if __name__ == "__main__":
         pix,aix,bix = get_indices_google_nl(row)
         print("pix:",pix," aix:",aix," bix:",bix)
         example = make_predictions(text,model)
-        result = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
+        #result = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
+        result = gap_evaluate2(pix,aix,bix,example,a_coref,b_coref)
         evaluations.append(result)
     df['Result'] = evaluations
     df.to_csv('gapx-merged-evaluation_debug_googlenl.tsv',sep='\t',index=False)
