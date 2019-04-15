@@ -160,7 +160,9 @@ def gap_evaluate2(pix,aix,bix,example,a_coref,b_coref):
         else: # result_a == False and result_b == False:
             # do something according to e-mail I think this one is FN
             return FN            
-  return result
+    else:
+        print("something is wrong, this line should not be printed")
+        return "__ERROR__"
 
 
   for cluster in example["predicted_clusters"]:
