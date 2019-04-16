@@ -170,6 +170,23 @@ def gap_evaluate2(pix,aix,bix,example,a_coref,b_coref):
         return "__ERROR__"
 
 
+
+def gap_evaluate3(pix,aix,bix,example,a_coref,b_coref):
+    words = util.flatten(example["sentences"])
+    result_a = False
+    result_b = False
+    for cluster in example["predicted_clusters"]:
+        #elements = list(set([p[0] for p in cluster] + [p[1] for p in cluster]))
+        elements = []
+        for p in cluster:
+            elements = elements + list(range(p[0],p[1]+1))
+            if pix[0] in elements: # Target cluster
+                if aix[0] in elements:
+                    result_a = True
+                if bix[0] in elements:
+                    result_b = True
+    return result_a,result_b
+
 def _get_indices_google_nl(word_offsets,toff,word):
   res = []
   for ix,word in enumerate(word_offsets):
@@ -207,6 +224,7 @@ if __name__ == "__main__":
   saver = tf.train.Saver()
   log_dir = config["log_dir"]
   evaluations = []
+  evala,evalb = [],[]
   with tf.Session() as session:
     checkpoint_path = os.path.join(log_dir, "model.max.ckpt")
     saver.restore(session, checkpoint_path)
@@ -224,9 +242,15 @@ if __name__ == "__main__":
         print("pix:",pix," aix:",aix," bix:",bix)
         example = make_predictions(text,model)
         #result = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
-        result = gap_evaluate2(pix,aix,bix,example,a_coref,b_coref)
-        evaluations.append(result)
-    df['Result'] = evaluations
+        #result = gap_evaluate2(pix,aix,bix,example,a_coref,b_coref)
+        #evaluations.append(result)
+        resulta,resultb = gap_evaluate3(pix,aix,bix,example,a_coref,b_coref)
+        evala.append(resulta)
+        evalb.append(resultb)
+        
+    #df['Result'] = evaluations
+    df['A-coref'] = evala
+    df['B-coref'] = evalb
     df.to_csv('gapx-merged-evaluation_debug_googlenl.tsv',sep='\t',index=False)
 
 
