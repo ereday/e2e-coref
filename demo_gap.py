@@ -116,4 +116,4 @@ if __name__ == "__main__":
     df['A-coref'] = evala
     df['B-coref'] = evalb
     df.to_csv('gapx-predictions_all_fields_lee18.tsv',sep='\t',index=False)
-    df['ID','A-coref','B-coref'].to_csv('gapx_predictions_lee18.tsv',sep='\t',index=False,header=False)      
+    df[['ID','A-coref','B-coref']].to_csv('gapx_predictions_lee18.tsv',sep='\t',index=False,header=False)      
