@@ -157,7 +157,7 @@ if __name__ == "__main__":
         pix,aix,bix = get_indices_google_nl(row)
         print("pix:",pix," aix:",aix," bix:",bix)
         example = make_predictions(text,model)
-        resulta,resultb = gap_evaluate3(pix,aix,bix,example,a_coref,b_coref)
+        resulta,resultb = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
         evala.append(resulta)
         evalb.append(resultb)
         
