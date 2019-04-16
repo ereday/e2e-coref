@@ -165,5 +165,5 @@ if __name__ == "__main__":
     df['A-coref'] = evala
     df['B-coref'] = evalb
     df.to_csv('gapx-predictions_all_fields.tsv',sep='\t',index=False)
-    df['ID','A-coref','B-coref'].to_csv('gapx_predictions.tsv',sep='\t',index=False,header=False)
+    df[['ID','A-coref','B-coref']].to_csv('gapx_predictions.tsv',sep='\t',index=False,header=False)
 
