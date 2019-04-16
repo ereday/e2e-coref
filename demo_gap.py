@@ -53,18 +53,7 @@ def spans(txt):
         offset = txt.find(token, offset)
         yield token, offset, offset+len(token)
         offset += len(token)
-        
-def spans2(txt):
-    tokens=nltk.word_tokenize(txt)
-    offset = 0
-    res = [] 
-    for token in tokens:
-        offset = txt.find(token, offset)
-        res.append((token, offset, offset+len(token)))
-        print(token," ",offset," ",offset+len(token))
-        offset += len(token)
-    return res
-  
+
 def get_offsets(text):
   result = []
   for token in spans(text):
@@ -72,80 +61,26 @@ def get_offsets(text):
     assert token[0]==text[token[1]:token[2]]
   return result
 
-def _get_indices(word_offsets,toff,word):
-  res = []
-  is_multi = False
-  is_end= False
-  for ix,wp in enumerate(word_offsets):
-    if wp[1] == toff:
-      res.append(ix)      
-      if wp[0] == word:
-        return res
-      else:
-        is_multi = True
-        is_end = False
-    elif is_end:
-      return res
-    elif is_multi:
-      if wp[2]-toff > len(word):
-        is_end = True
-      else:
-        res.append(ix)
-  return res
 
-# burayi iste aix[0] i olsun bix[0] i olmasin vs diye yapabilriiz. yapmaliyiz ya da?
 def gap_evaluate(pix,aix,bix,example,a_coref,b_coref):
-  if a_coref:
-    target = aix
-  else:
-    target = bix  
-  words = util.flatten(example["sentences"])
-  result = False
-  for cluster in example["predicted_clusters"]:
-    #elements = list(set([p[0] for p in cluster] + [p[1] for p in cluster]))
-    elements = []
-    for p in cluster:
-      elements = elements + list(range(p[0],p[1]+1))
-    if pix[0] in elements: # Target cluster
-      if target[0] in elements:
-        result = True
-        break      
-    else:
-      continue
-  return result
-    
-  
-def get_indices(row):
-  word_offsets = get_offsets(row['Text'])
-  poff,aoff,boff  = row['Pronoun-offset'],row['A-offset'],row['B-offset']
-  pronoun,A,B     = row['Pronoun'],row['A'],row['B']
-  pix = _get_indices(word_offsets,poff,pronoun)
-  aix = _get_indices(word_offsets,aoff,A)
-  bix = _get_indices(word_offsets,boff,B)
-  return pix,aix,bix
+    words = util.flatten(example["sentences"])
+    result_a = False
+    result_b = False
+    for cluster in example["predicted_clusters"]:
+        #elements = list(set([p[0] for p in cluster] + [p[1] for p in cluster]))
+        elements = []
+        for p in cluster:
+            elements = elements + list(range(p[0],p[1]+1))
+            if pix[0] in elements: # Target cluster
+                if aix[0] in elements:
+                    result_a = True
+                if bix[0] in elements:
+                    result_b = True
+    return result_a,result_b
 
-
-# Google nl icin ne yapiyorum:
-#def _get_indices_google_nl(word_offsets,toff,word,is_pronoun=False):
-#  res = []
-#  for ix,word in enumerate(word_offsets):
-#    #if word[1] == toff:
-#    if is_pronoun:
-#      if word[1] == toff:
-#        res.append(ix)
-#    else:    
-#      if word[1] <= toff and word[2] >= toff:
-#        res.append(ix)
-#  return res
-
-# Burada ne yapiyorum:
-# kelimeleri tek tek geziyorum offsetleri ile beraber
-# elimde head'in offseti var.
-# Eger wordun offseti word[1] >= head offseti ve word[2] > headoffseti ise olur 
 def _get_indices_google_nl(word_offsets,toff,word):
   res = []
   for ix,word in enumerate(word_offsets):
-    #if word[1] == toff:
     if word[1] <= toff and word[2] > toff:
       res.append(ix)
   return res
@@ -154,7 +89,6 @@ def get_indices_google_nl(row):
   word_offsets = get_offsets(row['Text'])
   poff,aoff,boff  = row['Pronoun-offset'],row['A_head_offset'],row['B_head_offset']
   pronoun,A,B     = row['Pronoun'],row['A'],row['B']
-  #pix = _get_indices_google_nl(word_offsets,poff,pronoun,is_pronoun=True)
   pix = _get_indices_google_nl(word_offsets,poff,pronoun)
   aix = _get_indices_google_nl(word_offsets,aoff,A)
   bix = _get_indices_google_nl(word_offsets,boff,B)
@@ -164,7 +98,7 @@ def get_indices_google_nl(row):
 if __name__ == "__main__":
   config = util.initialize_from_env()
   model = cm.CorefModel(config)
-  evaluations = []
+  evala,evalb = [],[]
   with tf.Session() as session:
     model.restore(session)
     fname = 'gapx-merged-nl-head.tsv'
@@ -173,31 +107,13 @@ if __name__ == "__main__":
       print("index:",index)
       text = row['Text']
       a_coref,b_coref = row['A-coref'],row['B-coref']
-      if a_coref == False and b_coref == False:
-        result = False
-        evaluations.append(result)
-        continue        
       pix,aix,bix = get_indices_google_nl(row)
       print("pix:",pix," aix:",aix," bix:",bix)
       example = make_predictions(text,model)
-      result = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
-      evaluations.append(result)
-    df['Result'] = evaluations
-    df.to_csv('gapx-merged-evaluation_debug_googlenl.tsv',sep='\t',index=False)
-    #print(util.flatten(example['sentences']))
-        #print(example['predicted_clusters'])
-        #print("aix:",aix," bix:",bix)
-        #print("----------------------")
-        #print_predictions(example)
-        #print("result:",result)
-        #text = input("Continue?")
-#    while True:
-#      text = input("Document text: ")
-#      print_predictions(make_predictions(text, model))
-
-
-
-
-
-
-
+      resulta,resultb = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
+      evala.append(resulta)
+      evalb.append(resultb)
+    df['A-coref'] = evala
+    df['B-coref'] = evalb
+    df.to_csv('gapx-predictions_all_fields_lee18.tsv',sep='\t',index=False)
+    df['ID','A-coref','B-coref'].to_csv('gapx_predictions_lee18.tsv',sep='\t',index=False,header=False)      
