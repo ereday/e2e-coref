@@ -148,10 +148,16 @@ if __name__ == "__main__":
   with tf.Session() as session:
     checkpoint_path = os.path.join(log_dir, "model.max.ckpt")
     saver.restore(session, checkpoint_path)
-    fname = 'gapx-merged-nl-head.tsv'
+    #fname = 'gapx-merged-nl-head.tsv'
+    fname = 'gtranslate_backtranslation-merged-nl-head.tsv'
     df = prepare_data(fname)
     for index,row in df.iterrows():
         print("index:",index)
+        # If condition is for broken backtranslated cases
+        if row['Flag'] == 2:          
+          evala.append(-1)
+          evalb.append(-1)
+          continue        
         text = row['Text']
         a_coref,b_coref = row['A-coref'],row['B-coref']
         pix,aix,bix = get_indices_google_nl(row)
@@ -164,6 +170,8 @@ if __name__ == "__main__":
     #df['Result'] = evaluations
     df['A-coref'] = evala
     df['B-coref'] = evalb
-    df.to_csv('gapx-predictions_all_fields.tsv',sep='\t',index=False)
-    df[['ID','A-coref','B-coref']].to_csv('gapx_predictions.tsv',sep='\t',index=False,header=False)
+    df.to_csv('gtrans_backtranslation-gapx-predictions_all_fields.tsv',sep='\t',index=False)
+    df[['ID','A-coref','B-coref']].to_csv('gtrans_backtranslation-gapx_predictions.tsv',sep='\t',index=False,header=False)
+    #df.to_csv('gapx-predictions_all_fields.tsv',sep='\t',index=False)
+    #df[['ID','A-coref','B-coref']].to_csv('gapx_predictions.tsv',sep='\t',index=False,header=False)
 
