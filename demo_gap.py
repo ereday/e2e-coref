@@ -76,20 +76,15 @@ def prepare_data(fname):
     df = pd.read_table(fname)
     return df
 
+
 def spans(txt):
-    _tokens=nltk.word_tokenize(txt)
-    tokens = []
-    for token in _tokens:
-      if token == '``' or token == "''":
-        tokens.append('"')
-      else:
-        tokens.append(token)        
+    tokens=nltk.word_tokenize(txt)
     offset = 0
     for token in tokens:
         offset = txt.find(token, offset)
         yield token, offset, offset+len(token)
         offset += len(token)
-
+        
 def get_offsets(text):
   result = []
   for token in spans(text):
@@ -98,16 +93,16 @@ def get_offsets(text):
   return result
 
 
-def get_offsets(text):
-  result = []
-  cntr = 0 
-  for token in spans(text):
-    result.append(token)
-    if token[0]!=text[token[1]:token[2]]:
-      print(token)
-      print(cntr)
-    cntr+=1
-  return result
+#def get_offsets(text):
+#  result = []
+#  cntr = 0 
+#  for token in spans(text):
+#    result.append(token)
+#    if token[0]!=text[token[1]:token[2]]:
+#      print(token)
+#      print(cntr)
+#    cntr+=1
+#  return result
 
 
 def gap_evaluate(pix,aix,bix,example,a_coref,b_coref):
@@ -179,15 +174,15 @@ if __name__ == "__main__":
         if cntr != 0:
           df.append(q)
         cntr += 1
-    print("len df:",len(df))
     for index,row in enumerate(df):
       print("index:",index)
       if int(row[-5]) == 2 or int(row[-5]) == 3:
         evala.append(-1)
         evalb.append(-1)
-        continue        
+        continue      
       text = row[2]
       print(text)
+      row[2] = row[2].replace('"',"'")
       a_coref,b_coref = row[-4],row[-3]
       pix,aix,bix = get_indices_google_nl(row)
       print("pix:",pix," aix:",aix," bix:",bix)
