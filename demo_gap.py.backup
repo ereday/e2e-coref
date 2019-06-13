@@ -73,7 +73,7 @@ def make_predictions(text, model):
   return example
 
 def prepare_data(fname):
-    df = pd.read_table(fname)
+    df = pd.read_table(fname,encoding='UTF-8')
     return df
 
 def spans(txt):
