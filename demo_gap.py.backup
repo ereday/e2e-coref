@@ -159,8 +159,9 @@ if __name__ == "__main__":
           evalb.append(-1)
           continue        
         text = row['Back-Text']
-        row['Back-Text'] = row['Back-Text'].replace("''","``")
         row['Back-Text'] = row['Back-Text'].replace('"',"'")
+        row['Back-Text'] = row['Back-Text'].replace("''","``")        
+        #row['Back-Text'] = row['Back-Text'].replace("''","``")
         a_coref,b_coref = row['A-coref'],row['B-coref']
         pix,aix,bix = get_indices_google_nl(row)
         print("pix:",pix," aix:",aix," bix:",bix)

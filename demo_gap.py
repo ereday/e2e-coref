@@ -182,8 +182,9 @@ if __name__ == "__main__":
         continue      
       text = row[2]
       print(text)
-      row[2] = row[2].replace("''","``")
       row[2] = row[2].replace('"',"'")
+      row[2] = row[2].replace("''","``")      
+      #row[2] = row[2].replace("''","``")
       a_coref,b_coref = row[-4],row[-3]
       pix,aix,bix = get_indices_google_nl(row)
       print("pix:",pix," aix:",aix," bix:",bix)
