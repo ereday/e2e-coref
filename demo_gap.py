@@ -164,11 +164,12 @@ if __name__ == "__main__":
     print("len df:",len(df))
     for index,row in enumerate(df):
       print("index:",index)
-      if int(row[-5]) == 2:
+      if int(row[-5]) == 2 or int(row[-5]) == 3:
         evala.append(-1)
         evalb.append(-1)
         continue        
       text = row[2]
+      print(text)
       a_coref,b_coref = row[-4],row[-3]
       pix,aix,bix = get_indices_google_nl(row)
       print("pix:",pix," aix:",aix," bix:",bix)
@@ -178,8 +179,7 @@ if __name__ == "__main__":
       evalb.append(resultb)
       
 
-    df_org = prepare_data(fname)
-        
+    df_org = prepare_data(fname)        
     #df['Result'] = evaluations
     df_org['A-coref'] = evala
     df_org['B-coref'] = evalb
