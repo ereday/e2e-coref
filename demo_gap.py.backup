@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import unicodecsv
+
 import os
 import sys
 import time
@@ -117,12 +117,9 @@ def _get_indices_google_nl(word_offsets,toff,word):
   return res
 
 def get_indices_google_nl(row):
-#  word_offsets = get_offsets(row['Back-Text'])
-#  poff,aoff,boff  = row['Pronoun-offset'],row['A_head_offset'],row['B_head_offset']
-#  pronoun,A,B     = row['Pronoun'],row['A'],row['B']
-  word_offsets = get_offsets(row[2])
-  poff,aoff,boff  = int(row[8]),int(row[4]),int(row[6])
-  pronoun,A,B     = row[7],row[3],row[5]
+  word_offsets = get_offsets(row['Back-Text'])
+  poff,aoff,boff  = row['Pronoun-offset'],row['A_head_offset'],row['B_head_offset']
+  pronoun,A,B     = row['Pronoun'],row['A'],row['B']
   #pix = _get_indices_google_nl(word_offsets,poff,pronoun,is_pronoun=True)
   pix = _get_indices_google_nl(word_offsets,poff,pronoun)
   aix = _get_indices_google_nl(word_offsets,aoff,A)
@@ -153,38 +150,28 @@ if __name__ == "__main__":
     saver.restore(session, checkpoint_path)
     #fname = 'gapx-merged-nl-head.tsv'
     fname = 'gtranslate_backtranslation-merged-nl-head.tsv'
-    df = []
-    with open(fname,'rb') as f:
-      data = unicodecsv.reader(f,delimiter='\t')
-      cntr = 0 
-      for q in data:
-        if cntr != 0:
-          df.append(q)
-        cntr += 1
-    print("len df:",len(df))
-    for index,row in enumerate(df):
-      print("index:",index)
-      if int(row[-5]) == 2:
-        evala.append(-1)
-        evalb.append(-1)
-        continue        
-      text = row[2]
-      a_coref,b_coref = row[-4],row[-3]
-      pix,aix,bix = get_indices_google_nl(row)
-      print("pix:",pix," aix:",aix," bix:",bix)
-      example = make_predictions(text,model)
-      resulta,resultb = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
-      evala.append(resulta)
-      evalb.append(resultb)
-      
-
-    df_org = prepare_data(fname)
+    df = prepare_data(fname)
+    for index,row in df.iterrows():
+        print("index:",index)
+        # If condition is for broken backtranslated cases
+        if row['Flag'] == 2:          
+          evala.append(-1)
+          evalb.append(-1)
+          continue        
+        text = row['Back-Text']
+        a_coref,b_coref = row['A-coref'],row['B-coref']
+        pix,aix,bix = get_indices_google_nl(row)
+        print("pix:",pix," aix:",aix," bix:",bix)
+        example = make_predictions(text,model)
+        resulta,resultb = gap_evaluate(pix,aix,bix,example,a_coref,b_coref)
+        evala.append(resulta)
+        evalb.append(resultb)
         
     #df['Result'] = evaluations
-    df_org['A-coref'] = evala
-    df_org['B-coref'] = evalb
-    df_org.to_csv('gtrans_backtranslation-gapx-predictions_all_fields.tsv',sep='\t',index=False)
-    df_org[['ID','A-coref','B-coref']].to_csv('gtrans_backtranslation-gapx_predictions.tsv',sep='\t',index=False,header=False)
+    df['A-coref'] = evala
+    df['B-coref'] = evalb
+    df.to_csv('gtrans_backtranslation-gapx-predictions_all_fields.tsv',sep='\t',index=False)
+    df[['ID','A-coref','B-coref']].to_csv('gtrans_backtranslation-gapx_predictions.tsv',sep='\t',index=False,header=False)
     #df.to_csv('gapx-predictions_all_fields.tsv',sep='\t',index=False)
     #df[['ID','A-coref','B-coref']].to_csv('gapx_predictions.tsv',sep='\t',index=False,header=False)
 
