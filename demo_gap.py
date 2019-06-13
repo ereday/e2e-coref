@@ -77,7 +77,13 @@ def prepare_data(fname):
     return df
 
 def spans(txt):
-    tokens=nltk.word_tokenize(txt)
+    _tokens=nltk.word_tokenize(txt)
+    tokens = []
+    for token in _tokens:
+      if token == '``' or token == "''":
+        tokens.append('"')
+      else:
+        tokens.append(token)        
     offset = 0
     for token in tokens:
         offset = txt.find(token, offset)
@@ -89,6 +95,18 @@ def get_offsets(text):
   for token in spans(text):
     result.append(token)
     assert token[0]==text[token[1]:token[2]]
+  return result
+
+
+def get_offsets(text):
+  result = []
+  cntr = 0 
+  for token in spans(text):
+    result.append(token)
+    if token[0]!=text[token[1]:token[2]]:
+      print(token)
+      print(cntr)
+    cntr+=1
   return result
 
 
