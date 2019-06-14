@@ -86,7 +86,7 @@ def _get_indices_google_nl(word_offsets,toff,word):
   return res
 
 def get_indices_google_nl(row):
-  word_offsets = get_offsets(row['Back-Text'])
+  word_offsets = get_offsets(row['Text'])
   poff,aoff,boff  = row['Pronoun-offset'],row['A_head_offset'],row['B_head_offset']
   pronoun,A,B     = row['Pronoun'],row['A'],row['B']
   pix = _get_indices_google_nl(word_offsets,poff,pronoun)
@@ -101,18 +101,11 @@ if __name__ == "__main__":
   evala,evalb = [],[]
   with tf.Session() as session:
     model.restore(session)
-    #fname = 'gapx-merged-nl-head.tsv'
-    fname = 'gtranslate_backtranslation-merged-nl-head.tsv'
+    fname = 'gapx-merged-nl-head.tsv'
     df = prepare_data(fname)
     for index,row in df.iterrows():      
       print("index:",index)
-      if int(row['Flag']) == 2 or int(row['Flag']) == 3:
-        evala.append(-1)
-        evalb.append(-1)
-        continue            
-      text = row['Back-Text']
-      row[2] = row['Back-Text'].replace('"',"'")
-      row[2] = row['Back-Text'].replace("''","``")  
+      text = row['Text']
       a_coref,b_coref = row['A-coref'],row['B-coref']
       pix,aix,bix = get_indices_google_nl(row)
       print("pix:",pix," aix:",aix," bix:",bix)
@@ -122,5 +115,5 @@ if __name__ == "__main__":
       evalb.append(resultb)
     df['A-coref'] = evala
     df['B-coref'] = evalb
-    df.to_csv('gtrans_backtranslation-gapx-predictions_all_fields_lee18.tsv',sep='\t',index=False)
-    df[['ID','A-coref','B-coref']].to_csv('gtrans_backtranslation-gapx_predictions_lee18.tsv',sep='\t',index=False,header=False)      
+    df.to_csv('gapx-predictions_all_fields_lee18.tsv',sep='\t',index=False)
+    df[['ID','A-coref','B-coref']].to_csv('gapx_predictions_lee18.tsv',sep='\t',index=False,header=False)      
