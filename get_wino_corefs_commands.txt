@@ -1,0 +1,29 @@
+python demo_gap_wino.py final translations/google/en_org-en_ar_bt.tsv
+python demo_gap_wino.py final translations/google/en_org-en_de_bt.tsv
+python demo_gap_wino.py final translations/google/en_org-en_es_bt.tsv
+python demo_gap_wino.py final translations/google/en_org-en_fr_bt.tsv
+python demo_gap_wino.py final translations/google/en_org-en_he_bt.tsv
+python demo_gap_wino.py final translations/google/en_org-en_it_bt.tsv
+python demo_gap_wino.py final translations/google/en_org-en_ru_bt.tsv
+python demo_gap_wino.py final translations/google/en_org-en_uk_bt.tsv
+
+
+python demo_gap_wino.py final translations/aws/en_org-en_ar_bt.tsv
+python demo_gap_wino.py final translations/aws/en_org-en_de_bt.tsv
+python demo_gap_wino.py final translations/aws/en_org-en_es_bt.tsv
+python demo_gap_wino.py final translations/aws/en_org-en_fr_bt.tsv
+python demo_gap_wino.py final translations/aws/en_org-en_he_bt.tsv
+python demo_gap_wino.py final translations/aws/en_org-en_it_bt.tsv
+python demo_gap_wino.py final translations/aws/en_org-en_ru_bt.tsv
+
+
+python demo_gap_wino.py final translations/bing/en_org-en_ar_bt.tsv
+python demo_gap_wino.py final translations/bing/en_org-en_de_bt.tsv
+python demo_gap_wino.py final translations/bing/en_org-en_es_bt.tsv
+python demo_gap_wino.py final translations/bing/en_org-en_fr_bt.tsv
+python demo_gap_wino.py final translations/bing/en_org-en_he_bt.tsv
+python demo_gap_wino.py final translations/bing/en_org-en_it_bt.tsv
+python demo_gap_wino.py final translations/bing/en_org-en_ru_bt.tsv
+
+
+
