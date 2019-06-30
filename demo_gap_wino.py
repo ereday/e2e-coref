@@ -99,20 +99,19 @@ def find_in_arr(arr,var):
     except ValueError:
         return -1
 
+    
 def wino_evaluate(example,text,pronoun_ix,profession_ix):
     proffesion = text.split(" ")[profession_ix].replace(",","").replace(":","")
     pronoun = text.split(" ")[pronoun_ix].replace(",","").replace(":","")
-    
+
     words = util.flatten(example["sentences"])
     result = False 
     for cluster in example["predicted_clusters"]:
-        if len(example['sentences']) > 1:
-            print("SENTENCE LENGTH IS MORE THAN 1 , demo_gap_wino.py WARNINGG")
-        tokens = example['sentences'][0]
+
         elements = []
         for p in cluster:
             elements = elements + list(range(p[0],p[1]+1))
-        elements_string = [ tokens[x] for x in elements]
+        elements_string = [ words[x] for x in elements]
         if find_in_arr(elements_string,proffesion) > -1 and find_in_arr(elements_string,pronoun) > -1:
             result = True
     return result
