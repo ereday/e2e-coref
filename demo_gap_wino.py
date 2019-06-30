@@ -163,7 +163,7 @@ if __name__ == "__main__":
         example_new['target_result'] = result_target
         results_target.append(result_target)
         coref_results[index] = example_new
-        pdb.set_trace()
+        #pdb.set_trace()
         
     scol = df['source_sentence']
     tcol = df['target_sentence']
