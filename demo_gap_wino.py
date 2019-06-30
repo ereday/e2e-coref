@@ -5,11 +5,11 @@ import sys
 import time
 import json
 import numpy as np
-
+import pdb
 import cgi
 from BaseHTTPServer import HTTPServer, BaseHTTPRequestHandler
 import ssl
-
+import json
 import tensorflow as tf
 import coref_model as cm
 import util
@@ -137,6 +137,7 @@ if __name__ == "__main__":
     checkpoint_path = os.path.join(log_dir, "model.max.ckpt")
     saver.restore(session, checkpoint_path)
     df = prepare_data(fname)
+    coref_results = {}
     for index,row in df.iterrows():
         print("index:",index)
         source_text = row['source_sentence']
@@ -148,18 +149,28 @@ if __name__ == "__main__":
         example = make_predictions(source_text,model)
         result_source  = wino_evaluate(example,source_text,source_pix,source_profession_ix)
         results_source.append(result_source)
+        example_new = {}
+        example_new['source_sentences'] = example['sentences']
+        example_new['source_predicted_clusters'] = example['predicted_clusters']
+        example_new['source_result'] = result_source
         if target_pix == -1 or target_profession_ix == -1:            
             results_target.append(-1)
             continue
-        example = make_predictions(target_text,model)
+        example = make_predictions(target_text,model)        
         result_target  = wino_evaluate(example,target_text,target_pix,target_profession_ix)
+        example_new['target_sentences'] = example['sentences']
+        example_new['target_predicted_clusters'] = example['predicted_clusters']
+        example_new['target_result'] = result_target
         results_target.append(result_target)
+        coref_results[index] = example_new
         pdb.set_trace()
         
     scol = df['source_sentence']
     tcol = df['target_sentence']
     df_new = pd.DataFrame({'source_sentence':scol,'source_coref_result':results_source,'target_sentence':tcol,'target_coref_result':results_target})
-    df_new.to_csv('deneme.tsv',sep='\t',index=False)
+    df_new.to_csv(fname+"_results.tsv",sep='\t',index=False)
+    with open(fname+"_result.json", 'w') as fp:
+        json.dump(coref_results, fp)
     #df_org = prepare_data(fname)        
     #df['Result'] = evaluations
     #df_org['A-coref'] = evala
