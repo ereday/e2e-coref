@@ -92,8 +92,14 @@ def gap_evaluate(pix,aix,bix,example,a_coref,b_coref):
                     result_b = True
     return result_a,result_b
 
+def find_in_arr(arr,var):
+    try:
+        index_element = arr.index(var)
+        return index_element
+    except ValueError:
+        return -1
 
-def wino_evaluate(example,text,pronoun_ix,proffesion_ix):
+def wino_evaluate(example,text,pronoun_ix,profession_ix):
     proffesion = text.split(" ")[profession_ix].replace(",","").replace(":","")
     pronoun = text.split(" ")[pronoun_ix].replace(",","").replace(":","")
     
