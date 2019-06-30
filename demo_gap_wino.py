@@ -149,7 +149,7 @@ if __name__ == "__main__":
         if target_pix == -1 or target_profession_ix == -1:
             result_source  = wino_evaluate(example,source_text,source_pix,source_profession_ix)
             results_source.append(result_source)
-            resuls_target.append(-1)
+            results_target.append(-1)
             continue
         example = make_predictions(target_text,model)
         result_target  = wino_evaluate(example,target_text,target_pix,target_profession_ix)
