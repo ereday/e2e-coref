@@ -101,7 +101,7 @@ def find_in_arr(arr,var):
 
     
 def wino_evaluate(example,text,pronoun,profession):
-    profession_words = list(filter(x: x.lower() not in ['the','a'],[ q.replace(",","").replace(":","") for q in text.split(" ")]))
+    profession_words = list(filter(lambda x:x.lower() not in ['the','a'],[ q.replace(",","").replace(":","") for q in text.split(" ")]))
     words = util.flatten(example["sentences"])
     result = False 
     for cluster in example["predicted_clusters"]:
@@ -137,6 +137,7 @@ if __name__ == "__main__":
     checkpoint_path = os.path.join(log_dir, "model.max.ckpt")
     saver.restore(session, checkpoint_path)
     df = prepare_data(fname)
+    df.fillna('',inplace=True)
     coref_results = {}
     for index,row in df.iterrows():
         print("index:",index)
@@ -170,17 +171,7 @@ if __name__ == "__main__":
     scol = df['source_sentence']
     tcol = df['target_sentence']
     df_new = pd.DataFrame({'source_sentence':scol,'source_coref_result':results_source,'target_sentence':tcol,'target_coref_result':results_target})
-    df_new.to_csv(fname+"_results.tsv",sep='\t',index=False)
-    with open(fname+"_result.json", 'w') as fp:
+    df_new.to_csv(fname+"_results_ver2.tsv",sep='\t',index=False)
+    # No need to this because its not gaong to change. (except target_result variable.) Anyway lets do it again
+    with open(fname+"_result_ver2.json", 'w') as fp:
         json.dump(coref_results, fp)
-    #df_org = prepare_data(fname)        
-    #df['Result'] = evaluations
-    #df_org['A-coref'] = evala
-    #df_org['B-coref'] = evalb
-    #df_org.to_csv('gtrans_backtranslation-gapx-predictions_all_fields.tsv',sep='\t',index=False)
-    #df_org[['ID','A-coref','B-coref']].to_csv('gtrans_backtranslation-gapx_predictions.tsv',sep='\t',index=False,header=False)
-    #df.to_csv('gapx-predictions_all_fields.tsv',sep='\t',index=False)
-    #df[['ID','A-coref','B-coref']].to_csv('gapx_predictions.tsv',sep='\t',index=False,header=False)
-
-
-    
