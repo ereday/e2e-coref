@@ -74,7 +74,6 @@ if __name__ == "__main__":
   
   with tf.Session() as session:
     model.restore(session)
-    fname = 'gapx-merged-nl-head.tsv'
     df = prepare_data(fname)
     df.fillna('',inplace=True)
     coref_results = {}
