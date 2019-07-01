@@ -153,15 +153,17 @@ if __name__ == "__main__":
         example_new['source_sentences'] = example['sentences']
         example_new['source_predicted_clusters'] = example['predicted_clusters']
         example_new['source_result'] = result_source
-        if target_pix == -1 or target_profession_ix == -1:            
-            results_target.append(-1)
-            continue
+
         example = make_predictions(target_text,model)        
-        result_target  = wino_evaluate(example,target_text,target_pix,target_profession_ix)
         example_new['target_sentences'] = example['sentences']
-        example_new['target_predicted_clusters'] = example['predicted_clusters']
-        example_new['target_result'] = result_target
-        results_target.append(result_target)
+        example_new['target_predicted_clusters'] = example['predicted_clusters']        
+        if target_pix == -1 or target_profession_ix == -1:            
+          result_target = - 1
+        else:
+          result_target  = wino_evaluate(example,target_text,target_pix,target_profession_ix)
+
+        example_new['target_result'] = result_target                     
+        results_target.append(result_target)          
         coref_results[index] = example_new
         #pdb.set_trace()
         
