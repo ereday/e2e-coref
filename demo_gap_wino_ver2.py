@@ -2,11 +2,12 @@
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
-
+import sys
 from six.moves import input
 import tensorflow as tf
 import coref_model as cm
 import util
+import json
 import pandas as pd 
 import nltk
 nltk.download("punkt")
@@ -46,7 +47,13 @@ def prepare_data(fname):
     df = pd.read_table(fname)
     return df
 
-
+def find_in_arr(arr,var):
+  try:
+    index_element = arr.index(var)
+    return index_element
+  except ValueError:
+    return -1
+  
 def wino_evaluate(example,text,pronoun,profession):
     profession_words = list(filter(lambda x:x.lower() not in ['the','a'],[ q.replace(",","").replace(":","") for q in text.split(" ")]))
     words = util.flatten(example["sentences"])
@@ -77,7 +84,7 @@ if __name__ == "__main__":
     df = prepare_data(fname)
     df.fillna('',inplace=True)
     coref_results = {}
-
+    results_source,results_target = [],[]
     for index,row in df.iterrows():      
         print("index:",index)
         source_text = row['source_sentence']
