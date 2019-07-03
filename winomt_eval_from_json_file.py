@@ -29,9 +29,9 @@ def eval_instance(clusters,sentences,pronoun,profession,ix):
     for cluster in named_clusters:
         if any([ is_in(cluster,part) for part in parts]):
             if check_double_enterence:
-                print("warning double_enterence for ix:",ix)                
+                #print("warning double_enterence for ix:",ix)                
                 if result == True:
-                    print("is not considered")                    
+                    #print("is not considered")                    
                     continue
             check_double_enterence = True                
             if pronoun.lower() == "male" and any([is_in(cluster,p) for p in male_ps]):
@@ -69,7 +69,9 @@ def get_acc(result):
     female_acc = result["female"]['T']/sum(result["female"].values())
     full_acc   = (result["female"]['T']+result["male"]['T'])/(sum(result["female"].values())+sum(result["male"].values()))
     bias       = female_acc/male_acc
-    print("male acc:{:.2f} female acc:{:.2f} full acc:{:.2f} bias:{:.2f}".format(male_acc,female_acc,full_acc,bias))
+    #print("male acc:{:.2f} female acc:{:.2f} full acc:{:.2f} bias:{:.2f}".format(male_acc,female_acc,full_acc,bias))
+    print("male acc\tfemale acc\tfull acc\tbias")
+    print("{:.2f}\t{:.2f}\t{:.2f}\t{:.2f}".format(male_acc,female_acc,full_acc,bias))
     return male_acc,female_acc,full_acc,bias
 def evaluate(df):
     # original source
@@ -79,17 +81,16 @@ def evaluate(df):
     result_filtered_source=  _evaluate(df_filtered,"src")
     result_filtered_target = _evaluate(df_filtered,"tgt")
     print("full dataset source side:")
-    male_acc,female_acc,full_acc,bias = get_acc(result_org_source)
-    
-    print(result_org_source)
+    male_acc,female_acc,full_acc,bias = get_acc(result_org_source)    
+    #print(result_org_source)
 
     print("filtered dataset source side:")
     male_acc,female_acc,full_acc,bias = get_acc(result_filtered_source)
-    print(result_filtered_source)
+    #print(result_filtered_source)
     
     print("filtered dataset target side:")
     male_acc,female_acc,full_acc,bias = get_acc(result_filtered_target)
-    print(result_filtered_target)
+    #print(result_filtered_target)
 if __name__ == '__main__':
     langs = ["de","ru","it","fr","es","uk","he","ar"]
     systems = ["google","aws","bing"]
