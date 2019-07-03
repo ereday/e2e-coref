@@ -2,13 +2,20 @@ import json
 import pandas as pd 
 import pdb
 
+def is_in(cluster,prof):
+    for c in cluster:
+        if prof in c:
+            return True
+    return False
+
 def eval_instance(clusters,sentences,pronoun,profession,ix):
     result = False
     male_ps =["he","him","his"]
     female_ps = ["she","her"]
     neutral_ps = ["it","they","their","them"]
     flat_sentences = [item for sentence in sentences for item in sentence]
-    print('ix:',ix,' profession ',profession)
+    # 54,900,1638,1931,2342,2484
+    #print('ix:',ix,' profession ',profession)
     parts = [p for p in profession.split(' ') if p.lower() not in ['a','the']]
     named_clusters = []
     for cluster in clusters:
@@ -17,20 +24,21 @@ def eval_instance(clusters,sentences,pronoun,profession,ix):
             named_entity = [flat_sentences[i] for i in range(entity[0],entity[1]+1)]
             named_cluster.append(named_entity)
         named_clusters.append(named_cluster)
-    # find the cluster having the profession
-    if i == 1:
-        pdb.set_trace()
+    # find the cluster having the profession                
     check_double_enterence = False
     for cluster in named_clusters:
-        if any([ part in cluster for part in parts]):
+        if any([ is_in(cluster,part) for part in parts]):
             if check_double_enterence:
-                print("warning double_enterence for ix:",ix)
-            check_double_enterence = True
-            if pronoun.lower() == "male" and any([ p in cluster for p in male_ps]):
+                print("warning double_enterence for ix:",ix)                
+                if result == True:
+                    print("is not considered")                    
+                    continue
+            check_double_enterence = True                
+            if pronoun.lower() == "male" and any([is_in(cluster,p) for p in male_ps]):
                 result = True
-            elif pronoun.lower() == "female" and any([ p in cluster for p in female_ps]):
+            elif pronoun.lower() == "female" and any([is_in(cluster,p) for p in female_ps]):
                 result = True
-            elif pronoun.lower() == "neutral" and any([ p in cluster for p in neutral_ps]):
+            elif pronoun.lower() == "neutral" and any([is_in(cluster,p) for p in neutral_ps]):
                 result = True
             else: # meaning pronoun -1 or pronoun and profession is not in the same cluster 
                 result = False
