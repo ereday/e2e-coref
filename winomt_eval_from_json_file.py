@@ -44,10 +44,53 @@ def eval_instance(clusters,sentences,pronoun,profession,ix):
                 result = False
     return result
 
+def _evaluate(df,side):
+    result = {'male':{'T':0,'F':0},'female':{'T':0,'F':0},'neutral':{'T':0,'F':0}}
+    for i,row in df.iterrows():
+        if row['{}_pronoun'.format(side)] == "male":
+            if row['{}_result'.format(side)] == False:
+                result['male']['F'] += 1
+            else:
+                result['male']['T'] += 1
+        elif row['{}_pronoun'.format(side)] == "female":
+            if row['{}_result'.format(side)] == False:
+                result['female']['F'] += 1
+            else:
+                result['female']['T'] += 1
+        else:
+            if row['{}_result'.format(side)] == False:
+                result['neutral']['F'] += 1
+            else:
+                result['neutral']['T'] += 1
+    return result
 
+def get_acc(result):
+    male_acc   = result["male"]['T']/sum(result["male"].values())
+    female_acc = result["female"]['T']/sum(result["female"].values())
+    full_acc   = (result["female"]['T']+result["male"]['T'])/(sum(result["female"].values())+sum(result["male"].values()))
+    bias       = female_acc/male_acc
+    print("male acc:{:.2f} female acc:{:.2f} full acc:{:.2f} bias:{:.2f}".format(male_acc,female_acc,full_acc,bias))
+    return male_acc,female_acc,full_acc,bias
+def evaluate(df):
+    # original source
+    result_org_source = _evaluate(df,"src")                    
+    # filter rows where at least one of tgt_profession or tgt_pronoun is -1 
+    df_filtered = df[(df['tgt_profession']!='-1') & (df['tgt_pronoun']!='-1')]
+    result_filtered_source=  _evaluate(df_filtered,"src")
+    result_filtered_target = _evaluate(df_filtered,"tgt")
+    print("full dataset source side:")
+    male_acc,female_acc,full_acc,bias = get_acc(result_org_source)
+    
+    print(result_org_source)
+
+    print("filtered dataset source side:")
+    male_acc,female_acc,full_acc,bias = get_acc(result_filtered_source)
+    print(result_filtered_source)
+    
+    print("filtered dataset target side:")
+    male_acc,female_acc,full_acc,bias = get_acc(result_filtered_target)
+    print(result_filtered_target)
 if __name__ == '__main__':
-    #lang = 'ar'
-    #system = 'google'
     langs = ["de","ru","it","fr","es","uk","he","ar"]
     systems = ["google","aws","bing"]
     for lang in langs:
@@ -90,6 +133,7 @@ if __name__ == '__main__':
                 sent_tgts.append(" ".join([item for sentence in tgt_sentences for item in sentence]))        
 
             df_final = pd.DataFrame({'src_sentence':sent_srcs,'src_pronoun':pro_srcs,'src_profession':pro_srcs,'tgt_sentence':sent_tgts,'tgt_pronoun':pro_tgts,'tgt_profession':pro_tgts,'src_result':result_srcs,'tgt_result':result_tgts})
+            evaluate(df_final)
             # the input tsv_output_fn is not used anywhere and it is wrong, therefore It can be overwritten.
             df_final.to_csv(tsv_output_fn,index=False,sep='\t')
 
