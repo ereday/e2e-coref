@@ -4,7 +4,7 @@ import pdb
 
 def is_in(cluster,prof):
     for c in cluster:
-        if prof in c:
+        if (prof in c) or (prof.lower() in c) or (prof.upper() in c) or (prof.capitalize() in c):
             return True
     return False
 
@@ -73,11 +73,13 @@ def get_acc(result):
     print("male acc\tfemale acc\tfull acc\tbias")
     print("{:.2f}\t{:.2f}\t{:.2f}\t{:.2f}".format(male_acc,female_acc,full_acc,bias))
     return male_acc,female_acc,full_acc,bias
+
 def evaluate(df):
     # original source
     result_org_source = _evaluate(df,"src")                    
     # filter rows where at least one of tgt_profession or tgt_pronoun is -1 
     df_filtered = df[(df['tgt_profession']!='-1') & (df['tgt_pronoun']!='-1')]
+    print("len df_filtered:",len(df_filtered))
     result_filtered_source=  _evaluate(df_filtered,"src")
     result_filtered_target = _evaluate(df_filtered,"tgt")
     print("full dataset source side:")
@@ -91,9 +93,12 @@ def evaluate(df):
     print("filtered dataset target side:")
     male_acc,female_acc,full_acc,bias = get_acc(result_filtered_target)
     #print(result_filtered_target)
+
+
+
 if __name__ == '__main__':
     langs = ["de","ru","it","fr","es","uk","he","ar"]
-    systems = ["google","aws","bing"]
+    systems = ["google","aws","bing"]    
     for lang in langs:
         for system in systems:
             print("############ LANGUAGE: {} SYSTEM:{} ##############".format(lang,system))
@@ -105,7 +110,6 @@ if __name__ == '__main__':
     
             df_input   = pd.read_table(tsv_input_fn,sep='\t')
             df_input.fillna('',inplace=True)
-            df_output  = pd.read_table(tsv_output_fn,sep='\t')
             json_output = json.load(open(json_output_fn,'rb'))
     
             result_srcs,result_tgts = [],[]
@@ -133,9 +137,57 @@ if __name__ == '__main__':
                 sent_srcs.append(" ".join([item for sentence in src_sentences for item in sentence]))
                 sent_tgts.append(" ".join([item for sentence in tgt_sentences for item in sentence]))        
 
-            df_final = pd.DataFrame({'src_sentence':sent_srcs,'src_pronoun':pro_srcs,'src_profession':pro_srcs,'tgt_sentence':sent_tgts,'tgt_pronoun':pro_tgts,'tgt_profession':pro_tgts,'src_result':result_srcs,'tgt_result':result_tgts})
+            df_final = pd.DataFrame({'src_sentence':sent_srcs,'src_pronoun':pro_srcs,'src_profession':prof_srcs,'tgt_sentence':sent_tgts,'tgt_pronoun':pro_tgts,'tgt_profession':prof_tgts,'src_result':result_srcs,'tgt_result':result_tgts})
             evaluate(df_final)
-            # the input tsv_output_fn is not used anywhere and it is wrong, therefore It can be overwritten.
             df_final.to_csv(tsv_output_fn,index=False,sep='\t')
 
     
+# This part is for sampling some instance in terminal
+
+def sample_from_wrong_instances(df_filtered):    
+    srctgt_ft,srctgt_tf,srctgt_ff,srctgt_tt = [],[],[],[]
+    for i,row in df_filtered.iterrows():
+        if row['src_result'] == False and row['tgt_result'] == True:
+            srctgt_ft.append(i)
+        elif row['src_result'] == True and row['tgt_result'] == False:
+            srctgt_tf.append(i)
+        elif row['src_result'] == False and row['tgt_result'] == False:
+            srctgt_ff.append(i)
+        else: # true,true
+            srctgt_tt.append(i)
+    return srctgt_ft,srctgt_tf,srctgt_ff,srctgt_tt
+
+def sample(df,n=3):
+    s = df.sample(n)
+    for i,row in s.iterrows():
+        print('{}\t{}\t{}'.format(row['src_sentence'],row['src_profession'],row['src_result']))
+        print('{}\t{}\t{}\n'.format(row['tgt_sentence'],row['tgt_profession'],row['tgt_result']))
+        print('')
+
+# USAGE
+# import pandas as pd 
+# fname = 'ver2_en_org-en_de_bt.tsv_results_ver2.tsv'
+# df = pd.read_table(fname,sep='\t')
+# df_filtered = df[(df['tgt_profession']!='-1') & (df['tgt_pronoun']!='-1')]
+# df_filtered = df_filtered.reset_index(drop=True)
+# srctgt_ft_ix,srctgt_tf_ix,srctgt_ff_ix,srctgt_tt_ix = sample_from_wrong_instances(df_filtered)
+# st_ft = df_filtered.iloc[srctgt_ft_ix]
+# st_tf = df_filtered.iloc[srctgt_tf_ix]
+# st_ff = df_filtered.iloc[srctgt_ff_ix]
+# st_tt = df_filtered.iloc[srctgt_tt_ix]
+# sample(st_ft,n=3)
+
+
+#import  requests
+#import json
+#app_id = '49cfde7a'
+#app_key = '3066064114ce83fc92d5fa66fc7c5cd7'
+#language = 'en'
+#word_id = 'Ace'
+#url = 'https://od-api.oxforddictionaries.com:443/api/v2/entries/'  + language + '/'  + word_id.lower()
+#urlFR = 'https://od-api.oxforddictionaries.com:443/api/v2/stats/frequency/word/'  + language + '/?corpus=nmc&lemma=' + word_id.lower()
+#r = requests.get(url, headers = {'app_id' : app_id, 'app_key' : app_key})
+#print("code {}\n".format(r.status_code))
+#print("text \n" + r.text)
+#print("json \n" + json.dumps(r.json()))
+

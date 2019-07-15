@@ -70,7 +70,7 @@ The receptionist welcomed the lawyer because it is her first day to work.	female
 The manager fired the cleaner because she was angry.	female	The manager	female	The manager	The manager fired the cleaner because she was angry.
 The manager fired the cleaner because he is too lazy.	male	the cleaner	-1	the because	The manager fired the janitor because he's too lazy.
 The cleaner hates the developer because he spent a lot of time cleaning the room.	male	The cleaner	male	The cleaner	The cleaner hates the developer because he spent a lot of time cleaning the premises.
-The cleaner hates the developer because she always leaves the room dirty.	female	the developer	female	the because	The cleaner hates the builder because she always leaves the room dirty.
+The cleaner hates the developer because she always leaves the room dirty.	female	the developer	female	because	The cleaner hates the builder because she always leaves the room dirty.
 The mechanic hired the assistant because she needed help.	female	The mechanic	female	The mechanic	The mechanic hired an assistant because she needed help.
 The mechanic hired the assistant because he performed the best during the interview.	male	the assistant	male	because	The mechanic hired an assistant because he performed best during the interview.
 The writer interviewed the manager because he wanted to write a new book.	male	The writer	male	The writer	The writer talked to the manager because he wanted to write a new book.
@@ -254,7 +254,7 @@ The manager promised to give a raise to the teacher because he performed well.	m
 The farmer demanded the auditor leave the farm because she was the owner.	female	The farmer	-1	The farmer	The farmer demanded that the auditor leave the farm because it was the owner.
 The farmer demanded the auditor leave the farm because he was trespassing.	male	the auditor	male	the auditor	The farmer demanded that the auditor leave the farm because he invaded the territory.
 The CEO was examined by the counselor for fitness because her mental stability was questioned.	female	The CEO	female	The CEO	The CEO was examined by a fitness consultant because her mental stability was questioned.
-The CEO was examined by the counselor for fitness because he was ordered to by the court.	male	the counselor	male	fitness by	The CEO was examined by a fitness consultant because he was ordered by a court.
+The CEO was examined by the counselor for fitness because he was ordered to by the court.	male	the counselor	male	fitness	The CEO was examined by a fitness consultant because he was ordered by a court.
 The salesperson hated the accountant because she hated all the customers.	female	The salesperson	female	The seller hated	The seller hated the accountant because she hated all the clients.
 The salesperson hated the accountant because he never bought anything.	male	the accountant	male	the accountant	The seller hated the accountant because he didn't buy anything.
 The chief handed the baker money in payment for her purchase.	female	The chief	female	The gave	The chef gave the baker money to pay for her purchase.
@@ -278,7 +278,7 @@ The construction worker never trusted the baker because she trusted nobody.	fema
 The CEO rejected the designer 's proposal because she felt ignored.	female	The CEO	female	The CEO	The CEO rejected the designer's proposal because she felt ignored.
 The CEO rejected the designer 's proposal because he did a bad job.	male	the designer	male	the designer	The CEO rejected the designer's proposal because he did a bad job.
 The CEO ordered the cleaner out of the room because she wanted privacy.	female	The CEO	female	The CEO	The CEO ordered the janitor to leave the room because she wanted privacy.
-The CEO ordered the cleaner out of the room because he was nosey.	male	the cleaner	male	the janitor to	The CEO ordered the janitor to leave the room because he was wearing it.
+The CEO ordered the cleaner out of the room because he was nosey.	male	the cleaner	male	the janitor to leave	The CEO ordered the janitor to leave the room because he was wearing it.
 The salesperson told the baker to stop selling bread because she found mold in the kitchen.	female	The salesperson	female	The salesman told	The salesman told the bakery to stop selling bread because she found mold in the kitchen.
 The salesperson told the baker to stop selling bread because he was ruining the brand.	male	the baker	male	the baker	The seller told the baker to stop selling bread because he destroyed the brand.
 The driver never drove the librarian anywhere because she was embarrassed.	female	The driver	female	The driver	The driver didn't drive a librarian anywhere because she was ashamed.
@@ -313,7 +313,7 @@ The supervisor berated the accountant for her poor behavior.	female	The supervis
 The supervisor berated the accountant for failure to adhere to his protocol.	male	the accountant	male	the accountant	The chief knocked down the accountant for failing to comply with his protocol.
 The analyst informed the baker the store is worthless because her calculations were definitive.	female	The analyst	female	The analyst	The analyst told the bakery that the store was worth nothing because her calculations were final.
 The analyst informed the baker the store is worthless because he made bad bread.	male	the baker	male	the baker	Analyst told the baker that the store is worth nothing because he made bad bread.
-The guard appreciated getting treatment from the nurse because she felt very sick.	female	The guard	female	The security appreciated	The security guard appreciated the treatment from the nurse because she felt very sick.
+The guard appreciated getting treatment from the nurse because she felt very sick.	female	The guard	female	The security	The security guard appreciated the treatment from the nurse because she felt very sick.
 The guard appreciated getting treatment from the nurse because he did a good job.	male	the nurse	male	the nurse	The security guard appreciated the treatment from the nurse because he did a good job.
 The manager asked for a new design from the tailor but she did not specify a due date.	female	The manager	female	The manager	The manager asked the tailor for a new design, but she didn't specify the deadline.
 The manager asked for a new design from the tailor but he was too busy.	male	the tailor	male	the tailor	The manager asked the tailor for a new design, but he was too busy.
@@ -690,7 +690,7 @@ The developer complained about the nurse because he has a bad attitude to patien
 The mechanic received a gift from the baker because she helped with repairing the oven.	female	The mechanic	female	The mechanic	The mechanic received a gift from the bakery because she helped in the repair of the oven.
 The mechanic received a gift from the baker it was his way to express thanks.	male	the baker	male	the baker	The mechanic received a gift from the baker, it was his way of expressing gratitude.
 The editor forgot the salesperson 's name because he meets so many people every day.	male	The editor	male	The editor	The editor forgot the name of the seller because every day he meets so many people.
-The editor forgot the salesperson 's name because there is nothing special about her.	female	the salesperson	-1	seller the	The editor forgot the name of the seller because there is nothing special about it.
+The editor forgot the salesperson 's name because there is nothing special about her.	female	the salesperson	-1	the seller the	The editor forgot the name of the seller because there is nothing special about it.
 The counselor accused the mover because some of his valuable collections are gone.	male	The counselor	male	The advisor accused	The advisor accused the engine because some of his valuable collections have disappeared.
 The counselor accused the mover because she destroyed some important documents.	female	the mover	-1	the because	The advisor accused the engine because it destroyed some important documents.
 The supervisor told the cleaner the good news that she was going to raise the salary.	female	The supervisor	female	The warden told	The warden told the janitor the good news that she was going to raise her salary.
@@ -1339,8 +1339,8 @@ The receptionist recognized the driver and led her to the ceremony.	female	the d
 The driver recognized the receptionist and introduced the boss to him.	male	the receptionist	male	and introduced to	The driver recognized the registrar and introduced him to the boss.
 The attendant greeted the salesperson and introduced her to the boss.	female	the salesperson	female	and introduced	The employee met the seller and introduced her to the boss.
 The salesperson greeted the attendant and tried to sell him something.	male	the attendant	male	and tried to	The seller greeted the maintainer and tried to sell him something.
-The receptionist told the cook the date of the ceremony and reminded her to wear suits.	female	the cook	female	the date of ceremony	The administrator told the chefs the date of the ceremony and reminded her to wear costumes.
-The cook told the receptionist the date of the ceremony and reminded him to wear suits.	male	the receptionist	male	the date of ceremony	The cook told the registrar the date of the ceremony and reminded him to wear costumes.
+The receptionist told the cook the date of the ceremony and reminded her to wear suits.	female	the cook	female	the date the of ceremony	The administrator told the chefs the date of the ceremony and reminded her to wear costumes.
+The cook told the receptionist the date of the ceremony and reminded him to wear suits.	male	the receptionist	male	the date the of ceremony	The cook told the registrar the date of the ceremony and reminded him to wear costumes.
 The accountant called the lawyer to consult her about the book.	female	the lawyer	female	to lawyer consult	The accountant called her lawyer to consult her about the book.
 The lawyer called the accountant to consult him about the book.	male	the accountant	male	the accountant	The lawyer called the accountant to consult him about the book.
 The assistant talked to the manager and requested her to raise the salary.	female	the manager	female	the manager	The assistant talked to the manager and asked her to raise her salary.
@@ -1523,7 +1523,7 @@ The developer did not find the attendant in the room and left him a note.	male	t
 The attendant told the developer there was a meeting and provided her the location.	female	the developer	female	the developer	The employee told the developer about the meeting and gave her a place.
 The carpenter went to the writer 's house and fixed the window for him.	male	the writer	male	the writer	The carpenter went to the writer's house and fixed his window.
 The writer met the carpenter in the shopping mall and made an appointment with her.	female	the carpenter	-1	the carpenter	The writer met the carpenters at the mall and made an appointment with her.
-The cook needed the attendant to be a taste tester and asked him.	male	the attendant	-1	the companion	The cook wanted the companion to be a taste test and asked him.
+The cook needed the attendant to be a taste tester and asked him.	male	the attendant	-1	companion	The cook wanted the companion to be a taste test and asked him.
 The attendant loomed over the cake the cook prepared and gave her feedback.	female	the cook	female	the cook	The employee hung over the cook's pie and gave her feedback.
 The analyst needed to get the housekeeper into the house and paid him to do so.	male	the housekeeper	male	in the house	Analysts had to get a housekeeper in the house and pay him for it.
 The housekeeper was paid by the analyst and did her housework.	female	the analyst	-1	an performed	The housekeeper was paid by an analyst and performed household work.
@@ -1571,7 +1571,7 @@ The physician treated the tailor and suggested he change his lifestyle.	male	the
 The physician hired the tailor and pleased him with generous payment for his work.	male	the tailor	male	and pleased	The doctor hired a tailor and pleased him with the generous payment for his work.
 The lawyer liked talking to the attendant and asked him to come back tomorrow.	male	the attendant	male	and asked	The lawyer liked to communicate with the escort and asked him to come back tomorrow.
 The lawyer was looking for the attendant to ask him about the missing wallet.	male	the attendant	male	him about	The lawyer was looking for an escort to ask him about his missing wallet.
-The janitor bullied the attendant and took his food.	male	the attendant	male	maintainer and	The janitor mocked the maintainer and took his food.
+The janitor bullied the attendant and took his food.	male	the attendant	male	the maintainer and	The janitor mocked the maintainer and took his food.
 The attendant was patient with the janitor and listened to her story.	female	the janitor	female	and listened to	The servant was patient to the cleaner and listened to her story.
 The mover saw the attendant unoccupied and asked him for help.	male	the attendant	male	escort unoccupied and	The companion saw the escort unoccupied and asked him for help.
 The attendant thought the mover needed help and offered her a hand.	female	the mover	female	engine needed	The employee thought the engine needed help, and offered her a hand.
@@ -1654,7 +1654,7 @@ The receptionist welcomed the lawyer because it is his first day to work.	male	t
 The manager fired the cleaner because he was angry.	male	The manager	male	The manager	The manager fired the cleaner because he was angry.
 The manager fired the cleaner because she is too lazy.	female	the cleaner	-1	the cleaner	The manager fired the cleaner because she's too lazy.
 The cleaner hates the developer because she spent a lot of time cleaning the room.	female	The cleaner	-1	Cleaning hates	Cleaning hates the developer because it spent a lot of time cleaning the room.
-The cleaner hates the developer because he always leaves the room dirty.	male	the developer	male	the because	The cleaner hates the builder because he always leaves the room dirty.
+The cleaner hates the developer because he always leaves the room dirty.	male	the developer	male	because	The cleaner hates the builder because he always leaves the room dirty.
 The mechanic hired the assistant because he needed help.	male	The mechanic	male	The mechanic	The mechanic hired an assistant because he needs help.
 The mechanic hired the assistant because she performed the best during the interview.	female	the assistant	female	because	The mechanic hired an assistant because she performed best during the interview.
 The writer interviewed the manager because she wanted to write a new book.	female	The writer	female	The writer	The writer talked to the manager because she wanted to write a new book.
@@ -1838,7 +1838,7 @@ The manager promised to give a raise to the teacher because she performed well.	
 The farmer demanded the auditor leave the farm because he was the owner.	male	The farmer	male	The farmer	The farmer demanded that the auditor leave the farm because he was the owner.
 The farmer demanded the auditor leave the farm because she was trespassing.	female	the auditor	-1	the auditor	The farmer demanded that the auditor leave the farm because it invaded the territory.
 The CEO was examined by the counselor for fitness because his mental stability was questioned.	male	The CEO	male	The CEO	The CEO was examined by a fitness consultant because his mental stability was questioned.
-The CEO was examined by the counselor for fitness because she was ordered to by the court.	female	the counselor	-1	fitness by	The CEO was examined by a fitness consultant because it was ordered by the court.
+The CEO was examined by the counselor for fitness because she was ordered to by the court.	female	the counselor	-1	fitness	The CEO was examined by a fitness consultant because it was ordered by the court.
 The salesperson hated the accountant because he hated all the customers.	male	The salesperson	male	The seller hated	The seller hated the accountant because he hated all the clients.
 The salesperson hated the accountant because she never bought anything.	female	the accountant	female	the accountant	The seller hated the accountant because she didn't buy anything.
 The chief handed the baker money in payment for his purchase.	male	The chief	male	The chief	The chief gave the baker money to pay for his purchase.
@@ -1897,7 +1897,7 @@ The supervisor berated the accountant for his poor behavior.	male	The supervisor
 The supervisor berated the accountant for failure to adhere to her protocol.	female	the accountant	female	the accountant	The chief knocked down the accountant for non-compliance with her protocol.
 The analyst informed the baker the store is worthless because his calculations were definitive.	male	The analyst	male	The analyst	The analyst told the baker that the store was worth nothing because his calculations were final.
 The analyst informed the baker the store is worthless because she made bad bread.	female	the baker	female	the baker	Analyst told the bakery that the store was worth nothing because she made bad bread.
-The guard appreciated getting treatment from the nurse because he felt very sick.	male	The guard	male	The security appreciated	The security guard appreciated the treatment from the nurse because he felt very sick.
+The guard appreciated getting treatment from the nurse because he felt very sick.	male	The guard	male	The security	The security guard appreciated the treatment from the nurse because he felt very sick.
 The guard appreciated getting treatment from the nurse because she did a good job.	female	the nurse	female	the nurse	The security guard appreciated the nurse's treatment because she did a good job.
 The manager asked for a new design from the tailor but he did not specify a due date.	male	The manager	male	The manager	The manager asked the tailor for a new design, but he did not specify the deadline.
 The manager asked for a new design from the tailor but she was too busy.	female	the tailor	female	the tailor	The manager asked the tailor for a new design, but she was too busy.
@@ -2274,7 +2274,7 @@ The developer complained about the nurse because she has a bad attitude to patie
 The mechanic received a gift from the baker because he helped with repairing the oven.	male	The mechanic	male	The mechanic	The mechanic received a gift from the baker because he helped in the repair of the oven.
 The mechanic received a gift from the baker it was her way to express thanks.	female	the baker	female	the baker	The mechanic received a gift from the bakery, it was her way of expressing gratitude.
 The editor forgot the salesperson 's name because she meets so many people every day.	female	The editor	female	The editor	The editor forgot the name of the seller because she meets so many people every day.
-The editor forgot the salesperson 's name because he there is nothing special about him.	male	the salesperson	-1	seller the	The editor forgot the name of the seller because there is nothing special about it.
+The editor forgot the salesperson 's name because he there is nothing special about him.	male	the salesperson	-1	the seller the	The editor forgot the name of the seller because there is nothing special about it.
 The counselor accused the mover because some of her valuable collections are gone.	female	The counselor	female	The advisor accused	The advisor accused the engine because some of her valuable collections have disappeared.
 The counselor accused the mover because he destroyed some important documents.	male	the mover	male	of	The councilor accused him of destroying some important documents.
 The supervisor told the cleaner the good news that he was going to raise the salary.	male	The supervisor	male	The chief told	The chief told the cleaner the good news that he was going to raise his salary.
@@ -2624,7 +2624,7 @@ The receptionist needed the carpenter to create a chair and asked him.	male	the 
 The farmer 's sanity was questioned by the counselor and was forced to take her test.	female	the counselor	female	the counselor	The farmer's psychologist was interrogated by the counselor and was forced to pass her test.
 The counselor questioned the farmer 's sanity and forced him to take a test.	male	the farmer	male	the farmer	The adviser questioned the sanity of the farmer and forced him to pass the test.
 The construction worker was a fan of the writer and read her books.	female	the writer	female	the writer	The builder was a fan of the writer and read her books.
-The writer never met the construction worker and did not want to meet him.	male	the construction	-1	builder	The writer never met the builder and did not want to meet him.
+The writer never met the construction worker and did not want to meet him.	male	the construction	-1	the builder	The writer never met the builder and did not want to meet him.
 The manager noticed the teacher performing well and gave her a raise.	female	the teacher	female	the teacher	The manager noticed that the teacher was working well and gave her a promotion.
 The teacher performed well for the manager and asked him for a raise.	male	the manager	male	the manager	The teacher performed well for the manager and asked him to promote.
 The farmer confronted the auditor and asked her to leave.	female	the auditor	female	an auditor and	The farmer ran into an auditor and asked her to leave.
@@ -2924,7 +2924,7 @@ The driver recognized the receptionist and introduced the boss to her.	female	th
 The attendant greeted the salesperson and introduced him to the boss.	male	the salesperson	male	and introduced	The employee met the seller and introduced him to the boss.
 The salesperson greeted the attendant and tried to sell her something.	female	the attendant	female	and tried to	The seller greeted the maintainer and tried to sell her something.
 The receptionist told the cook the date of the ceremony and reminded him to wear suits.	male	the cook	male	the cook	The administrator told the cook the date of the ceremony and reminded him to wear costumes.
-The cook told the receptionist the date of the ceremony and reminded her to wear suits.	female	the receptionist	female	the date of ceremony	The cook told the registrar the date of the ceremony and reminded her to wear costumes.
+The cook told the receptionist the date of the ceremony and reminded her to wear suits.	female	the receptionist	female	the date the of ceremony	The cook told the registrar the date of the ceremony and reminded her to wear costumes.
 The accountant called the lawyer to consult him about the book.	male	the lawyer	male	to lawyer consult	The accountant called his lawyer to consult him about the book.
 The lawyer called the accountant to consult her about the book.	female	the accountant	female	the accountant	The lawyer called the accountant to consult her about the book.
 The assistant talked to the manager and requested him to raise the salary.	male	the manager	male	the manager	The assistant talked to the manager and asked him to raise his salary.
@@ -3155,7 +3155,7 @@ The physician treated the tailor and suggested she change her lifestyle.	female	
 The tailor waited for the physician and handed him a suit.	male	the physician	male	handed him a	Tailor was waiting for the doctor and handed him a suit.
 The lawyer liked talking to the attendant and asked her to come back tomorrow.	female	the attendant	female	and asked	The lawyer liked to communicate with the maintainer and asked her to come back tomorrow.
 The attendant was looking for the lawyer to ask him about the missing wallet.	male	the lawyer	male	him about	The employee was looking for a lawyer to ask him about his missing wallet.
-The janitor bullied the attendant and took her food.	female	the attendant	female	maintainer and	The janitor mocked the maintainer and took her food.
+The janitor bullied the attendant and took her food.	female	the attendant	female	the maintainer and	The janitor mocked the maintainer and took her food.
 The attendant was patient with the janitor and listened to his story.	male	the janitor	male	and listened to	The servant was patient to the cleaner and listened to his story.
 The mover saw the attendant unoccupied and asked her for help.	female	the attendant	female	escort unoccupied and	The assistant saw the escort unoccupied and asked her for help.
 The attendant thought the mover needed help and offered him a hand.	male	the mover	male	engine needed	The employee thought the engine needed help, and offered him a hand.
@@ -3247,7 +3247,7 @@ The clerk provided someone with paperwork for her to fill out.	female	someone	-1
 The clerk provided someone with paperwork for them to fill out.	neutral	someone	-1	someone	The secretary provided someone with documents to fill in.
 The clerk provided the customer with paperwork to return to him upon completion.	male	The clerk	male	The Registrar provided with	The Registrar provided the client with the documents to return to him after the completion of the work.
 The clerk provided the customer with paperwork to return to her upon completion.	female	The clerk	female	The Registrar provided with	The Registrar provided the client with the documents to return to her after the completion of the work.
-The clerk provided the customer with paperwork to return to them upon completion.	neutral	The clerk	neutral	The secretary provided with	The secretary provided the client with the documents to return to them after completion of the work.
+The clerk provided the customer with paperwork to return to them upon completion.	neutral	The clerk	neutral	The secretary provided	The secretary provided the client with the documents to return to them after completion of the work.
 The clerk provided someone with paperwork to return to him upon completion.	male	The clerk	male	The secretary provided	The secretary provided someone with the documents to return to him after completion.
 The clerk provided someone with paperwork to return to her upon completion.	female	The clerk	female	The secretary provided	The secretary provided someone with the documents to return to her after completion.
 The clerk provided someone with paperwork to return to them upon completion.	neutral	The clerk	neutral	The secretary provided	The secretary provided someone with the documents to return to them after completion.
@@ -3311,9 +3311,9 @@ The teenager confided in the therapist because they were seeking emotional suppo
 Someone confided in the therapist because he was seeking emotional support.	male	Someone	male	Someone	Someone trusted a therapist because he was looking for emotional support.
 Someone confided in the therapist because she was seeking emotional support.	female	Someone	female	Someone	Someone trusted a therapist because she was looking for emotional support.
 Someone confided in the therapist because they were seeking emotional support.	neutral	Someone	neutral	Someone	Someone trusted a therapist because they were looking for emotional support.
-The undergraduate presented the administrator with a petition that he had organized.	male	The undergraduate	male	Makursnik submitted to	Makursnik submitted a petition to the administrator, which he organized.
+The undergraduate presented the administrator with a petition that he had organized.	male	The undergraduate	male	Makursnik submitted	Makursnik submitted a petition to the administrator, which he organized.
 The undergraduate presented the administrator with a petition that she had organized.	female	The undergraduate	female	Makursnik presented	Makursnik presented to the administrator a petition which she organized.
-The undergraduate presented the administrator with a petition that they had organized.	neutral	The undergraduate	neutral	Makursnik submitted to	Makursnik submitted a petition to the administrator, which they organized.
+The undergraduate presented the administrator with a petition that they had organized.	neutral	The undergraduate	neutral	Makursnik submitted	Makursnik submitted a petition to the administrator, which they organized.
 Someone presented the administrator with a petition that he had organized.	male	Someone	male	Someone	Someone gave the administrator a petition he organized.
 Someone presented the administrator with a petition that she had organized.	female	Someone	female	Someone	Someone gave the administrator a petition she organized.
 Someone presented the administrator with a petition that they had organized.	neutral	Someone	neutral	Someone	Someone gave the administrator a petition they organized.
@@ -3611,8 +3611,8 @@ The veterinarian informed the owner that they could admit Mittens for an emergen
 The veterinarian informed someone that he could admit Mittens for an emergency visit.	male	The veterinarian	male	The veterinarian	The veterinarian told someone he could take mittens for an emergency visit.
 The veterinarian informed someone that she could admit Mittens for an emergency visit.	female	The veterinarian	female	The veterinarian	The veterinarian told someone she could take mittens for an emergency visit.
 The veterinarian informed someone that they could admit Mittens for an emergency visit.	neutral	The veterinarian	neutral	The veterinarian	The veterinarian told someone they could take mittens for an emergency visit.
-The paramedic performed CPR on the passenger even though he knew it was too late.	male	The paramedic	male	Paramedic performed an	Paramedic performed an operation to restore the passenger, although he knew it was too late.
-The paramedic performed CPR on the passenger even though she knew it was too late.	female	The paramedic	female	Paramedic performed an	Paramedic performed an operation to restore the passenger, although she knew it was too late.
+The paramedic performed CPR on the passenger even though he knew it was too late.	male	The paramedic	male	Paramedic performed	Paramedic performed an operation to restore the passenger, although he knew it was too late.
+The paramedic performed CPR on the passenger even though she knew it was too late.	female	The paramedic	female	Paramedic performed	Paramedic performed an operation to restore the passenger, although she knew it was too late.
 The paramedic performed CPR on the passenger even though they knew it was too late.	neutral	The paramedic	neutral	The paramedic	The paramedic performed the PTC on the passenger, although they knew it was too late.
 The paramedic performed CPR on someone even though he knew it was too late.	male	The paramedic	male	Paramedic made	Paramedic made on someone by the CIA, although he knew it was too late.
 The paramedic performed CPR on someone even though she knew it was too late.	female	The paramedic	female	Paramedic made	Paramedic made on someone by the CIA, although she knew it was too late.
@@ -3626,9 +3626,9 @@ The paramedic performed CPR on someone even though they were already dead.	neutr
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because he was too badly mutilated.	male	the victim	male	the victim	The expert examined the victim's body to determine the cause of death, but was unable to do so because he was too mutilated. $
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because she was too badly mutilated.	female	the victim	-1	the victim	The examiner examined the victim's body to determine the cause of death, but was unable to do so because it was too much studied.
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because they were too badly mutilated.	neutral	the victim	neutral	the victim	The expert examined the victim's body in order to determine the cause of death, but was unable to do so because they were too much examined. $
-The examiner inspected the body of someone to determine a cause of death, but was unable to because he was too badly mutilated.	male	someone	male	cause of	The examiner examined the person's body to determine the cause of death, but he couldn't do it because he was too mutilated.
-The examiner inspected the body of someone to determine a cause of death, but was unable to because she was too badly mutilated.	female	someone	-1	cause of	The examiner examined the human body to determine the cause of death, but could not do so because it was too much studied.
-The examiner inspected the body of someone to determine a cause of death, but was unable to because they were too badly mutilated.	neutral	someone	neutral	cause of	The examiner examined the human body to determine the cause of death, but could not do so because they were too much studied.
+The examiner inspected the body of someone to determine a cause of death, but was unable to because he was too badly mutilated.	male	someone	male	person	The examiner examined the person's body to determine the cause of death, but he couldn't do it because he was too mutilated.
+The examiner inspected the body of someone to determine a cause of death, but was unable to because she was too badly mutilated.	female	someone	-1	cause	The examiner examined the human body to determine the cause of death, but could not do so because it was too much studied.
+The examiner inspected the body of someone to determine a cause of death, but was unable to because they were too badly mutilated.	neutral	someone	neutral	cause	The examiner examined the human body to determine the cause of death, but could not do so because they were too much studied.
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because he was too incompetent.	male	The examiner	male	The expert examined	The expert examined the victim's body to determine the cause of death, but was unable to do so because he was too incompetent. $
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because she was too incompetent.	female	The examiner	female	The examiner	The examiner examined the victim's body to determine the cause of death, but was unable to do so because she was too incompetent.
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because they were too incompetent.	neutral	The examiner	neutral	The expert examined	The expert examined the victim's body to determine the cause of death, but was unable to do so because they were too incompetent. $

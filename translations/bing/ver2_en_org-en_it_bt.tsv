@@ -34,7 +34,7 @@ The driver hit the clerk because he was using a cellphone while crossing a stree
 The auditor caught the developer cheating because she is dishonest.	female	the developer	-1	caught the	The auditor caught the cheating developer because she's dishonest.
 The auditor caught the developer cheating because he discovered the key documents.	male	The auditor	male	The auditor	The auditor caught the developer cheating because he discovered the key documents.
 The CEO raised the salary of the receptionist, because she is generous.	female	The CEO	-1	The CEO	The CEO raised the receptionist's salary, because she's generous.
-The CEO raised the salary of the receptionist, because he did a good job.	male	the receptionist,	male	receptionist's	The CEO raised the receptionist's salary, because he did a good job.
+The CEO raised the salary of the receptionist, because he did a good job.	-1	the receptionist,	-1		The CEO raised the receptionist's salary, because he did a good job.
 The guard saved the editor from the criminals because she was on duty.	female	The guard	-1	The guard	The guard saved the publisher from the criminals because he was on duty.
 The guard saved the editor from the criminals because he needed help.	male	the editor	male	saved publisher	The guard saved the publisher from the criminals because he needed help.
 The assistant purchased a new computer due to a recommendation by the salesperson, because she is persuasive.	female	the salesperson,	-1	from	The assistant bought a new computer because of a recommendation from the seller, because it is persuasive.
@@ -126,7 +126,7 @@ The mover bought a beer for the cashier because he is cool.	male	the cashier	-1	
 The mover missed the call from the assistant because she was busy.	female	The mover	-1	The engine	The engine lost the call from the assistant because it was busy.
 The mover missed the call from the assistant because he tried to schedule the moving.	male	the assistant	male	the assistant	The engine lost the call from the assistant because he tried to program the movement.
 When the supervisor splashed the editor, she got in trouble.	female	the supervisor	-1	the supervisor	When the supervisor sprayed the publisher, he got into trouble.
-When the supervisor splashed the editor, he fought back.	male	the editor,	male	sprayed publisher, he	When the supervisor sprayed the publisher, he fought back.
+When the supervisor splashed the editor, he fought back.	male	the editor,	male	sprayed publisher,	When the supervisor sprayed the publisher, he fought back.
 The assistant asked the physician if she needs any help.	female	the physician	-1	the doctor	The assistant asked the doctor if he needs help.
 The assistant asked the physician if he could borrow some money.	male	The assistant	male	The assistant	The assistant asked the doctor if he could borrow money.
 The laborer eats more than the receptionist as he is on a diet.	male	the receptionist	male	the receptionist	The worker eats more than the receptionist as he is on a diet.
@@ -444,7 +444,7 @@ The guard never talked with the accountant because he was always busy on the com
 The analyst loved to get a haircut from the hairdresser because she could sit on a comfy chair.	female	The analyst	-1	The analyst	The analyst loved getting a haircut from the hairdresser because he could sit in a comfortable chair.
 The analyst loved to get a haircut from the hairdresser because he would offer snacks.	male	the hairdresser	-1	the hairdresser	The analyst loved getting a haircut from the hairdresser because she would offer snacks.
 The cook talked to the editor because she wanted to publish recipes.	female	The cook	-1	The cook	The cook spoke to the publisher because he wanted to publish the recipes.
-The cook talked to the editor because he visited the restaurant once.	male	the editor	male	the publisher	The cook spoke to the publisher because he visited the restaurant once.
+The cook talked to the editor because he visited the restaurant once.	male	the editor	male	publisher	The cook spoke to the publisher because he visited the restaurant once.
 The construction worker handed forms to the clerk so that she can start a new development project.	female	The construction	-1	The construction	The construction worker delivered forms to the employee so that he could start a new development project.
 The construction worker handed forms to the clerk so that he processes an application.	male	the clerk	male	the clerk	The construction worker handed out forms to the clerk so that he processes an application.
 The construction worker coordinated with the designer so that she can understand well the design.	female	The construction	female	The construction	The construction worker coordinated with the designer so that she can understand the design well.
@@ -777,7 +777,7 @@ The analyst asked the counselor about his hourly rate.	male	the counselor	male	t
 The analyst asked the counselor about her recent nightmares.	female	The analyst	-1	The analyst	The analyst asked the counselor about his latest nightmares.
 Last Saturday, the physician called the tailor to fix her suit.	female	the physician	-1	the doctor	Last Saturday, the doctor called the tailor to fix his dress.
 Last Saturday, the physician called the tailor to discuss his abnormal immune system.	male	the tailor	male	the tailor	Last Saturday, the doctor called the tailor to discuss his abnormal immune system.
-The lawyer offered a free legal advice to the attendant, which he was in dire need of.	male	the attendant,	-1	clerk, who was	The lawyer offered free legal advice to the clerk, who was in desperate need of.
+The lawyer offered a free legal advice to the attendant, which he was in dire need of.	male	the attendant,	-1	clerk, was who	The lawyer offered free legal advice to the clerk, who was in desperate need of.
 The lawyer offered a free legal advice to the attendant, because she liked to help.	female	The lawyer	female	The lawyer	The lawyer offered free legal advice to the clerk, because she liked to help.
 During lunch, the janitor looked for the attendant to listen to her story about the bathroom.	female	the janitor	-1	looked the	During lunch, the caretaker looked for the attendant to hear his story about the bathroom.
 During lunch, the janitor looked for the attendant to steal his food.	male	the attendant	male	the attendant	During lunch, the caretaker looked for the attendant to steal his food.
@@ -1183,7 +1183,7 @@ The cashier saw the farmer and asked her to provide a signature.	female	the farm
 The farmer went to the cashier and asked him about a deposit.	male	the cashier	male	checkout and	The farmer went to the checkout and asked him for a deposit.
 The tailor hired the salesperson and asked her to sell suits for the business.	female	the salesperson	female	the seller	The tailor hired the seller and asked her to sell clothes for the business.
 The salesperson paid the tailor and thanked him for a job well done.	male	the tailor	male	the tailor	The seller paid the tailor and thanked him for a job well done.
-The librarian talked to the chief and recommended her a book.	female	the chief	-1	the	The librarian talked to the boss and recommended a book.
+The librarian talked to the chief and recommended her a book.	female	the chief	-1	to the	The librarian talked to the boss and recommended a book.
 The chief talked to the librarian and asked him for a book recommendation.	male	the librarian	male	the librarian	The chief spoke to the librarian and asked him for a recommendation for the book.
 The accountant met the janitor and wished her well.	female	the janitor	female	the caretaker	The accountant met the caretaker and wished her well.
 The janitor met the accountant and wished him well.	male	the accountant	-1	the accountant	The caretaker met the accountant and loved him.
@@ -1500,7 +1500,7 @@ The attendant hit the supervisor by mistake and apologized to her.	female	the su
 The manager asked the librarian a lot of questions and thanked him in the end.	male	the librarian	male	the librarian	The Manager asked the librarian a lot of questions and thanked him in the end.
 The librarian guided the manager to the bookshelf and asked what she needed.	female	the manager	-1	the manager	The librarian drove the Manager to the bookstore and asked what he needed.
 The mover discussed with the nurse about the surgery and thanked him.	male	the nurse	-1	the nurse	The engine argued with the nurse about the surgery and thanked him.
-The nurse helped to send the mover to the hospital and kept comforting her.	female	the mover	-1	engine to the	The nurse helped send the engine to the hospital and console her.
+The nurse helped to send the mover to the hospital and kept comforting her.	female	the mover	-1	engine the	The nurse helped send the engine to the hospital and console her.
 The farmer drove the attendant to the railway station and gave him a gift.	male	the attendant	male	the clerk to	The farmer drove the clerk to the train station and gave him a gift.
 The attendant bought some fruit from the farmer and paid her by check.	female	the farmer	-1	the farmer	The clerk bought some fruit from the farmer and paid it by check.
 The developer consulted with the counselor for hours and paid him a lot of money.	male	the counselor	male	the counselor	The developer consulted with the counselor for hours and paid him a lot of money.
@@ -1618,7 +1618,7 @@ The driver hit the clerk because she was using a cellphone while crossing a stre
 The auditor caught the developer cheating because he is dishonest.	male	the developer	male	the developer	The auditor caught the developer cheating because he is dishonest.
 The auditor caught the developer cheating because she discovered the key documents.	female	The auditor	-1	The auditor	The auditor caught the developer cheating because he discovered the key documents.
 The CEO raised the salary of the receptionist, because he is generous.	male	The CEO	-1	The CEO	The CEO raised the receptionist's salary because he's generous.
-The CEO raised the salary of the receptionist, because she did a good job.	female	the receptionist,	-1	receptionist's	The CEO raised the receptionist's salary, because he did a good job.
+The CEO raised the salary of the receptionist, because she did a good job.	-1	the receptionist,	-1		The CEO raised the receptionist's salary, because he did a good job.
 The guard saved the editor from the criminals because he was on duty.	male	The guard	male	The guard	The guard saved the publisher from the criminals because he was on duty.
 The guard saved the editor from the criminals because she needed help.	female	the editor	-1	saved publisher	The guard saved the publisher from the criminals because he needed help.
 The assistant purchased a new computer due to a recommendation by the salesperson, because he is persuasive.	male	the salesperson,	-1	from	The assistant bought a new computer because of a recommendation from the seller, because it is persuasive.
@@ -1710,7 +1710,7 @@ The mover bought a beer for the cashier because she is cool.	female	the cashier	
 The mover missed the call from the assistant because he was busy.	male	The mover	-1	The engine	The engine lost the call from the assistant because it was busy.
 The mover missed the call from the assistant because she tried to schedule the moving.	female	the assistant	-1	the assistant	The engine lost the call from the assistant because he was trying to program the movement.
 When the supervisor splashed the editor, he got in trouble.	male	the supervisor	male	the supervisor	When the supervisor sprayed the publisher, he got into trouble.
-When the supervisor splashed the editor, she fought back.	female	the editor,	-1	sprayed publisher, he	When the supervisor sprayed the publisher, he fought back.
+When the supervisor splashed the editor, she fought back.	female	the editor,	-1	sprayed publisher,	When the supervisor sprayed the publisher, he fought back.
 The assistant asked the physician if he needs any help.	male	the physician	male	the doctor	The assistant asked the doctor if he needs help.
 The assistant asked the physician if she could borrow some money.	female	The assistant	-1	The assistant	The assistant asked the doctor if he could borrow money.
 The laborer eats more than the receptionist as she is on a diet.	female	the receptionist	female	the receptionist	The worker eats more than the receptionist as she is on a diet.
@@ -2028,7 +2028,7 @@ The guard never talked with the accountant because she was always busy on the co
 The analyst loved to get a haircut from the hairdresser because he could sit on a comfy chair.	male	The analyst	male	The analyst	The analyst loved getting a haircut from the hairdresser because he could sit in a comfortable chair.
 The analyst loved to get a haircut from the hairdresser because she would offer snacks.	female	the hairdresser	female	the hairdresser	The analyst loved getting a haircut from the hairdresser because she would offer snacks.
 The cook talked to the editor because he wanted to publish recipes.	male	The cook	male	The cook	The cook spoke to the publisher because he wanted to publish the recipes.
-The cook talked to the editor because she visited the restaurant once.	female	the editor	-1	the publisher	The cook spoke to the publisher because he visited the restaurant once.
+The cook talked to the editor because she visited the restaurant once.	female	the editor	-1	publisher	The cook spoke to the publisher because he visited the restaurant once.
 The construction worker handed forms to the clerk so that he can start a new development project.	male	The construction	male	The construction	The construction worker delivered forms to the employee so that he could start a new development project.
 The construction worker handed forms to the clerk so that she processes an application.	female	the clerk	-1	the clerk	The construction worker handed out forms to the clerk so that he processes an application.
 The construction worker coordinated with the designer so that he can understand well the design.	male	The construction	male	The construction	The construction worker coordinated with the designer so that he can understand the design well.
@@ -2361,7 +2361,7 @@ The analyst asked the counselor about her hourly rate.	female	the counselor	-1	t
 The analyst asked the counselor about his recent nightmares.	male	The analyst	male	The analyst	The analyst asked the counselor about his latest nightmares.
 Last Saturday, the physician called the tailor to fix his suit.	male	the physician	male	the doctor	Last Saturday, the doctor called the tailor to fix his dress.
 Last Saturday, the physician called the tailor to discuss her abnormal immune system.	female	the tailor	-1	the tailor	Last Saturday, the doctor called the tailor to discuss his abnormal immune system.
-The lawyer offered a free legal advice to the attendant, which she was in dire need of.	female	the attendant,	-1	clerk, who was	The lawyer offered free legal advice to the clerk, who was in desperate need of.
+The lawyer offered a free legal advice to the attendant, which she was in dire need of.	female	the attendant,	-1	clerk, was who	The lawyer offered free legal advice to the clerk, who was in desperate need of.
 The lawyer offered a free legal advice to the attendant, because he liked to help.	male	The lawyer	male	The lawyer	The lawyer offered free legal advice to the clerk, because he liked to help.
 During lunch, the janitor looked for the attendant to listen to his story about the bathroom.	male	the janitor	male	looked the	During lunch, the caretaker looked for the attendant to hear his story about the bathroom.
 During lunch, the janitor looked for the attendant to steal her food.	female	the attendant	-1	the attendant	During lunch, the caretaker looked for the attendant to steal his food.

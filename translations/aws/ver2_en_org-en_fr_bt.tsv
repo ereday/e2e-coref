@@ -354,7 +354,7 @@ The mover told the teacher that he needs to be more patient with the kids.	male	
 The supervisor was worried about a visit from the auditor because she had lost track of expenses.	female	The supervisor	female	The supervisor	The supervisor was concerned about the auditor's visit because she had lost track of expenses.
 The supervisor was worried about a visit from the auditor because he is a very strict person.	male	the auditor	male	the auditor	The supervisor was concerned about the auditor's visit because he is a very strict person.
 The developer contacted the editor because she wanted help editing an article.	female	The developer	female	The developer	The developer contacted the publisher because she wanted help editing an article.
-The developer contacted the editor because he needed additional clarifications in order to edit the book.	male	the editor	male	contacted publisher	The developer contacted the publisher because he needed additional details to edit the book.
+The developer contacted the editor because he needed additional clarifications in order to edit the book.	male	the editor	male	contacted the publisher	The developer contacted the publisher because he needed additional details to edit the book.
 The guard asked the librarian to leave because it was late and she will be leaving soon.	female	The guard	female	The guard	The guard asked the librarian to leave because it was late and she will leave soon.
 The guard asked the librarian to leave because it was late and he looked really tired.	male	the librarian	male	the librarian	The guard asked the librarian to leave because it was late and he looked really tired.
 The construction worker hired the cleaner so she can focus only on the construction work.	female	The construction	female	The construction	The construction worker hired the cleaner so that she could focus only on the construction work.
@@ -1297,7 +1297,7 @@ The cashier followed the janitor and found out that she stole some money from th
 The janitor followed the cashier and found out that he stole some money from the store.	male	the cashier	male	the cashier	The janitor followed the cashier and found out he had stolen money from the store.
 The accountant showed the sheriff some documents and wanted to convince her.	female	the sheriff	-1	the sheriff	The accountant showed the sheriff some documents and tried to convince her.
 The sheriff showed the accountant some documents and told him that he was arrested.	male	the accountant	male	the accountant	The sheriff showed the accountant some documents and told him he was arrested.
-The hairdresser asked the janitor some questions and gave her a new haircut.	female	the janitor	-1	asked few	The hairdresser asked the concierge a few questions and gave him a new haircut.
+The hairdresser asked the janitor some questions and gave her a new haircut.	female	the janitor	-1	asked a few	The hairdresser asked the concierge a few questions and gave him a new haircut.
 The janitor asked the hairdresser some questions and let him in.	male	the hairdresser	male	the hairdresser	The janitor asked the hairdresser a few questions and let him in.
 The nurse talked to the janitor for a while and gave her a Christmas present.	female	the janitor	female	the janitor	The nurse talked to the janitor for a while and offered her a Christmas present.
 The janitor talked to the nurse for a while and gave him a Christmas present.	male	the nurse	-1	the nurse	The janitor spoke to the nurse for a while and offered her a Christmas present.
@@ -1389,7 +1389,7 @@ The hairdresser visited the guard and thanked her.	female	the guard	-1	the guard
 The guard visited the hairdresser and thanked him.	male	the hairdresser	-1	the hairdresser	The guard visited the hairdresser and thanked him.
 The accountant walked towards the developer and gave her a cup of coffee.	female	the developer	-1	the developer	The accountant went to the developer and gave him a cup of coffee.
 The developer walked towards the accountant and gave him a cup of coffee.	male	the accountant	male	the accountant	The developer walked to the accountant and gave him a cup of coffee.
-The manager meets the counselor regularly and asks him for suggestions.	male	the counselor	-1	regularly with the	The manager meets regularly with the advisor and asks for suggestions.
+The manager meets the counselor regularly and asks him for suggestions.	male	the counselor	-1	regularly advisor the	The manager meets regularly with the advisor and asks for suggestions.
 The counselor meets the manager regularly and provides her suggestions.	female	the manager	-1	the manager	The advisor meets regularly with the manager and provides suggestions.
 The lawyer called the teacher to ask him the performance of the kid.	male	the teacher	male	the teacher	The lawyer called the teacher to ask him for the performance of the child.
 The teacher called the lawyer to tell her the performance of the kid.	female	the lawyer	-1	the lawyer	The professor called the lawyer to tell him the performance of the child.
@@ -1938,7 +1938,7 @@ The mover told the teacher that she needs to be more patient with the kids.	fema
 The supervisor was worried about a visit from the auditor because he had lost track of expenses.	male	The supervisor	male	The supervisor	The supervisor was concerned about the auditor's visit because he had lost track of the expenses.
 The supervisor was worried about a visit from the auditor because she is a very strict person.	female	the auditor	female	the auditor	The supervisor was concerned about the auditor's visit because she was a very strict person.
 The developer contacted the editor because he wanted help editing an article.	male	The developer	male	The developer	The developer contacted the publisher because he wanted help editing an article.
-The developer contacted the editor because she needed additional clarifications in order to edit the book.	female	the editor	-1	contacted publisher	The developer contacted the publisher because they needed additional details to edit the book.
+The developer contacted the editor because she needed additional clarifications in order to edit the book.	female	the editor	-1	contacted the publisher	The developer contacted the publisher because they needed additional details to edit the book.
 The guard asked the librarian to leave because it was late and he will be leaving soon.	male	The guard	male	The guard	The guard asked the librarian to leave because it was late and he will leave soon.
 The guard asked the librarian to leave because it was late and she looked really tired.	female	the librarian	female	the librarian	The guard asked the librarian to leave because it was late and she looked really tired.
 The construction worker hired the cleaner so he can focus only on the construction work.	male	The construction	male	The construction	The construction worker hired the cleaner so that he could concentrate only on the construction work.
@@ -2881,7 +2881,7 @@ The cashier followed the janitor and found out that he stole some money from the
 The janitor followed the cashier and found out that she stole some money from the store.	female	the cashier	female	the cashier	The janitor followed the cashier and found out she had stolen money from the store.
 The accountant showed the sheriff some documents and wanted to convince him.	male	the sheriff	-1	the sheriff	The accountant showed the sheriff some documents and tried to convince him.
 The sheriff showed the accountant some documents and told her that she was arrested.	female	the accountant	female	the accountant	The sheriff showed the accountant some documents and told her she was arrested.
-The hairdresser asked the janitor some questions and gave him a new haircut.	male	the janitor	male	asked few	The hairdresser asked the concierge a few questions and gave him a new haircut.
+The hairdresser asked the janitor some questions and gave him a new haircut.	male	the janitor	male	asked a few	The hairdresser asked the concierge a few questions and gave him a new haircut.
 The janitor asked the hairdresser some questions and let her in.	female	the hairdresser	female	the hairdresser	The janitor asked the hairdresser a few questions and let her in.
 The nurse talked to the janitor for a while and gave him a Christmas present.	male	the janitor	-1	the janitor	The nurse talked to the janitor for a while and offered her a Christmas present.
 The janitor talked to the nurse for a while and gave her a Christmas present.	female	the nurse	female	the nurse	The janitor spoke to the nurse for a while and offered her a Christmas present.
@@ -2973,7 +2973,7 @@ The hairdresser visited the guard and thanked him.	male	the guard	-1	the guard	T
 The guard visited the hairdresser and thanked her.	female	the hairdresser	-1	the hairdresser	The guard visited the hairdresser and thanked her.
 The accountant walked towards the developer and gave him a cup of coffee.	male	the developer	male	the developer	The accountant walked to the developer and gave him a cup of coffee.
 The developer walked towards the accountant and gave her a cup of coffee.	female	the accountant	-1	the accountant	The developer walked to the accountant and gave him a cup of coffee.
-The manager meets the counselor regularly and asks her for suggestions.	female	the counselor	-1	regularly with the	The manager meets regularly with the advisor and asks for suggestions.
+The manager meets the counselor regularly and asks her for suggestions.	female	the counselor	-1	regularly advisor the	The manager meets regularly with the advisor and asks for suggestions.
 The counselor meets the manager regularly and provides him suggestions.	male	the manager	-1	the manager	The advisor meets regularly with the manager and provides suggestions.
 The lawyer called the teacher to ask her the performance of the kid.	female	the teacher	-1	the teacher	The lawyer called the teacher to ask him for the performance of the child.
 The teacher called the lawyer to tell him the performance of the kid.	male	the lawyer	male	the lawyer	The professor called the lawyer to tell him the performance of the child.
@@ -3419,7 +3419,7 @@ The physician warned the patient that they could not safely prescribe a higher d
 The physician warned someone that he could not safely prescribe a higher dose.	male	The physician	male	The doctor	The doctor warned someone that he could not safely prescribe a higher dose.
 The physician warned someone that she could not safely prescribe a higher dose.	female	The physician	female	The doctor	The doctor warned someone that she could not safely prescribe a higher dose.
 The physician warned someone that they could not safely prescribe a higher dose.	neutral	The physician	-1	The doctor	The doctor warned someone that he could not safely prescribe a higher dose.
-The carpenter told the onlooker that he needed to stand at least thirty feet from the building site.	male	the onlooker	male	told the	The carpenter told the spectator that he should stand at least thirty feet from the construction site.
+The carpenter told the onlooker that he needed to stand at least thirty feet from the building site.	male	the onlooker	male	told should the	The carpenter told the spectator that he should stand at least thirty feet from the construction site.
 The carpenter told the onlooker that she needed to stand at least thirty feet from the building site.	female	the onlooker	female	told the	The carpenter told the viewer that she had to stand at least thirty feet from the construction site.
 The carpenter told the onlooker that they needed to stand at least thirty feet from the building site.	neutral	the onlooker	neutral	told the	The carpenter told the viewer that they had to stand at least thirty feet from the construction site.
 The carpenter told someone that he needed to stand at least thirty feet from the building site.	male	someone	male	someone	The carpenter told someone he had to stand at least thirty feet from the construction site.
@@ -3591,8 +3591,8 @@ The surgeon operated on the child with great care; his tumor had grown over time
 The surgeon operated on the child with great care; her tumor had grown over time.	female	the child	-1	the child	The surgeon operated the child with great care; his tumour had grown over time.
 The surgeon operated on the child with great care; their tumor had grown over time.	neutral	the child	-1	the child	The surgeon operated the child with great care; their tumour had grown over time.
 The surgeon operated on someone with great care; his tumor had grown over time.	male	someone	male	someone	The surgeon operated someone very carefully; his tumour had grown over time.
-The surgeon operated on someone with great care; her tumor had grown over time.	-1	someone	-1		The surgeon operated one person very carefully; his tumour had grown over time.
-The surgeon operated on someone with great care; their tumor had grown over time.	-1	someone	-1		The surgeon operated one person very carefully; his tumour had grown over time.
+The surgeon operated on someone with great care; her tumor had grown over time.	female	someone	-1	person	The surgeon operated one person very carefully; his tumour had grown over time.
+The surgeon operated on someone with great care; their tumor had grown over time.	neutral	someone	-1	person	The surgeon operated one person very carefully; his tumour had grown over time.
 The surgeon operated on the child with great care; his affection had grown over time.	male	The surgeon	male	The surgeon	The surgeon operated the child with great care; his condition developed over time.
 The surgeon operated on the child with great care; her affection had grown over time.	female	The surgeon	-1	The surgeon	The surgeon operated the child with great care; his condition developed over time.
 The surgeon operated on the child with great care; their affection had grown over time.	neutral	The surgeon	-1	The surgeon	The surgeon operated the child with great care; his condition developed over time.

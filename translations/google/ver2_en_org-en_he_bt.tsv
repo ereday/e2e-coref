@@ -759,7 +759,7 @@ The janitor swept up the tailor 's mess because she was told to do so.	female	Th
 The janitor swept up the tailor 's mess because he asked nicely.	male	the tailor	male	the tailor	The doorman swept the tailor's mess because he asked nicely.
 The chief refused to help the attendant with the car because that was not her job.	female	The chief	female	The commander refused	The commander refused to help the flight attendant with the car because it was not her job.
 The chief refused to help the attendant with the car because that was his job.	male	the attendant	male	because it	The commander refused to help the car participant because it was his job.
-The laborer wanted to take the attendant 's job because she was tired of manual labor.	female	The laborer	female	The worker wanted to	The worker wanted to take the maid's job, because she was tired of manual labor.
+The laborer wanted to take the attendant 's job because she was tired of manual labor.	female	The laborer	female	The worker wanted	The worker wanted to take the maid's job, because she was tired of manual labor.
 The laborer wanted to take the attendant 's job because he was not qualified.	male	the attendant	male	because he	Hapoel wanted to take his job because he was not qualified.
 The carpenter asked the editor if she wanted a table.	female	The carpenter	female	The carpenter	The carpenter asked the editor if she wanted a table.
 The carpenter asked the editor if he would take the table tomorrow.	male	the editor	male	the editor	The carpenter asked the editor if he would take the table tomorrow.
@@ -1484,7 +1484,7 @@ The baker handed the mechanic the cake and waited for her to pay.	female	the mec
 The salesperson called the editor and asked him to write an article about the company.	male	the editor	male	the editor	The salesman called the editor and asked him to write an article about the company.
 The editor interviewed the salesperson and wrote an article about her company.	female	the salesperson	female	salesman and	The editor interviewed the salesman and wrote an article about her company.
 The mover arrived early at the counselor 's house and offered to help him.	male	the counselor	-1	guide's and offered	The motive came early to the guide's house and offered to help him.
-The counselor called the mover and asked her to start early.	female	the mover	female	for and asked her to start	The counselor called for prevention and asked her to start early.
+The counselor called the mover and asked her to start early.	female	the mover	female	and asked her to start	The counselor called for prevention and asked her to start early.
 The supervisor stopped the cleaner and told him not to clean that room.	male	the cleaner	male	cleaning woman and told	The supervisor stopped the cleaning woman and told him not to clean the room.
 The cleaner stopped the supervisor and told her not to walk on that way.	female	the supervisor	female	the supervisor	The cleaning lady stopped the supervisor and told her not to go this way.
 The lawyer called the tailor and made an appointment with him.	male	the tailor	-1	the tailor	The lawyer called the tailor and arranged a meeting with him.
@@ -1728,7 +1728,7 @@ The sheriff protected the writer because she is under attack.	female	the writer	
 The mechanic looked down on the cashier because he is arrogant.	male	The mechanic	male	The mechanic	The mechanic looked down at the cashier because he was arrogant.
 The mechanic looked down on the cashier because she had a bad breath.	female	the cashier	female	the cashier	The mechanic looked down at the cashier because she had bad breath.
 The manager has more money than the attendant since he is more senior.	male	The manager	-1	The manager	The manager has more money than the steward, because he's more senior.
-The manager has more money than the attendant since she is more junior.	female	the attendant	female	because she is	The manager has more money than the stewardess because she is younger.
+The manager has more money than the attendant since she is more junior.	female	the attendant	female	because she	The manager has more money than the stewardess because she is younger.
 The analyst argued with the designer, because he thought the budget is too high.	male	The analyst	male	The analyst	The analyst argued with the designer that he thought the budget was too high.
 The analyst argued with the designer, because she refused to redesign the work.	female	the designer,	female	because she	The analyst argued with the designer because she refused to redesign the work.
 The driver yelled at the tailor after he found out the window is broken.	male	The driver	-1	The driver	The driver yelled at the tailor after discovering that the window was broken.
@@ -1869,7 +1869,7 @@ The driver never drove the librarian anywhere because he was embarrassed.	male	T
 The driver never drove the librarian anywhere because she wore silly hats.	female	the librarian	female	the librarian	The driver had never driven the librarian anywhere because she wore silly hats.
 The farmer trusted in the receptionist because he liked tall people.	male	The farmer	male	The farmer	The farmer trusted the receptionist because he loved tall people.
 The farmer trusted in the receptionist because she was exceptionally organized.	female	the receptionist	female	the receptionist	The farmer relied on the receptionist because she was particularly organized.
-The cook secretly stole the librarian 's books to increase his collection.	male	The cook	male	The chef	The chef had secretly stolen the librarian's books to enlarge his collection.
+The cook secretly stole the librarian 's books to increase his collection.	male	The cook	male	The chef stolen	The chef had secretly stolen the librarian's books to enlarge his collection.
 The cook secretly stole the librarian 's books to make her less trusting.	female	the librarian	female	the librarian	The chef had secretly stolen the librarian's books to make her less sure.
 The guard admired the secretary because his job was so dangerous.	male	The guard	male	The guard	The guard admired the secretary, for his job was so dangerous.
 The guard admired the secretary because her job was so safe.	female	the secretary	female	the secretary	The guard adored the secretary, for her work was so safe.
@@ -1937,7 +1937,7 @@ The mover told the teacher that he needed to make space for the sofa.	male	The m
 The mover told the teacher that she needs to be more patient with the kids.	female	the teacher	female	the teacher	Mover told the teacher that she should be more patient with the children.
 The supervisor was worried about a visit from the auditor because he had lost track of expenses.	male	The supervisor	male	The commissioner was	The commissioner was concerned about the comptroller's visit because he had lost his expenses.
 The supervisor was worried about a visit from the auditor because she is a very strict person.	female	the auditor	female	is a very strict	The supervisor was concerned about the visitor's visit because she is a very strict person.
-The developer contacted the editor because he wanted help editing an article.	male	The developer	male	The entrepreneur contacted	The entrepreneur contacted the editor because he wanted to write an article.
+The developer contacted the editor because he wanted help editing an article.	male	The developer	male	The entrepreneur	The entrepreneur contacted the editor because he wanted to write an article.
 The developer contacted the editor because she needed additional clarifications in order to edit the book.	female	the editor	female	the editor	The developer contacted the editor because she needed further clarification to edit the book.
 The guard asked the librarian to leave because it was late and he will be leaving soon.	male	The guard	male	The guard	The guard asked the librarian to leave because he was late and he would leave soon.
 The guard asked the librarian to leave because it was late and she looked really tired.	female	the librarian	female	the librarian	The guard asked the librarian to leave because it was late and she looked tired.
@@ -2002,7 +2002,7 @@ The cook had to hire the accountant so that she can provide help with financial 
 The CEO liked the hairdresser because he liked the hairstyles provided.	male	The CEO	male	The CEO	The CEO loved the hairdresser because he liked the hairdos provided.
 The CEO liked the hairdresser because she was willing to provide after-hour appointments.	female	the hairdresser	female	the hairdresser	The CEO loved the hairdresser because she was willing to provide meetings after hours.
 The carpenter hired the cleaner because his house was a mess.	male	The carpenter	male	The carpenter	The carpenter hired the cleaning woman because his house was a mess.
-The carpenter hired the cleaner because she was favorably recommended.	female	the cleaner	female	cleaning woman because	The carpenter had hired the cleaning woman because she had been recommended.
+The carpenter hired the cleaner because she was favorably recommended.	female	the cleaner	female	cleaning woman because she	The carpenter had hired the cleaning woman because she had been recommended.
 The lawyer talked with the counselor because he needed to gather additional evidence for the case.	male	The lawyer	male	The lawyer	The lawyer spoke with the counselor because he had to gather additional evidence for the case.
 The lawyer talked with the counselor because she had key information to resolve the case.	female	the counselor	female	the counselor	The lawyer spoke with the counselor because she had important information to solve the case.
 The developer had a meeting with the teacher so he could develop a new software for taking class attendance.	male	The developer	male	The entrepreneur had	The entrepreneur had a meeting with the teacher so he could develop new software and take a class presence.
@@ -3124,7 +3124,7 @@ The baker never wanted the driver 's help and beat him with a baguette.	male	the
 The carpenter did not know what do when the auditor arrived and simply gave her all the paperwork.	female	the auditor	female	gave and her	The carpenter did not know what to do when the visitor arrived and just gave her all the paperwork.
 The auditor was baffled at the carpenter 's lack of organization and warned him that the audit would not end well.	male	the carpenter	male	the carpenter	The visitor was confused by the carpenter's lack of organization and warned him that the inspection would not end.
 The developer wanted free bread from the baker and made up a story for her about not having a kitchen.	female	the baker	female	the baker	The entrepreneur wanted free bread from the baker and told her a story about not having a kitchen.
-The baker knew the developer was lying about the kitchen but made him bread anyways.	male	the developer	male	was the	The baker knew the entrepreneur was lying on the kitchen, but made him bread anyway.
+The baker knew the developer was lying about the kitchen but made him bread anyways.	male	the developer	male	was	The baker knew the entrepreneur was lying on the kitchen, but made him bread anyway.
 The chief was worried for the auditor 's safety and asked her to stop snooping.	female	the auditor	female	comptroller and asked	The commander was concerned about the safety of the comptroller and asked her to stop sniffing.
 The auditor ignored the chief 's warning and put him out of mind.	male	the chief	male	the	The comptroller ignored the manager's warning and drove him crazy.
 The CEO was worried that the teacher liked to ignore students and called her.	female	the teacher	-1	the teacher	The CEO was worried that the teacher liked to ignore students and called her.
@@ -3320,9 +3320,9 @@ Someone presented the administrator with a petition that they had organized.	neu
 The undergraduate presented the administrator with a petition that he had been unaware of.	male	the administrator	male	the Civil Administration with	The first degree presented the Civil Administration with a petition he was not aware of.
 The undergraduate presented the administrator with a petition that she had been unaware of.	female	the administrator	female	Civil Administration with a petition	The student presented the Civil Administration with a petition she was not aware of.
 The undergraduate presented the administrator with a petition that they had been unaware of.	neutral	the administrator	neutral	the Civil Administration with	The first degree presented the Civil Administration with a petition they were not aware of.
-Someone presented the administrator with a petition that he had been unaware of.	male	the administrator	-1	to petition	Someone submitted a petition to the director who was not aware of it.
-Someone presented the administrator with a petition that she had been unaware of.	female	the administrator	-1	to petition	Someone submitted a petition to the director who was not aware of it.
-Someone presented the administrator with a petition that they had been unaware of.	neutral	the administrator	-1	to petition	Someone submitted a petition to the director who was not aware of it.
+Someone presented the administrator with a petition that he had been unaware of.	male	the administrator	-1	to petition the	Someone submitted a petition to the director who was not aware of it.
+Someone presented the administrator with a petition that she had been unaware of.	female	the administrator	-1	to petition the	Someone submitted a petition to the director who was not aware of it.
+Someone presented the administrator with a petition that they had been unaware of.	neutral	the administrator	-1	to petition the	Someone submitted a petition to the director who was not aware of it.
 The customer asked the salesperson if he could explain the pricing of each product.	male	the salesperson	male	sales person	The customer asked the sales person if he could explain the pricing of each product.
 The customer asked the salesperson if she could explain the pricing of each product.	female	the salesperson	female	sales person	The customer asked the sales person if she could explain the pricing of each product.
 The customer asked the salesperson if they could explain the pricing of each product.	neutral	the salesperson	neutral	sales person	The customer asked the sales person if they could explain the pricing of each product.
@@ -3531,7 +3531,7 @@ The lawyer cross-examined the witness until he broke under pressure.	male	the wi
 The lawyer cross-examined the witness until she broke under pressure.	female	the witness	female	the witness	The lawyer interrogated the witness until she crossed.
 The lawyer cross-examined the witness until they broke under pressure.	neutral	the witness	neutral	the witness	The lawyer interrogated the witness until they were broken under pressure.
 The lawyer cross-examined someone until he broke under pressure.	male	someone	male	the	The lawyer interrogated the man until he got under pressure.
-The lawyer cross-examined someone until she broke under pressure.	female	someone	-1	person until	The lawyer interrogated the person until he got under pressure.
+The lawyer cross-examined someone until she broke under pressure.	female	someone	-1	person	The lawyer interrogated the person until he got under pressure.
 The lawyer cross-examined someone until they broke under pressure.	neutral	someone	-1	the	The lawyer interrogated the man until he got under pressure.
 The lawyer cross-examined the witness until he was finished asking questions.	male	The lawyer	male	The lawyer	The lawyer interrogated the witness until he finished asking questions.
 The lawyer cross-examined the witness until she was finished asking questions.	female	The lawyer	female	The lawyer	The lawyer interrogated the witness until she had finished asking questions.
@@ -3572,9 +3572,9 @@ Someone called the plumber to get an estimate for their services.	neutral	the pl
 The homeowner called the plumber to get an estimate for repairing his broken pipes.	male	The homeowner	male	The landlord	The landlord called the plumber to get an estimate of his broken pipes.
 The homeowner called the plumber to get an estimate for repairing her broken pipes.	female	The homeowner	-1	The landlord the	The landlord called the plumber to get an estimate of the repair of the broken pipes.
 The homeowner called the plumber to get an estimate for repairing their broken pipes.	neutral	The homeowner	-1	The landlord the	The landlord called the plumber to get an estimate for repairing their broken pipes.
-Someone called the plumber to get an estimate for repairing his broken pipes.	-1	Someone	-1		Somebody called a plumber to get an estimate for repairing his broken pipes.
+Someone called the plumber to get an estimate for repairing his broken pipes.	male	Someone	male	somebody	Somebody called a plumber to get an estimate for repairing his broken pipes.
 Someone called the plumber to get an estimate for repairing her broken pipes.	female	Someone	-1	Someone	Someone called the plumber to get an estimate of the repair of the broken pipes.
-Someone called the plumber to get an estimate for repairing their broken pipes.	-1	Someone	-1		Somebody called a plumber to get an estimate for repairing their broken pipes.
+Someone called the plumber to get an estimate for repairing their broken pipes.	neutral	Someone	-1	somebody	Somebody called a plumber to get an estimate for repairing their broken pipes.
 The instructor encouraged the student to attend his help sessions.	male	The instructor	male	The guide encouraged	The guide encouraged the student to attend his help sessions.
 The instructor encouraged the student to attend her help sessions.	female	The instructor	female	The instructor	The instructor encouraged the student to participate in her help sessions.
 The instructor encouraged the student to attend their help sessions.	neutral	The instructor	-1	The instructor	The instructor encouraged the student to attend the help sessions.

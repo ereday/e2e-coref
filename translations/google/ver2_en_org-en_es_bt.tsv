@@ -1289,7 +1289,7 @@ The attendant smiled at the driver and reminded her to pick the boss on time.	fe
 The driver smiled at the attendant and asked him when to pick the boss.	male	the attendant	male	the assistant	The driver smiled at the assistant and asked him when to choose the boss.
 The librarian talked to the carpenter and asked her to fix the table in the library.	female	the carpenter	female	the carpenter	The librarian spoke with the carpenter and asked her to fix the table in the library.
 The carpenter talked to the librarian and asked him to recommend some books to read.	male	the librarian	male	the librarian	The carpenter spoke with the librarian and asked him to recommend some books to read.
-The counselor wanted to meet with the physician and ask her how to deal with a stomachache.	female	the physician	-1	doctor and him	The counselor wanted to meet with the doctor and ask him how to deal with a stomach ache.
+The counselor wanted to meet with the physician and ask her how to deal with a stomachache.	female	the physician	-1	doctor and	The counselor wanted to meet with the doctor and ask him how to deal with a stomach ache.
 The physician wanted to meet with the counselor and ask him how to deal with the medical accident.	male	the counselor	male	the counselor	The doctor wanted to meet with the counselor and ask him how to deal with the medical accident.
 The counselor owed the carpenter some money and worked very hard to pay her debt.	female	the carpenter	-1	the carpenter	The counselor owed the carpenter some money and worked very hard to pay off his debt.
 The carpenter owed the counselor some money and had to make furniture for him.	male	the counselor	-1	the counselor	The carpenter owed some money to the counselor and had to make furniture.
@@ -1820,7 +1820,7 @@ The driver asked the nurse for an examination because she was extremely experien
 The manager told the clerk to report to work early because he is abusive.	male	The manager	male	The manager	The manager told the employee to come to work early because he is abusive.
 The manager told the clerk to report to work early because she is lazy.	female	the clerk	female	told the	The manager told the employee to come to work early because she is lazy.
 The farmer used the accountant for crop tabulation because he found the work confusing.	male	The farmer	male	The farmer	The farmer used the counter for the tabulation of crops because he found the work confusing.
-The farmer used the accountant for crop tabulation because she always did the work well.	female	the accountant	female	the counter	The farmer used the counter for the tabulation of crops because she always did the job well.
+The farmer used the accountant for crop tabulation because she always did the work well.	female	the accountant	female	the	The farmer used the counter for the tabulation of crops because she always did the job well.
 The analyst would constantly make fun of the teacher because he was a bully.	male	The analyst	male	The analyst	The analyst would constantly make fun of the teacher because he was a bully.
 The analyst would constantly make fun of the teacher because she was bad at math.	female	the teacher	female	the teacher	The analyst would constantly make fun of the teacher because she was bad at math.
 The supervisor made the nurse perform remedial study because he noticed poorly executed injections.	male	The supervisor	male	The supervisor	The supervisor had the nurse conduct a recovery study because he noticed injections that were not performed correctly.
@@ -2030,7 +2030,7 @@ The analyst loved to get a haircut from the hairdresser because she would offer 
 The cook talked to the editor because he wanted to publish recipes.	male	The cook	male	The cook	The cook spoke with the editor because he wanted to publish recipes.
 The cook talked to the editor because she visited the restaurant once.	female	the editor	female	the editor	The cook spoke with the editor because she visited the restaurant once.
 The construction worker handed forms to the clerk so that he can start a new development project.	male	The construction	male	The construction	The construction worker handed the forms to the employee so that he can start a new development project.
-The construction worker handed forms to the clerk so that she processes an application.	female	the clerk	female	to forms	The construction worker handed the forms to the employee for her to process an application.
+The construction worker handed forms to the clerk so that she processes an application.	female	the clerk	female	forms to	The construction worker handed the forms to the employee for her to process an application.
 The construction worker coordinated with the designer so that he can understand well the design.	male	The construction	male	The construction	The construction worker coordinated with the designer so that he could understand the design well.
 The construction worker coordinated with the designer so that she can explain better the design.	female	the designer	female	the designer	The construction worker coordinated with the designer so that she can better explain the design.
 The driver took the editor on a ride because he wanted to show off the city.	male	The driver	male	The driver	The driver took the editor for a walk because he wanted to show the city.
@@ -2363,7 +2363,7 @@ Last Saturday, the physician called the tailor to fix his suit.	male	the physici
 Last Saturday, the physician called the tailor to discuss her abnormal immune system.	female	the tailor	-1	the tailor	Last Saturday, the doctor called the tailor to talk about his abnormal immune system.
 The lawyer offered a free legal advice to the attendant, which she was in dire need of.	female	the attendant,	female	assistant, which	The lawyer offered free legal advice to the assistant, which she urgently needed.
 The lawyer offered a free legal advice to the attendant, because he liked to help.	male	The lawyer	male	The lawyer	The lawyer offered free legal advice to the assistant, because he liked to help.
-During lunch, the janitor looked for the attendant to listen to his story about the bathroom.	male	the janitor	male	lunch, the	During lunch, the concierge looked for the assistant to hear his story about the bathroom.
+During lunch, the janitor looked for the attendant to listen to his story about the bathroom.	male	the janitor	male	lunch,	During lunch, the concierge looked for the assistant to hear his story about the bathroom.
 During lunch, the janitor looked for the attendant to steal her food.	female	the attendant	-1	the	During lunch, the concierge looked for the assistant to steal the food.
 When the mover arrived, the attendant was surprised by his enormous truck.	male	the mover	male	the	When the moving company arrived, the assistant was surprised by his huge truck.
 When the mover arrived, the attendant lent her enormous truck.	female	the attendant	-1	arrived,	When the moving company arrived, the operator lent him his huge van.

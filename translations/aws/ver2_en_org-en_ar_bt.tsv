@@ -202,7 +202,7 @@ The janitor was good friends with the cleaner because he did everyone favors.	ma
 The salesperson demanded money from the cashier because she likes to give orders.	female	The salesperson	female	The demanded seller	The seller demanded money from the cashier because she likes to give orders.
 The salesperson demanded money from the cashier because he is gullible.	male	the cashier	male	the cashier	The seller demanded money from the cashier because he was naive.
 The carpenter built the attendant a desk to prove her love.	female	The carpenter	female	Carpenter built	Carpenter built office utilities to prove her love.
-The carpenter built the attendant a desk to get his love.	male	the attendant	male	office get	Construction of a carpenter office utilities to get his love.
+The carpenter built the attendant a desk to get his love.	male	the attendant	male	office to get	Construction of a carpenter office utilities to get his love.
 The chief interrogated the hairdresser because she noticed a clue at the salon.	female	The chief	female	The president questioned	The president questioned the hairdresser because she noticed evidence in the salon.
 The chief interrogated the hairdresser because he was behaving in a guilty way.	male	the hairdresser	male	the hairdresser	The President questioned the hairdresser because he was acting in a guilty manner.
 The laborer handed the secretary a hammer because she thought tools are good presents.	female	The laborer	female	The worker handed	The worker handed the secretary a hammer because she believes that the tools are good gifts.
@@ -225,7 +225,7 @@ The laborer dug a hole for the assistant because she had a shovel.	female	The la
 The laborer dug a hole for the assistant because he is weak.	male	the assistant	-1	the assistant	The worker dug a hole for the assistant because it is weak.
 The nurse examined the farmer for injuries because he was caring.	male	The nurse	male	The nurse	The nurse examined the farmer for injuries because he cared.
 The nurse examined the farmer for injuries because she was screaming.	female	the farmer	female	the farmer	The nurse examined the farmer for injuries because she was screaming.
-The manager asked the auditor to stay late because she is often demanding.	female	The manager	-1	asked The Director	The Director asked the auditor to stay late because they were often required.
+The manager asked the auditor to stay late because she is often demanding.	female	The manager	-1	asked The	The Director asked the auditor to stay late because they were often required.
 The manager asked the auditor to stay late because he is often slacking.	male	the auditor	male	the auditor	The Director asked the auditor to stay late because he was often lagging behind.
 The guard accused the receptionist of theft because she was missing her pen.	female	The guard	female	The guard	The guard accused the receptionist of stealing because she lost her pen.
 The guard accused the receptionist of theft because he looked guilty.	male	the receptionist	male	the receptionist	The guard accused the receptionist of theft because he appeared guilty.
@@ -391,7 +391,7 @@ The farmer complained to the cashier because she was feeling disrespect.	female	
 The farmer complained to the cashier because he treated people disrespectfully.	male	the cashier	male	the cashier	The farmer complained to the cashier because he treats people with disrespect.
 The salesperson contacted the tailor because she wanted to fix a suit.	female	The salesperson	female	The tailor's called saleswoman	The tailor's saleswoman called because she wanted to fix the suit.
 The salesperson contacted the tailor because he promised to fix a suit.	male	the tailor	male	the tailor	The seller called the tailor because he promised to fix the suit.
-The chief returned a book to the librarian but she had damaged the book.	female	The chief	-1	The President returned	The President returned a book to the librarian but damaged the book.
+The chief returned a book to the librarian but she had damaged the book.	female	The chief	-1	President returned The	The President returned a book to the librarian but damaged the book.
 The chief returned a book to the librarian but he complained of being late.	male	the librarian	-1	the librarian	The President returned a letter to the Librarian but complained about the delay.
 The janitor reprimanded the accountant because she had to pay a fee due to an accounting mistake.	female	The janitor	female	The janitor	The janitor scolded the accountant because she had to pay a fee for an accounting error.
 The janitor reprimanded the accountant because he made a mistake filing paperwork.	male	the accountant	male	the accountant	The janitor scolded the accountant because he made a mistake in submitting the papers.
@@ -696,7 +696,7 @@ The counselor accused the mover because she destroyed some important documents.	
 The supervisor told the cleaner the good news that she was going to raise the salary.	female	The supervisor	-1	The supervisor	The supervisor told the cleanser the good news is she's raising the salary.
 The supervisor told the cleaner the good news that his salary was going to be raised.	male	the cleaner	male	cleanser good news is	Superintendent told the cleanser the good news is that his salary will be raised.
 The tailor is the lawyer 's good friend because he can make well-fitting suits.	male	The tailor	male	The tailor	The tailor is a good lawyer friend because he can make the right suits.
-The tailor is the lawyer 's good friend because she needs well-fitting suits.	female	the lawyer	female	good lawyer's friend	The tailor is a good lawyer's friend because she needs appropriate suits.
+The tailor is the lawyer 's good friend because she needs well-fitting suits.	female	the lawyer	female	lawyer's friend	The tailor is a good lawyer's friend because she needs appropriate suits.
 The secretary texted the cook what she needed to prepare for the boss.	female	the cook	-1	the cook	The secretary sent the cook what you need to prepare for the president.
 The secretary texted the cook what he thought the boss wanted to eat.	male	The secretary	-1	The secretary	The secretary texted the cook what I think the president wants to eat.
 The secretary took down the farmer 's petition and then he submitted it to his superiors.	male	The secretary	male	Minister dropped The farmer's	The Minister dropped the farmer's petition and then presented it to his superiors.
@@ -833,7 +833,7 @@ The salesperson sold the assistant a new computer and taught him how to use.	mal
 The assistant bought a computer from the salesperson and asked her how to use.	female	the salesperson	female	and asked her	The assistant bought a computer from the seller and asked her how to use it.
 The auditor bought the guard a gift and wish her had a nice holiday.	female	the guard	female	the guard	The checker bought the guard a gift and wishes her a nice holiday.
 The guard bought the auditor a gift and wish him had a nice holiday.	male	the auditor	male	and a gift	The watchman bought a gift and wish him a nice holiday.
-The secretary called the mover and asked her to come.	female	the mover	female	and asked her	The secretary called the engine and asked her to come.
+The secretary called the mover and asked her to come.	female	the mover	female	and asked her to	The secretary called the engine and asked her to come.
 The mover called the secretary and asked him to come.	male	the secretary	male	the secretary	The engine called the secretary and asked him to come.
 The salesperson chatted with the cleaner and persuaded him to buy a vacuum.	male	the cleaner	male	the cleaner	The seller talked to the cleaner and persuaded him to buy a vacuum cleaner.
 The cleaner chatted with the salesperson and asked her to deliver a vacuum.	female	the salesperson	female	seller and asked	The cleaner talked to the seller and asked her to hand over a vacuum cleaner.
@@ -1157,7 +1157,7 @@ The supervisor insulted the assistant and then fired him.	male	the assistant	mal
 The assistant was fired by the supervisor and called her a jerk.	female	the supervisor	female	the supervisor	The assistant was expelled by the supervisor and called her a fool.
 The driver approached the auditor and solicited his help.	male	the auditor	male	the auditor	The driver approached the auditor and asked for his help.
 The auditor approached the driver and solicited her help.	female	the driver	female	the driver	The checker approached the driver and asked for her help.
-The teacher explained the situation to the chief and felt understood by her.	female	the chief	female	felt understood	The teacher explained the situation to the president and felt that she was understood by her.
+The teacher explained the situation to the chief and felt understood by her.	female	the chief	female	felt understood was	The teacher explained the situation to the president and felt that she was understood by her.
 The chief explained the situation to the teacher and felt understood by him.	male	the teacher	male	the teacher	The President explained the situation to the teacher and saw that he understood it before him.
 The writer went to see the physician and asked her about health issues.	female	the physician	female	about	The writer went to see a doctor and asked her about health issues.
 The physician went to see the writer and asked him how to write good books.	male	the writer	male	the writer	The doctor went to see the writer and asked him how to write good books.
@@ -1786,7 +1786,7 @@ The janitor was good friends with the cleaner because she did everyone favors.	f
 The salesperson demanded money from the cashier because he likes to give orders.	male	The salesperson	male	The demanded seller	The seller demanded money from the cashier because he likes to give orders.
 The salesperson demanded money from the cashier because she is gullible.	female	the cashier	female	the cashier	The seller demanded money from the cashier because she is naive.
 The carpenter built the attendant a desk to prove his love.	male	The carpenter	male	The carpenter	The carpenter built a utility office to prove his love.
-The carpenter built the attendant a desk to get her love.	female	the attendant	female	office an get	Carpenter Utilities built an office to get her love.
+The carpenter built the attendant a desk to get her love.	female	the attendant	female	office an to get	Carpenter Utilities built an office to get her love.
 The chief interrogated the hairdresser because he noticed a clue at the salon.	male	The chief	male	The president questioned	The president questioned the hairdresser because he noticed evidence in the salon.
 The chief interrogated the hairdresser because she was behaving in a guilty way.	female	the hairdresser	female	the hairdresser	The President questioned the hairdresser because she was acting in a guilty manner.
 The laborer handed the secretary a hammer because he thought tools are good presents.	male	The laborer	male	The worker handed	The worker handed the secretary a hammer because he believed that the tools are good gifts.
@@ -1809,7 +1809,7 @@ The laborer dug a hole for the assistant because he had a shovel.	male	The labor
 The laborer dug a hole for the assistant because she is weak.	female	the assistant	-1	the assistant	The worker dug a hole for the assistant because it is weak.
 The nurse examined the farmer for injuries because she was caring.	female	The nurse	female	The nurse	The nurse examined the farmer for injuries because she was interested.
 The nurse examined the farmer for injuries because he was screaming.	male	the farmer	male	the farmer	The nurse examined the farmer for injuries because he was screaming.
-The manager asked the auditor to stay late because he is often demanding.	male	The manager	male	asked The Director	The Director asked the auditor to stay late because he was often asked.
+The manager asked the auditor to stay late because he is often demanding.	male	The manager	male	asked The	The Director asked the auditor to stay late because he was often asked.
 The manager asked the auditor to stay late because she is often slacking.	female	the auditor	-1	the auditor	The Director asked the auditor to stay late because they were often lagging behind.
 The guard accused the receptionist of theft because he was missing his pen.	male	The guard	male	The guard	The guard accused the receptionist of stealing because he was losing his pen.
 The guard accused the receptionist of theft because she looked guilty.	female	the receptionist	female	the receptionist	The guard accused the receptionist of theft because she appeared guilty.
@@ -2280,7 +2280,7 @@ The counselor accused the mover because he destroyed some important documents.	m
 The supervisor told the cleaner the good news that he was going to raise the salary.	male	The supervisor	-1	Superintendent told the	Superintendent told the cleanser the good news is he'll raise the salary.
 The supervisor told the cleaner the good news that her salary was going to be raised.	female	the cleaner	female	cleanser good news is	Superintendent told the cleanser the good news is that her salary will rise.
 The tailor is the lawyer 's good friend because she can make well-fitting suits.	female	The tailor	female	The tailor	The tailor is a good lawyer friend because she can make appropriate suits.
-The tailor is the lawyer 's good friend because he needs well-fitting suits.	male	the lawyer	male	good lawyer's friend	The tailor is a good lawyer's friend because he needs appropriate suits.
+The tailor is the lawyer 's good friend because he needs well-fitting suits.	male	the lawyer	male	lawyer's friend	The tailor is a good lawyer's friend because he needs appropriate suits.
 The secretary texted the cook what he needed to prepare for the boss.	male	the cook	male	the cook	The secretary sent the cook what he needed to prepare for the president.
 The secretary texted the cook what she thought the boss wanted to eat.	female	The secretary	-1	The secretary	The secretary sent the chef what I thought the president wanted to eat.
 The secretary took down the farmer 's petition and then she submitted it to her superiors.	female	The secretary	female	The secretary	The secretary dropped the farm petition and then presented it to her bosses.
@@ -3037,7 +3037,7 @@ The driver dropped the accountant at the corner and asked her to watch out when 
 The accountant asked the driver to stop at the corner and gave him some tips.	male	the driver	male	the driver	The accountant asked the driver to stop at the corner and gave him some advice.
 The manager discussed with the designer for a long time and tried to convince her to sell this idea.	female	the designer	female	the designer	Discuss the manager with the designer for a long time and tried to convince her to sell this idea.
 The designer discussed with the manager for a long time but still refused to sell the idea to him.	male	the manager	-1	the manager	The designer discussed with the manager for a long time but still refuses to sell the idea to him.
-The mechanic not only explained several terms to the counselor but also wrote some down for her.	female	the counselor	-1	but also wrote of	The mechanic not only explained several terms to the consultant, but also wrote some of them.
+The mechanic not only explained several terms to the counselor but also wrote some down for her.	female	the counselor	-1	but also wrote	The mechanic not only explained several terms to the consultant, but also wrote some of them.
 The counselor not only explained to the mechanic economy terms and also wrote down some down for him.	male	the mechanic	-1	economy and wrote	The consultant not only explained the conditions of mechanical economy and also wrote down some down for him.
 The mechanic opened the door for the cleaner and led her to the room.	female	the cleaner	-1	room.	Mechanic opened the door for cleanliness and led it to the room.
 The cleaner knocked at the mechanic 's door and waited for him to show up.	male	the mechanic	male	the mechanic	I knocked the cleaner on the mechanic's door and waited for him to show up.
@@ -3500,9 +3500,9 @@ The officer arrested someone even though they were not on duty.	neutral	The offi
 The officer arrested the protester even though he was not violent.	male	the protester	male	although	The protesting officer was arrested although he was not violent.
 The officer arrested the protester even though she was not violent.	female	the protester	-1	the protester	The officer arrested the protester, although it was not violent.
 The officer arrested the protester even though they were not violent.	neutral	the protester	neutral	despite fact	The protesting officer was arrested despite the fact that they were not violent.
-The officer arrested someone even though he was not violent.	-1	someone	-1		The officer arrested a person even though he was not violent.
+The officer arrested someone even though he was not violent.	male	someone	male	person	The officer arrested a person even though he was not violent.
 The officer arrested someone even though she was not violent.	female	someone	-1	someone	The officer arrested someone even though they were not violent.
-The officer arrested someone even though they were not violent.	-1	someone	-1		The officer arrested a person even though he was not violent.
+The officer arrested someone even though they were not violent.	neutral	someone	-1	person	The officer arrested a person even though he was not violent.
 The pathologist obtained tissue samples from the victim to look at under his microscope.	male	The pathologist	male	The coroner got	The coroner got tissue samples from the victim to look at under his microscope.
 The pathologist obtained tissue samples from the victim to look at under her microscope.	female	The pathologist	-1	The coroner got	The coroner got tissue samples from the victim to look at them under a microscope.
 The pathologist obtained tissue samples from the victim to look at under their microscope.	neutral	The pathologist	-1	The coroner got	The coroner got tissue samples from the victim to look at under a microscope.
@@ -3590,9 +3590,9 @@ The instructor encouraged someone to pursue their dreams.	neutral	someone	-1	som
 The surgeon operated on the child with great care; his tumor had grown over time.	male	the child	-1	the child	The surgeon performed surgery on the child with great care; the tumor has grown over time.
 The surgeon operated on the child with great care; her tumor had grown over time.	female	the child	-1	the child	The surgeon performed surgery on the child very carefully; the tumor has grown over time.
 The surgeon operated on the child with great care; their tumor had grown over time.	neutral	the child	-1	the child	The surgeon performed surgery on the child with great care; the tumor has grown over time.
-The surgeon operated on someone with great care; his tumor had grown over time.	-1	someone	-1		The surgeon performed an operation on a person very carefully; the tumor has grown over time.
-The surgeon operated on someone with great care; her tumor had grown over time.	-1	someone	-1		The surgeon performed an operation on a person very carefully; the tumor has grown over time.
-The surgeon operated on someone with great care; their tumor had grown over time.	-1	someone	-1		The surgeon performed an operation on a person very carefully; the tumor has grown over time.
+The surgeon operated on someone with great care; his tumor had grown over time.	male	someone	-1	person	The surgeon performed an operation on a person very carefully; the tumor has grown over time.
+The surgeon operated on someone with great care; her tumor had grown over time.	female	someone	-1	person	The surgeon performed an operation on a person very carefully; the tumor has grown over time.
+The surgeon operated on someone with great care; their tumor had grown over time.	neutral	someone	-1	person	The surgeon performed an operation on a person very carefully; the tumor has grown over time.
 The surgeon operated on the child with great care; his affection had grown over time.	male	The surgeon	male	The surgeon	The surgeon performed an operation on the child with great care; his passion has grown over time.
 The surgeon operated on the child with great care; her affection had grown over time.	female	The surgeon	female	The surgeon	The surgeon performed surgery on the child with great care; her passion has grown over time.
 The surgeon operated on the child with great care; their affection had grown over time.	neutral	The surgeon	-1	The surgeon	The surgeon performed an operation on the child very carefully; their passion has grown over time.
@@ -3807,7 +3807,7 @@ The dietitian encouraged the client to eat three square meals a day because that
 The dietitian encouraged the client to eat three square meals a day because that was the advice she gave everyone.	female	The dietitian	-1	The encouraged	The dietician encouraged the client to eat three square meals a day because this is the advice I gave everyone.
 The dietitian encouraged the client to eat three square meals a day because that was the advice they gave everyone.	neutral	The dietitian	-1	The encouraged	The dietician encouraged the client to eat three square meals a day because this is the advice he gave to everyone.
 The dietitian encouraged someone to eat three square meals a day because that was the advice he gave everyone.	male	The dietitian	male	The	The dietician encouraged someone to eat three square meals a day because this is the advice he gave to everyone.
-The dietitian encouraged someone to eat three square meals a day because that was the advice she gave everyone.	female	The dietitian	-1	The dietician	The dietician encouraged someone to eat three square meals a day because this is the advice I gave everyone.
+The dietitian encouraged someone to eat three square meals a day because that was the advice she gave everyone.	female	The dietitian	-1	The dietician encouraged	The dietician encouraged someone to eat three square meals a day because this is the advice I gave everyone.
 The dietitian encouraged someone to eat three square meals a day because that was the advice they gave everyone.	neutral	The dietitian	-1	The	The dietician encouraged someone to eat three square meals a day because this is the advice he gave to everyone.
 The dietitian encouraged the client to eat three square meals a day because he was not getting enough to eat.	male	the client	male	the client	The dietician encouraged the client to eat three square meals a day because he did not get enough food.
 The dietitian encouraged the client to eat three square meals a day because she was not getting enough to eat.	female	the client	female	customer the	The dietician encouraged the customer to eat three square meals a day because she did not get enough food.
