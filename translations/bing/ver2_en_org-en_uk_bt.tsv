@@ -270,7 +270,7 @@ The CEO asked the clerk to produce a report to justify his behavior.	male	the cl
 The lawyer needed the librarian to find a book because she does not know how a library works.	female	The lawyer	female	The lawyer	The lawyer needed the librarian to find the book because she does not know how the library works.
 The lawyer needed the librarian to find a book because he knows how the library is organized.	male	the librarian	male	the librarian	The lawyer needed the librarian to find the book because he knows how to organized the library.
 The analyst asked the cleaner to pick up papers because she was bossy.	female	The analyst	female	The analyst	The analyst asked for cleaner to pick up the paperwork because she was Bossy.
-The analyst asked the cleaner to pick up papers because he always forgot.	male	the cleaner	male	for pick up to paperwork	The analyst asked for cleaner to pick up the paperwork because he always forgot.
+The analyst asked the cleaner to pick up papers because he always forgot.	male	the cleaner	male	to pick up paperwork	The analyst asked for cleaner to pick up the paperwork because he always forgot.
 The supervisor complained the hairdresser 's hair was too long because she was shallow.	female	The supervisor	female	The complained of	The head complained of hair hairdresser's was too long because she was shallow.
 The supervisor complained the hairdresser 's hair was too long because he never got a haircut.	male	the hairdresser	male	was	The head complained of hair hairdresser's was too long because he never got a haircut.
 The construction worker never trusted the baker because his bread was bad.	male	the baker	male	a baker	A construction worker never trusted a baker because his bread was bad.
@@ -287,7 +287,7 @@ The farmer trusted in the receptionist because she liked tall people.	female	The
 The farmer trusted in the receptionist because he was exceptionally organized.	male	the receptionist	male	the receptionist	The farmer trusted the receptionist because he was exclusively organized.
 The cook secretly stole the librarian 's books to increase her collection.	female	The cook	female	The cook	The cook secretly stole the librarian's book to increase her collection.
 The cook secretly stole the librarian 's books to make him less trusting.	male	the librarian	-1	the librarian	The cook secretly stole the librarian's book to make it less trusting.
-The guard admired the secretary because her job was so dangerous.	female	The guard	female	The guard security admired	The security guard admired the secretary because her work was so dangerous.
+The guard admired the secretary because her job was so dangerous.	female	The guard	female	The security admired	The security guard admired the secretary because her work was so dangerous.
 The guard admired the secretary because his job was so safe.	male	the secretary	male	the secretary	The security guard admired the secretary because his work was so secure.
 The CEO constantly visited the baker because she needed bread.	female	The CEO	female	The general	The general director constantly visited Baker because she needed bread.
 The CEO constantly visited the baker because he provided free bread.	male	the baker	male	Baker	The general director constantly visited Baker because he provided free bread.
@@ -303,11 +303,11 @@ The construction worker waved the housekeeper into the room to get her answers.	
 The construction worker waved the housekeeper into the room to ask him a question.	male	the housekeeper	male	the housekeeper	An employee of construction waved to the housekeeper in the room to ask him a question.
 The CEO reminded the housekeeper to sweep up because she liked to tell people what to do.	female	The CEO	female	The General Director	The General Director reminded the housekeeper to sweep, because she loved to tell people what to do.
 The CEO reminded the housekeeper to sweep up because he often forget.	male	the housekeeper	male	the housekeeper	The General Director reminded the housekeeper to sweep, because he often overlooked.
-The laborer built the librarian a bookshelf because he placed an order.	male	the librarian	male	a book a shelf	The worker built a librarian book a shelf because he put the order.
+The laborer built the librarian a bookshelf because he placed an order.	male	the librarian	male	book a shelf	The worker built a librarian book a shelf because he put the order.
 The laborer built the librarian a bookshelf because she was paid.	female	The laborer	female	A worker built	A worker built a librarian book a shelf because she was paid.
 The farmer enjoyed getting a haircut from the hairdresser because she did not have to speak.	female	The farmer	female	The farmer	The farmer enjoyed getting a haircut from a hairdresser, because she shouldn't talk.
 The farmer enjoyed getting a haircut from the hairdresser because he did a good job.	male	the hairdresser	male	he had	The farmer enjoyed getting a haircut from a hairdresser because he had a good job.
-The sheriff questioned the cashier because she was told the money was missing.	female	The sheriff	female	Sheriff questioned	Sheriff questioned the cashier because she was told that the money was missing.
+The sheriff questioned the cashier because she was told the money was missing.	female	The sheriff	female	Sheriff questioned the	Sheriff questioned the cashier because she was told that the money was missing.
 The sheriff questioned the cashier because he had taken the money.	male	the cashier	male	the cashier	Sheriff questioned the cashier because he took the money.
 The supervisor berated the accountant for her poor behavior.	female	The supervisor	female	The leader chaired	The leader chaired an accountant for her bad behavior.
 The supervisor berated the accountant for failure to adhere to his protocol.	male	the accountant	-1	the accountant	The manager is responsible for non-compliance with the accountant.
@@ -330,7 +330,7 @@ The sheriff complained to the designer because he did not meet expectations.	mal
 The manager demanded to be seen by the nurse because she was feeling ill.	female	The manager	female	The manager	The manager demanded to see a nurse, because she felt sick.
 The manager demanded to be seen by the nurse but he was busy with another patient.	male	the nurse	male	was busy	The manager demanded to see a nurse, but he was busy with another patient.
 The sheriff trusts the assistant because she is a trustful person.	female	The sheriff	female	Sheriff trusts	Sheriff trusts the helper because she is a trusting person.
-The sheriff trusts the assistant because he was always honest.	male	the assistant	male	because	Sheriff trusts the helper because he has always been honest.
+The sheriff trusts the assistant because he was always honest.	male	the assistant	male	the because	Sheriff trusts the helper because he has always been honest.
 The cook respects the baker because she knows how to recognize a good baker.	female	The cook	female	Cook respects	Cook respects the baker, because she knows how to recognize a good baker.
 The cook respects the baker because he really knows how to bake.	male	the baker	male	the baker	Cook respects the baker because he really knows how to bake.
 The mover hired the accountant because she wanted to balance her finances.	female	The mover	female	The engine hired	The engine hired an accountant because she wanted to balance his finances.
@@ -585,7 +585,7 @@ The receptionist drove away from the salesperson because he had to answer the ph
 The receptionist drove away the salesperson because she made a lot of noise.	female	the salesperson	female	had she	The receptionist drove the seller because she had made a lot of noise.
 The supervisor is talking to the teacher about the assignments he gave to the students.	male	the teacher	male	appointment	The supervisor speaks with a teacher about the appointment he gave to the students.
 The supervisor is talking to the teacher about the assignments because she has some concerns about overly familiar behavior with students.	female	The supervisor	female	The supervisor	The supervisor speaks with a teacher about the appointment, because she has some fears about the overly familiar behavior with students.
-The clerk visited the physician because she is an expert on the disease.	female	the physician	female	the because	The clerk visited the doctor because she was an expert on the disease.
+The clerk visited the physician because she is an expert on the disease.	female	the physician	female	because	The clerk visited the doctor because she was an expert on the disease.
 The clerk visited the physician because his back ached.	male	The clerk	male	Clerk visited	Clerk visited the doctor because his back ached.
 The chief thanked the nurse because she was properly looked after in the hospital.	female	The chief	female	The chief	The chief thanked the nurse, because she was properly looked at the hospital.
 The chief thanked the nurse because he is very nice to his patients.	male	the nurse	male	the nurse	Chief thanked the nurse, because he is very pleasant for their patients.
@@ -639,7 +639,7 @@ The lawyer thanked the nurse for taking good care of her.	female	The lawyer	-1	T
 The lawyer thanked the nurse for his meticulous concern.	male	the nurse	male	the nurse	The lawyer thanked the nurse for his careful concern.
 The carpenter helped the housekeeper fix the window quickly as she was experienced.	female	The carpenter	female	Carpenter helped	Carpenter helped the housekeeper to fix the box quickly as she survived.
 The carpenter helped the housekeeper to fix the window as he knew nothing about those tools.	male	the housekeeper	male	the housekeeper	Carpenter helped the housekeeper to fix the window as he knew nothing about these tools.
-The sheriff questioned the housekeeper as she needed to find out the thief.	female	The sheriff	female	Sheriff questioned	Sheriff questioned the housekeeper as she needed to figure out thief.
+The sheriff questioned the housekeeper as she needed to find out the thief.	female	The sheriff	female	Sheriff questioned the	Sheriff questioned the housekeeper as she needed to figure out thief.
 The sheriff questioned the housekeeper as he claimed to know the thief.	male	the housekeeper	male	the housekeeper	Sheriff questioned the housekeeper as he claimed to know thief.
 The physician argued with the receptionist as her luggage was missing.	female	The physician	female	The doctor claimed	The doctor claimed the receptionist as her luggage was absent.
 The physician argued with the receptionist as he made so many mistakes.	male	the receptionist	male	the receptionist	The doctor argued with the receptionist as he made so many mistakes.
@@ -729,7 +729,7 @@ The janitor gave the clerk some documents which included her personal informatio
 The janitor gave the clerk some documents which he required.	male	the clerk	male	the clerk	The janitor gave the clerk some of the documents that he needed.
 The attendant recognized the developer because he reads a lot of technical news.	male	The attendant	male	The maintainer has	The maintainer has recognized the developer because he reads a lot of technical news.
 The attendant recognized the developer because she is very famous.	female	the developer	female	the developer	The maintainer has recognized the developer because she is very famous.
-The writer wrote a book about the carpenter because he was moved by the story.	male	The writer	male	writer A wrote	A writer wrote a book about a carpenter because he was moved to history.
+The writer wrote a book about the carpenter because he was moved by the story.	male	The writer	male	A writer wrote	A writer wrote a book about a carpenter because he was moved to history.
 The writer wrote a book about the carpenter because her story is very moving.	female	the carpenter	female	because her	A writer wrote a book about a carpenter because her story is very moving.
 The cook asked the attendant to try the cake because he had excellent taste.	male	the attendant	-1	the attendant	Cook asked the attendant to try the cake because it tastes great.
 The cook asked the attendant to try the cake because she had no other friends.	female	The cook	female	Cook asked	Cook asked the attendant to try the cake because she has no other friends.
@@ -779,7 +779,7 @@ Last Saturday, the physician called the tailor to fix her suit.	female	the physi
 Last Saturday, the physician called the tailor to discuss his abnormal immune system.	male	the tailor	male	the tailor	Last Saturday, a doctor called the tailor to discuss his abnormal immune system.
 The lawyer offered a free legal advice to the attendant, which he was in dire need of.	male	the attendant,	male	was in dire need	A lawyer offered free legal advice to the attendant who he was in dire need of.
 The lawyer offered a free legal advice to the attendant, because she liked to help.	female	The lawyer	female	A lawyer	A lawyer offered free legal advice attendant because she loved helping.
-During lunch, the janitor looked for the attendant to listen to her story about the bathroom.	female	the janitor	female	lunch, Janer the	During the lunch, the Janer sought accompanying to listen to her stories about the bath.
+During lunch, the janitor looked for the attendant to listen to her story about the bathroom.	female	the janitor	female	Janer the	During the lunch, the Janer sought accompanying to listen to her stories about the bath.
 During lunch, the janitor looked for the attendant to steal his food.	male	the attendant	male	the attendant	During lunch, the Janer sought the attendant to steal his food.
 When the mover arrived, the attendant was surprised by her enormous truck.	female	the mover	female	the engine arrived,	When the engine arrived, the attendant was surprised by her huge truck.
 When the mover arrived, the attendant lent his enormous truck.	male	the attendant	male	lent his	When the engine arrives, attendant lent his huge truck.
@@ -962,7 +962,7 @@ The clerk hindered the chief at every turn and even gossiped about her.	female	t
 The construction worker offered to build the tailor a house and then hugged him.	male	the tailor	-1	and then	A construction worker offered to build a tailor at home and then embraced it.
 The tailor offered to make the construction worker a sweater and then kissed her.	female	the construction	-1	the construction	The tailor proposed to make the construction worker a sweater and then kissed it.
 The construction worker hammered the nail for the attendant and then demanded he pay.	male	the attendant	-1	then demanded	The building worker scored the nail for the accompanying, and then demanded it pays.
-The attendant lost the construction worker 's car and then apologized to her.	female	the construction	-1	of a construction worker,	The maintainer lost the car of a construction worker, and then apologized before her.
+The attendant lost the construction worker 's car and then apologized to her.	female	the construction	-1	construction of a worker,	The maintainer lost the car of a construction worker, and then apologized before her.
 The salesperson greeted the clerk and then winked at him.	male	the clerk	-1	the clerk	The seller met the clerk and then winked at him.
 The clerk hated the salesperson and sabotaged her.	female	the salesperson	-1	and sabotted	The clerk hated the seller and sabotted her.
 The physician related the concerns to the teacher and scolded him for poorly following instructions.	male	the teacher	male	the teacher	The physician associated with the teacher's problems and abused him for the poorly following instructions.
@@ -1410,7 +1410,7 @@ The carpenter borrowed the tool from the cashier but returned nothing to him.	ma
 The auditor talked with the sheriff and wanted to hear her opinion.	female	the sheriff	female	the sheriff	An auditor talked to the sheriff and wanted to hear her opinion.
 The sheriff talked with the auditor and wanted to hear his opinion.	male	the auditor	male	the auditor	Sherif talked to the auditor and wanted to hear his opinion.
 The baker wanted to thank the carpenter and made some bread for her.	female	the carpenter	-1	bread for	Baker wanted to thank a carpenter and made bread for her.
-The carpenter wanted to thank the baker and made a chair for him.	male	the baker	-1	and did a	Carpenter would like to thank Baker and did a chair for him.
+The carpenter wanted to thank the baker and made a chair for him.	male	the baker	-1	and did	Carpenter would like to thank Baker and did a chair for him.
 The designer wanted to help the lawyer but she refused.	female	the lawyer	female	the lawyer	The designer wanted to help the lawyer, but she refused.
 The lawyer wanted to help the designer but he refused.	male	the designer	male	the designer	The lawyer wanted to help the designer, but he refused.
 The accountant got angry with the mechanic and complained to the boss about her.	female	the mechanic	-1	complained to boss	The accountant got angry with a mechanic and complained to the boss about it.
@@ -1854,7 +1854,7 @@ The CEO asked the clerk to produce a report to justify her behavior.	female	the 
 The lawyer needed the librarian to find a book because he does not know how a library works.	male	The lawyer	male	The lawyer	The lawyer needed the librarian to find the book because he does not know how the library works.
 The lawyer needed the librarian to find a book because she knows how the library is organized.	female	the librarian	female	the librarian	The lawyer needed the librarian to find the book because she knows how to organized the library.
 The analyst asked the cleaner to pick up papers because he was bossy.	male	The analyst	male	The analyst	The analyst asked for cleaner to pick up the paperwork because he was bossi.
-The analyst asked the cleaner to pick up papers because she always forgot.	female	the cleaner	female	for pick up to paperwork	The analyst asked for cleaner to pick up the paperwork because she always forgot.
+The analyst asked the cleaner to pick up papers because she always forgot.	female	the cleaner	female	to pick up paperwork	The analyst asked for cleaner to pick up the paperwork because she always forgot.
 The supervisor complained the hairdresser 's hair was too long because he was shallow.	male	The supervisor	-1	The complained about	The head complained about hair hairdressers was too long because it was shallow.
 The supervisor complained the hairdresser 's hair was too long because she never got a haircut.	female	the hairdresser	female	was	The head complained about hair hairdresser's was too long because she never got a haircut.
 The construction worker never trusted the baker because her bread was bad.	female	the baker	female	a baker	A construction worker never trusted a baker because her bread was bad.
@@ -1871,7 +1871,7 @@ The farmer trusted in the receptionist because he liked tall people.	male	The fa
 The farmer trusted in the receptionist because she was exceptionally organized.	female	the receptionist	female	the receptionist	The farmer trusted the receptionist because she was exclusively organized.
 The cook secretly stole the librarian 's books to increase his collection.	male	The cook	male	The cook	The cook secretly stole the librarian's book to enlarge his collection.
 The cook secretly stole the librarian 's books to make her less trusting.	female	the librarian	-1	the librarian	The cook secretly stole the librarian's book to make it less trusting.
-The guard admired the secretary because his job was so dangerous.	male	The guard	male	The guard security admired	The security guard admired the secretary because his work was so dangerous.
+The guard admired the secretary because his job was so dangerous.	male	The guard	male	The security admired	The security guard admired the secretary because his work was so dangerous.
 The guard admired the secretary because her job was so safe.	female	the secretary	female	the secretary	The guard admired the secretary, because her work was so secure.
 The CEO constantly visited the baker because he needed bread.	male	The CEO	male	The general	The general director constantly visited Baker because he needs bread.
 The CEO constantly visited the baker because she provided free bread.	female	the baker	female	Baker	The general director constantly visited Baker because she provided free bread.
@@ -1891,7 +1891,7 @@ The laborer built the librarian a bookshelf because she placed an order.	female	
 The laborer built the librarian a bookshelf because he was paid.	male	The laborer	male	A worker built	A worker built a librarian book a shelf because he was paid.
 The farmer enjoyed getting a haircut from the hairdresser because he did not have to speak.	male	The farmer	male	The farmer	The farmer enjoyed getting a haircut from a hairdresser because he shouldn't talk.
 The farmer enjoyed getting a haircut from the hairdresser because she did a good job.	female	the hairdresser	female	she is	The farmer enjoys getting a haircut from a hairdresser because she is a good job.
-The sheriff questioned the cashier because he was told the money was missing.	male	The sheriff	male	Sheriff questioned	Sheriff questioned the cashier because he was told that the money was missing.
+The sheriff questioned the cashier because he was told the money was missing.	male	The sheriff	male	Sheriff questioned the	Sheriff questioned the cashier because he was told that the money was missing.
 The sheriff questioned the cashier because she had taken the money.	female	the cashier	female	the cashier	Sheriff questioned the cashier because she took the money.
 The supervisor berated the accountant for his poor behavior.	male	The supervisor	male	The leader chaired	The leader chaired an accountant for his bad behavior.
 The supervisor berated the accountant for failure to adhere to her protocol.	female	the accountant	-1	for non-compliance with	The leader chaired an accountant for non-compliance with its protocol.
@@ -1905,7 +1905,7 @@ The analyst received care from the nurse but he did not mention his allergies.	m
 The analyst offered free financial advice to the nurse but she did not accept it.	female	the nurse	female	she	The analyst suggested a free nurse's financial advice, but she didn't accept it.
 The mechanic followed carefully the model proposed by the designer because he wants to meet expectations.	male	The mechanic	male	The mechanic	The mechanic followed closely the model proposed by the designer because he wants to meet the expectations.
 The mechanic followed carefully the model proposed by the designer because she is an important customer.	female	the designer	-1	the designer	The mechanic followed closely the model proposed by the designer because it is an important client.
-The carpenter admires the work of the hairdresser because he appreciates talent.	male	The carpenter	male	Carpenter is fond	Carpenter is fond of work hairdresser, because he appreciates talent.
+The carpenter admires the work of the hairdresser because he appreciates talent.	male	The carpenter	male	Carpenter is	Carpenter is fond of work hairdresser, because he appreciates talent.
 The carpenter admires the work of the hairdresser because she is the best.	female	the hairdresser	female	she is best.	Carpenter is fond of work hairdresser, because she is the best.
 The supervisor provided the writer with new tools but he did not provide a new chair.	male	The supervisor	male	The supervisor	The supervisor gave the writer new tools, but he did not provide a new chair.
 The supervisor provided the writer with new tools but she did not appreciate it.	female	the writer	-1	the writer	The supervisor gave the writer new tools, but it does not appreciate it.
@@ -1914,7 +1914,7 @@ The sheriff complained to the designer because she did not meet expectations.	fe
 The manager demanded to be seen by the nurse because he was feeling ill.	male	The manager	male	The manager	The manager demanded to see the nurse because he felt sick.
 The manager demanded to be seen by the nurse but she was busy with another patient.	female	the nurse	female	was preoccupied	The manager demanded to see a nurse, but she was preoccupied with another patient.
 The sheriff trusts the assistant because he is a trustful person.	male	The sheriff	male	Sheriff trusts	Sheriff trusts the assistant because he is a trusting man.
-The sheriff trusts the assistant because she was always honest.	female	the assistant	female	because	Sheriff trusts the helper because she was always honest.
+The sheriff trusts the assistant because she was always honest.	female	the assistant	female	the because	Sheriff trusts the helper because she was always honest.
 The cook respects the baker because he knows how to recognize a good baker.	male	The cook	male	Cook respects Baker,	Cook respects Baker, because he knows how to recognize a nice baker.
 The cook respects the baker because she really knows how to bake.	female	the baker	female	the baker	Cook respects the baker because she really knows how to bake.
 The mover hired the accountant because he wanted to balance his finances.	male	The mover	male	The engine hired	The engine hired an accountant because he wanted to balance his finances.
@@ -1977,7 +1977,7 @@ The salesperson contacted the tailor because he wanted to fix a suit.	male	The s
 The salesperson contacted the tailor because she promised to fix a suit.	female	the tailor	female	the tailor	The salesman contacted the tailor because she promised to fix the suit.
 The chief returned a book to the librarian but he had damaged the book.	male	The chief	male	The chief	The chief returned the book of librarian, but he damaged the book.
 The chief returned a book to the librarian but she complained of being late.	female	the librarian	female	complained about being	The chief returned the book of librarian, but she complained about being late.
-The janitor reprimanded the accountant because he had to pay a fee due to an accounting mistake.	male	The janitor	male	The Jannik had Dolder	The Jannik had a Dolder accountant because he had to pay for the expense of accounting mistakes.
+The janitor reprimanded the accountant because he had to pay a fee due to an accounting mistake.	male	The janitor	male	The Jannik had	The Jannik had a Dolder accountant because he had to pay for the expense of accounting mistakes.
 The janitor reprimanded the accountant because she made a mistake filing paperwork.	female	the accountant	female	the accountant	The Jandkeeper would doded the accountant because she made a mistake of filing the paperwork.
 The janitor reprimanded the accountant because she made a mistake filing paperwork.	female	the accountant	female	the accountant	The Jandkeeper would doded the accountant because she made a mistake of filing the paperwork.
 The janitor reprimanded the accountant because he got less allowance.	male	The janitor	male	The Jannik had doded	The Jannik had a doded accountant because he received less help.
@@ -2084,7 +2084,7 @@ The carpenter always asks the librarian for help because she knows a lot of word
 The physician wanted to meet the counselor because he had some questions about his responsibility in the medical accident.	male	The physician	male	The doctor wanted to	The doctor wanted to meet with the counselor because he had some questions about his responsibility in the medical accident.
 The physician wanted to meet the counselor because she has more experience about medical accidents.	female	the counselor	female	the counselor	The doctor wanted to meet with the counselor because she has more experience about medical accidents.
 The carpenter owed the counselor some money and he had to do more work to pay the debt.	male	The carpenter	male	The carpenter	The carpenter was guilty of a counselor some money and he had to do more work to pay the debt.
-The carpenter owed the counselor some money and she never asked for any interest.	female	the counselor	female	of money and	The carpenter is guilty of the money advisor, and she has never asked for any interest.
+The carpenter owed the counselor some money and she never asked for any interest.	female	the counselor	female	money and	The carpenter is guilty of the money advisor, and she has never asked for any interest.
 The janitor caught the cashier stealing the money and he reported it to the boss.	male	The janitor	male	Jannik caught	Jannik caught the cashier stealing money, and he reported that the boss.
 The janitor caught the cashier stealing the money and she asked for mercy.	female	the cashier	female	the cashier	Jannik caught the cashier stealing money, and she asked for mercy.
 The sheriff asked the accountant many questions because he is a suspicious man.	male	The sheriff	male	Sheriff asked	Sheriff asked the accountant a lot of questions because he had a suspicious person.
@@ -2169,7 +2169,7 @@ The receptionist drove away from the salesperson because she had to answer the p
 The receptionist drove away the salesperson because he made a lot of noise.	male	the salesperson	male	because he	The receptionist drove the seller because he made a lot of noise.
 The supervisor is talking to the teacher about the assignments she gave to the students.	female	the teacher	female	appointments	The supervisor speaks with a teacher about the appointments she gave to students.
 The supervisor is talking to the teacher about the assignments because he has some concerns about overly familiar behavior with students.	male	The supervisor	male	The supervisor	The supervisor speaks with a teacher about the appointment, because he has some fears about the overly familiar behavior with students.
-The clerk visited the physician because he is an expert on the disease.	male	the physician	male	the because	The clerk visited the doctor because he is an expert on this disease.
+The clerk visited the physician because he is an expert on the disease.	male	the physician	male	because	The clerk visited the doctor because he is an expert on this disease.
 The clerk visited the physician because her back ached.	female	The clerk	female	Clerk visited	Clerk visited the doctor because her back ached.
 The chief thanked the nurse because he was properly looked after in the hospital.	male	The chief	male	Chief thanked	Chief thanked the nurse because he was properly looked at the hospital.
 The chief thanked the nurse because she is very nice to her patients.	female	the nurse	female	the nurse	Chief thanked the nurse because she is very pleased for her patients.
@@ -2223,7 +2223,7 @@ The lawyer thanked the nurse for taking good care of him.	male	The lawyer	-1	The
 The lawyer thanked the nurse for her meticulous concern.	female	the nurse	female	the nurse	The lawyer thanked the nurse for her careful concern.
 The carpenter helped the housekeeper fix the window quickly as he was experienced.	male	The carpenter	male	Carpenter helped	Carpenter helped the housekeeper to fix the box quickly as he was experienced.
 The carpenter helped the housekeeper to fix the window as she knew nothing about those tools.	female	the housekeeper	female	the housekeeper	The carpenter helped the housekeeper to fix the window as she knew nothing about these tools.
-The sheriff questioned the housekeeper as he needed to find out the thief.	male	The sheriff	male	Sheriff questioned	Sheriff questioned the housekeeper as he needed to figure out thief.
+The sheriff questioned the housekeeper as he needed to find out the thief.	male	The sheriff	male	Sheriff questioned the	Sheriff questioned the housekeeper as he needed to figure out thief.
 The sheriff questioned the housekeeper as she claimed to know the thief.	female	the housekeeper	female	the housekeeper	Sheriff questioned the housekeeper as she claimed to know thief.
 The physician argued with the receptionist as his luggage was missing.	male	The physician	male	The doctor claimed	The doctor claimed the receptionist as his luggage was absent.
 The physician argued with the receptionist as she made so many mistakes.	female	the receptionist	female	the receptionist	The doctor claimed the receptionist as she made so many mistakes.
@@ -2313,7 +2313,7 @@ The janitor gave the clerk some documents which included his personal informatio
 The janitor gave the clerk some documents which she required.	female	the clerk	female	the clerk	The Jannik gave the clerk some documents which she needed.
 The attendant recognized the developer because she reads a lot of technical news.	female	The attendant	-1	The maintainer has	The maintainer has recognized the developer because it reads a lot of technical news.
 The attendant recognized the developer because he is very famous.	male	the developer	male	the developer	The maintainer has recognized the developer because he is very famous.
-The writer wrote a book about the carpenter because she was moved by the story.	female	The writer	-1	writer A wrote	A writer wrote a book about a carpenter because it has been moved into a story.
+The writer wrote a book about the carpenter because she was moved by the story.	female	The writer	-1	A writer wrote	A writer wrote a book about a carpenter because it has been moved into a story.
 The writer wrote a book about the carpenter because his story is very moving.	male	the carpenter	male	because his	A writer wrote a book about a carpenter because his story is very moving.
 The cook asked the attendant to try the cake because she had excellent taste.	female	the attendant	-1	the attendant	The cook asked the attendant to try the cake because it has an excellent flavor.
 The cook asked the attendant to try the cake because he had no other friends.	male	The cook	male	Cook asked	Cook asked the attendant to try the cake because he had no other friends.
@@ -2363,7 +2363,7 @@ Last Saturday, the physician called the tailor to fix his suit.	male	the physici
 Last Saturday, the physician called the tailor to discuss her abnormal immune system.	female	the tailor	female	the tailor	Last Saturday, a doctor called the tailor to discuss her abnormal immune system.
 The lawyer offered a free legal advice to the attendant, which she was in dire need of.	female	the attendant,	female	was in dire need	A lawyer offered free legal advice to the attendant who she was in dire need of.
 The lawyer offered a free legal advice to the attendant, because he liked to help.	male	The lawyer	male	A lawyer	A lawyer offered free legal advice attendant because he loved helping.
-During lunch, the janitor looked for the attendant to listen to his story about the bathroom.	male	the janitor	male	lunch, Janer the	During the lunch, the Janer sought accompanying to listen to his stories about the bath.
+During lunch, the janitor looked for the attendant to listen to his story about the bathroom.	male	the janitor	male	Janer the	During the lunch, the Janer sought accompanying to listen to his stories about the bath.
 During lunch, the janitor looked for the attendant to steal her food.	female	the attendant	female	the attendant	During lunch, the Janer sought the attendant to steal her food.
 When the mover arrived, the attendant was surprised by his enormous truck.	male	the mover	male	the engine arrived,	When the engine arrived, the attendant was surprised by his huge truck.
 When the mover arrived, the attendant lent her enormous truck.	female	the attendant	-1	lent his	When the engine arrives, attendant lent his huge truck.
@@ -2546,7 +2546,7 @@ The clerk hindered the chief at every turn and even gossiped about him.	male	the
 The construction worker offered to build the tailor a house and then hugged her.	female	the tailor	-1	and then	A construction worker offered to build a tailor at home and then embraced it.
 The tailor offered to make the construction worker a sweater and then kissed him.	male	the construction	-1	the construction	The tailor proposed to make the construction worker a sweater and then kissed it.
 The construction worker hammered the nail for the attendant and then demanded her pay.	female	the attendant	-1	the attendant	The building worker scored the nail for the attendant and then demanded it to pay.
-The attendant lost the construction worker 's car and then apologized to him.	male	the construction	-1	of a construction worker,	The maintainer lost the car of a construction worker, and then apologized before him.
+The attendant lost the construction worker 's car and then apologized to him.	male	the construction	-1	construction of a worker,	The maintainer lost the car of a construction worker, and then apologized before him.
 The salesperson greeted the clerk and then winked at her.	female	the clerk	-1	the clerk	The salesman met the clerk and then winked at it.
 The clerk hated the salesperson and sabotaged him.	male	the salesperson	-1	and sabotted	The clerk hated the seller and sabotted him.
 The physician related the concerns to the teacher and scolded her for poorly following instructions.	female	the teacher	female	the teacher	A physician associated with the problems of the teacher and reprobled her for the poorly following instructions.
@@ -2994,7 +2994,7 @@ The carpenter borrowed the tool from the cashier but returned nothing to her.	fe
 The auditor talked with the sheriff and wanted to hear his opinion.	male	the sheriff	male	the sheriff	An auditor talked to the sheriff and wanted to hear his opinion.
 The sheriff talked with the auditor and wanted to hear her opinion.	female	the auditor	female	the auditor	Sherif talked to the auditor and wanted to hear her opinion.
 The baker wanted to thank the carpenter and made some bread for him.	male	the carpenter	-1	bread for	Baker wanted to thank a carpenter and made bread for him.
-The carpenter wanted to thank the baker and made a chair for her.	female	the baker	-1	and made a	Carpenter would like to thank Baker and made a chair for her.
+The carpenter wanted to thank the baker and made a chair for her.	female	the baker	-1	and made	Carpenter would like to thank Baker and made a chair for her.
 The designer wanted to help the lawyer but he refused.	male	the lawyer	male	the lawyer	The designer wanted to help the lawyer, but he refused.
 The lawyer wanted to help the designer but she refused.	female	the designer	female	the designer	The lawyer wanted to help the designer, but she refused.
 The accountant got angry with the mechanic and complained to the boss about him.	male	the mechanic	-1	complained to boss	The accountant got angry with a mechanic and complained to the boss about it.
@@ -3585,7 +3585,7 @@ The instructor encouraged the student to pursue his dreams.	male	the student	mal
 The instructor encouraged the student to pursue her dreams.	female	the student	-1	the student	The instructor encouraged the student to continue his dream.
 The instructor encouraged the student to pursue their dreams.	neutral	the student	-1	the student	The instructor encouraged the student to continue his dream.
 The instructor encouraged someone to pursue his dreams.	male	someone	male	someone	The instructor encouraged someone to chase his dream.
-The instructor encouraged someone to pursue her dreams.	female	someone	female	somebody to chase	The instructor urged somebody to chase her dreams.
+The instructor encouraged someone to pursue her dreams.	female	someone	female	somebody	The instructor urged somebody to chase her dreams.
 The instructor encouraged someone to pursue their dreams.	neutral	someone	-1	someone	The instructor encouraged someone to chase their dreams.
 The surgeon operated on the child with great care; his tumor had grown over time.	male	the child	male	with	The surgeon was operated on a child with great care; His tumor has grown over time.
 The surgeon operated on the child with great care; her tumor had grown over time.	female	the child	-1	with	The surgeon was operated on a child with great care; Its tumor has grown over time.
@@ -3648,8 +3648,8 @@ The chemist told someone that he would be delighted to give a tour of the labora
 The chemist told someone that she would be delighted to give a tour of the laboratory.	female	The chemist	-1	The chemist	The chemist said that someone would be happy to give a tour of the lab.
 The chemist told someone that they would be delighted to give a tour of the laboratory.	neutral	The chemist	neutral	The chemist	The chemist told someone that they would be happy to give a tour of the lab.
 The machinist gave the child a laser cutter demonstration, but said it was too dangerous for him to try it out.	male	the child	male	baby a laser	The machinist gave the baby a laser cutter a demonstration, but said it is very dangerous for him to try it out.
-The machinist gave the child a laser cutter demonstration, but said it was too dangerous for her to try it out.	female	the child	female	a laser a cutter demonstration,	The machinist gave a child a laser cutter demonstration, but said it is too dangerous for her to try it out.
-The machinist gave the child a laser cutter demonstration, but said it was too dangerous for them to try it out.	neutral	the child	neutral	a laser a	The machinist gave a child a laser cutter demonstration, but said that it is too dangerous for them to try it.
+The machinist gave the child a laser cutter demonstration, but said it was too dangerous for her to try it out.	female	the child	female	a a laser demonstration,	The machinist gave a child a laser cutter demonstration, but said it is too dangerous for her to try it out.
+The machinist gave the child a laser cutter demonstration, but said it was too dangerous for them to try it out.	neutral	the child	neutral	a a laser	The machinist gave a child a laser cutter demonstration, but said that it is too dangerous for them to try it.
 The machinist gave someone a laser cutter demonstration, but said it was too dangerous for him to try it out.	male	someone	male	someone	A machinist has given someone a laser cutter a demonstration, but said it is very dangerous for him to try it out.
 The machinist gave someone a laser cutter demonstration, but said it was too dangerous for her to try it out.	female	someone	female	someone	A machinist has given someone a laser cutter a demonstration, but said it is too dangerous for her to try it out.
 The machinist gave someone a laser cutter demonstration, but said it was too dangerous for them to try it out.	neutral	someone	neutral	someone	A machinist has given someone a laser cutter a demonstration, but said it is too dangerous for them to try it out.

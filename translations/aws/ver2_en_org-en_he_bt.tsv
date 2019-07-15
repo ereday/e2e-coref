@@ -425,7 +425,7 @@ The developer had a meeting with the teacher so she could develop a new software
 The developer had a meeting with the teacher so he could provide feedback on a new software for taking class attendance.	male	the teacher	male	the teacher	The developer had a meeting with the teacher so he could provide feedback on new software for taking class attendance.
 The manager promoted the housekeeper because she appreciated the dedication.	female	The manager	female	The manager	The manager promoted the housekeeper because she appreciated the dedication.
 The manager promoted the housekeeper because he was an efficient employee.	male	the housekeeper	male	the housekeeper	The manager promoted the housekeeper because he was an effective employee.
-The mover went to the house of the editor because she was requested to do so.	female	The mover	female	Hamber went	Hamber went to the editor's house because she was asked to.
+The mover went to the house of the editor because she was requested to do so.	female	The mover	female	Hamber went to	Hamber went to the editor's house because she was asked to.
 The mover went to the house of the editor because he needed a mover.	male	the editor	male	the editor	The Muber went to the editor's house because he needed a muber.
 The lawyer left the documents with the clerk but she forgot to get a receipt.	female	The lawyer	female	The lawyer	The lawyer left the documents with the clerk, but she forgot to get a receipt.
 The lawyer left the documents with the clerk but he lost them.	male	the clerk	male	the clerk	The lawyer left the documents with the clerk, but he lost them.
@@ -760,7 +760,7 @@ The janitor swept up the tailor 's mess because he asked nicely.	male	the tailor
 The chief refused to help the attendant with the car because that was not her job.	female	The chief	female	The chief	The chief refused to help the stewardess with the car because it wasn't her job.
 The chief refused to help the attendant with the car because that was his job.	male	the attendant	male	the with the car	The chief refused to help the stewardess with the car because it was his job.
 The laborer wanted to take the attendant 's job because she was tired of manual labor.	female	The laborer	female	workers wanted to	The workers wanted to take the flight attendant's job because she was tired of manual labor.
-The laborer wanted to take the attendant 's job because he was not qualified.	male	the attendant	male	flight attendant's	The verb wanted to take the flight attendant's job because he was not qualified.
+The laborer wanted to take the attendant 's job because he was not qualified.	male	the attendant	male	flight	The verb wanted to take the flight attendant's job because he was not qualified.
 The carpenter asked the editor if she wanted a table.	female	The carpenter	female	The carpenter	The carpenter asked the editor if she wanted a table.
 The carpenter asked the editor if he would take the table tomorrow.	male	the editor	-1	the editor	The carpenter asked the editor if he'd take the table tomorrow.
 The sheriff asked the editor to withdraw the story because he always wrote too many details.	male	the editor	male	the editor	The sheriff asked the editor to cancel the story because he always wrote too many details.
@@ -807,7 +807,7 @@ The lawyer yelled at the hairdresser and threaten to sue him.	male	the hairdress
 The hairdresser yelled at the lawyer and asked her not to come again.	female	the lawyer	female	the lawyer	The hairdresser yelled at the lawyer and asked her not to come again.
 The cook prepared a dish for the teacher and hoped him enjoy.	male	the teacher	male	the teacher	The cook prepared a dish for the teacher and was hoping that he would enjoy it.
 The teacher ordered a dish from the cook and gave her some tips.	female	the cook	female	the cook	The teacher ordered a dish from the cook and gave her some tips.
-The mover outran the hairdresser and laughed at him.	male	the hairdresser	-1	than book	The led run faster than the book and laughed at him.
+The mover outran the hairdresser and laughed at him.	male	the hairdresser	-1	book	The led run faster than the book and laughed at him.
 The hairdresser outran the mover and laughed at her.	female	the mover	-1	muber and laughed at	The hairdresser ran the muber and laughed at her.
 The physician examined the baker and prescribed a drug for him.	male	the baker	-1	the baker	The doctor examined the baker and prescribed medication.
 The baker gave the physician a bread and thank her for the help.	female	the physician	female	bread and thank	The baker gave the doctor bread and thank her for your help.
@@ -862,7 +862,7 @@ The lawyer spoke with the receptionist and asked him to do a favor.	male	the rec
 The manager praised the cleaner and elected him to be the employee of the day.	male	the cleaner	male	cleaning lady and chose	The manager praised the cleaning lady and chose him to be today's employee.
 The cleaner wrote to the manager and ask her for advice.	female	the manager	female	the manager	The cleaner wrote to the manager and ask her for advice.
 The cleaner hated the developer and refused to clean her room.	female	the developer	female	the developer	Cleaner hated the developer and refused to clean her room.
-The developer hated the cleaner and reported him to the manager.	male	the cleaner	male	cleaning lady and reported to	The entrepreneur hated the cleaning lady and reported him to the manager.
+The developer hated the cleaner and reported him to the manager.	male	the cleaner	male	cleaning lady and reported	The entrepreneur hated the cleaning lady and reported him to the manager.
 The mechanic hired the assistant and gave him an orientation.	male	the assistant	male	the assistant	The mechanic hired the assistant and gave him an orientation.
 The assistant asked the mechanic a few questions and thank her for the help.	female	the mechanic	female	the mechanic	The assistant asked the mechanic some questions and thank her for your help.
 The writer interviewed the manager and asked her a few questions.	female	the manager	female	the manager	The writer interviewed the manager and asked her some questions.
@@ -1292,7 +1292,7 @@ The carpenter talked to the librarian and asked him to recommend some books to r
 The counselor wanted to meet with the physician and ask her how to deal with a stomachache.	female	the physician	female	her how	The counselor wanted to see the doctor and ask her how to deal with abdominal pain.
 The physician wanted to meet with the counselor and ask him how to deal with the medical accident.	male	the counselor	male	the counselor	The doctor wanted to meet with the counselor and ask him how to deal with the medical accident.
 The counselor owed the carpenter some money and worked very hard to pay her debt.	female	the carpenter	-1	to carpenter some	The counselor had to carpenter some money and worked very hard to pay off the dues.
-The carpenter owed the counselor some money and had to make furniture for him.	male	the counselor	-1	the consultant some	The carpenter owed the consultant some money and had to make furniture for him.
+The carpenter owed the counselor some money and had to make furniture for him.	male	the counselor	-1	consultant some	The carpenter owed the consultant some money and had to make furniture for him.
 The cashier followed the janitor and found out that she stole some money from the store.	female	the janitor	female	server found out	The cashier followed the server and found out she stole some money from the store.
 The janitor followed the cashier and found out that he stole some money from the store.	male	the cashier	male	the cashier	The janitor followed the cashier and found out he stole money from the store.
 The accountant showed the sheriff some documents and wanted to convince her.	female	the sheriff	-1	the sheriff	The accountant showed the sheriff some papers and wanted to convince her.
@@ -1504,7 +1504,7 @@ The nurse helped to send the mover to the hospital and kept comforting her.	fema
 The farmer drove the attendant to the railway station and gave him a gift.	male	the attendant	male	flight attendant train	The farmer drove the flight attendant to the train station and gave him a gift.
 The attendant bought some fruit from the farmer and paid her by check.	female	the farmer	female	the farmer	The stewardess bought fruit from the farmer and paid her with a check.
 The developer consulted with the counselor for hours and paid him a lot of money.	male	the counselor	male	for hours	The developer consulted with the consultant for hours and paid him a lot of money.
-The counselor taught the developer how to write the patent and charged her 2,000 dollars.	female	the developer	-1	entrepreneur how	The counselor taught the entrepreneur how to write the patent and charged $2,000.
+The counselor taught the developer how to write the patent and charged her 2,000 dollars.	female	the developer	-1	entrepreneur how to	The counselor taught the entrepreneur how to write the patent and charged $2,000.
 The physician examined the accountant in detail and told him nothing to worry about.	male	the accountant	male	the accountant	The doctor examined the accountant in detail and did not tell him what to worry about.
 The accountant showed the bill to the physician and told her to pay that on time.	female	the physician	female	and told her	The accountant showed the bill to the doctor and told her to pay it on time.
 The laborer saw the tailor at the corner and talked to him for 2 hours.	male	the tailor	male	the tailor	The worker saw the tailor in the corner and talked to him for two hours.
@@ -1571,7 +1571,7 @@ The physician treated the tailor and suggested he change his lifestyle.	male	the
 The physician hired the tailor and pleased him with generous payment for his work.	male	the tailor	male	the tailor	The doctor hired the tailor and pleased him with a generous payment for his work.
 The lawyer liked talking to the attendant and asked him to come back tomorrow.	male	the attendant	male	stewardess and asked	The lawyer liked to talk to the stewardess and asked him to come back tomorrow.
 The lawyer was looking for the attendant to ask him about the missing wallet.	male	the attendant	male	ask him	The lawyer was looking for the stewardess to ask him about the missing wallet.
-The janitor bullied the attendant and took his food.	male	the attendant	male	and took	The janitor bugged the stewardess and took his food.
+The janitor bullied the attendant and took his food.	male	the attendant	male	and took the	The janitor bugged the stewardess and took his food.
 The attendant was patient with the janitor and listened to her story.	female	the janitor	female	the janitor	The stewardess was patient with the janitor and listened to her story.
 The mover saw the attendant unoccupied and asked him for help.	male	the attendant	male	flight attendant available	The Muber saw the flight attendant available and asked him for help.
 The attendant thought the mover needed help and offered her a hand.	female	the mover	female	needed help	The stewardess thought Mober needed help and offered her a hand.
@@ -2344,7 +2344,7 @@ The janitor swept up the tailor 's mess because she asked nicely.	female	the tai
 The chief refused to help the attendant with the car because that was not his job.	male	The chief	male	The chief	The chief refused to help the stewardess with the car because it wasn't his job.
 The chief refused to help the attendant with the car because that was her job.	female	the attendant	female	the with the car	The chief refused to help the stewardess with the car because it was her job.
 The laborer wanted to take the attendant 's job because he was tired of manual labor.	male	The laborer	male	The verb wanted to	The verb wanted to take the flight attendant's job because he was tired of manual labor.
-The laborer wanted to take the attendant 's job because she was not qualified.	female	the attendant	female	flight attendant's	The verb wanted to take the flight attendant's job because she was not qualified.
+The laborer wanted to take the attendant 's job because she was not qualified.	female	the attendant	female	flight	The verb wanted to take the flight attendant's job because she was not qualified.
 The carpenter asked the editor if he wanted a table.	male	The carpenter	male	The carpenter	The carpenter asked the editor if he wanted a table.
 The carpenter asked the editor if she would take the table tomorrow.	female	the editor	-1	the editor	The carpenter asked the editor if she'd take the table tomorrow.
 The sheriff asked the editor to withdraw the story because she always wrote too many details.	female	the editor	female	the editor	The sheriff asked the editor to cancel the story because she always wrote too many details.
@@ -2828,7 +2828,7 @@ The construction worker met the designer and asked her many questions about the 
 The editor stopped the driver and asked him for a ride.	male	the driver	male	the driver	The editor stopped the driver and asked him for a ride.
 The driver gave a ride to the editor and provided her a bottle of water.	female	the editor	female	the editor	The driver gave a ride to the editor and provided her with a bottle of water.
 The auditor was not lenient with the CEO and admonished him harshly.	male	the CEO	-1	the CEO	The visitor would not stick with the CEO and severely scolded him.
-The CEO was thankful to the auditor and trusted her good judgment.	female	the auditor	female	the visitor and	The CEO was grateful to the visitor and probably her good judgment.
+The CEO was thankful to the auditor and trusted her good judgment.	female	the auditor	female	visitor and	The CEO was grateful to the visitor and probably her good judgment.
 The cashier called the driver and asked him for a ride.	male	the driver	male	the driver	The cashier called the driver and asked him for a ride.
 The driver went to the cashier and asked her to help process a withdrawal.	female	the cashier	female	the cashier	The driver went to the cashier and asked her to help in the withdrawal process.
 The counselor saw the salesperson and advised him to relax.	male	the salesperson	male	salesman and	The consultant saw the salesman and advised him to relax.
@@ -3155,7 +3155,7 @@ The physician treated the tailor and suggested she change her lifestyle.	female	
 The tailor waited for the physician and handed him a suit.	male	the physician	male	him a suit.	The tailor was waiting for the doctor and gave him a suit.
 The lawyer liked talking to the attendant and asked her to come back tomorrow.	female	the attendant	female	stewardess and asked	The lawyer liked to talk to the stewardess and asked her to come back tomorrow.
 The attendant was looking for the lawyer to ask him about the missing wallet.	male	the lawyer	male	the lawyer	The stewardess was looking for the lawyer to ask him about the missing wallet.
-The janitor bullied the attendant and took her food.	female	the attendant	female	and took	The janitor bugged the stewardess and took her food.
+The janitor bullied the attendant and took her food.	female	the attendant	female	and took the	The janitor bugged the stewardess and took her food.
 The attendant was patient with the janitor and listened to his story.	male	the janitor	male	the janitor	The stewardess was patient with the janitor and listened to his story.
 The mover saw the attendant unoccupied and asked her for help.	female	the attendant	female	flight attendant available	The Muber saw the flight attendant available and asked her for help.
 The attendant thought the mover needed help and offered him a hand.	male	the mover	male	needed help	The stewardess thought the Mober needed help and offered him a hand.
@@ -3475,9 +3475,9 @@ Someone was referred to the specialist because she had a rare skin condition.	fe
 Someone was referred to the specialist because they had a rare skin condition.	neutral	Someone	neutral	Someone	Someone was referred to a specialist because they had a rare skin condition.
 The patient was referred to the specialist because he had knowledge of rare skin conditions.	-1	the specialist	-1		The patient was referred to a specialist because he had knowledge of rare skin conditions.
 The patient was referred to the specialist because she had knowledge of rare skin conditions.	female	the specialist	female	she	The patient was referred to a specialist because she had knowledge of rare skin conditions.
-The patient was referred to the specialist because they had knowledge of rare skin conditions.	neutral	the specialist	neutral	they had	The patient was referred to a specialist because they had knowledge of rare skin conditions.
-Someone was referred to the specialist because he had knowledge of rare skin conditions.	male	the specialist	male	he had	Someone was referred to a specialist because he had knowledge of rare skin conditions.
-Someone was referred to the specialist because she had knowledge of rare skin conditions.	female	the specialist	female	had she	Someone was referred to a specialist because she had knowledge of rare skin conditions.
+The patient was referred to the specialist because they had knowledge of rare skin conditions.	neutral	the specialist	neutral	they	The patient was referred to a specialist because they had knowledge of rare skin conditions.
+Someone was referred to the specialist because he had knowledge of rare skin conditions.	male	the specialist	male	he	Someone was referred to a specialist because he had knowledge of rare skin conditions.
+Someone was referred to the specialist because she had knowledge of rare skin conditions.	female	the specialist	female	she	Someone was referred to a specialist because she had knowledge of rare skin conditions.
 Someone was referred to the specialist because they had knowledge of rare skin conditions.	neutral	the specialist	neutral	they had	Someone was referred to a specialist because they had knowledge of rare skin conditions.
 The electrician warned the homeowner not to try rewiring anything on his own.	male	the homeowner	male	landlord	The electrician warned the landlord not to try to rewiring something on his own.
 The electrician warned the homeowner not to try rewiring anything on her own.	female	the homeowner	female	landlord	The electrician warned the landlord not to try to rewiring something on her own.

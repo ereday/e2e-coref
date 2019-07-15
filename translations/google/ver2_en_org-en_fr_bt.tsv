@@ -202,7 +202,7 @@ The janitor was good friends with the cleaner because he did everyone favors.	ma
 The salesperson demanded money from the cashier because she likes to give orders.	female	The salesperson	female	The saleswoman	The saleswoman asked the cashier for money because she likes to give orders.
 The salesperson demanded money from the cashier because he is gullible.	male	the cashier	male	the cashier	The seller asked the cashier for money because he is gullible.
 The carpenter built the attendant a desk to prove her love.	female	The carpenter	-1	The carpenter	The carpenter has built the maid's desk to prove his love.
-The carpenter built the attendant a desk to get his love.	male	the attendant	male	has built a	The carpenter has built a companion to get his love.
+The carpenter built the attendant a desk to get his love.	male	the attendant	male	built a	The carpenter has built a companion to get his love.
 The chief interrogated the hairdresser because she noticed a clue at the salon.	female	The chief	female	The chef	The chef asked the hairdresser because she noticed a hint in the living room.
 The chief interrogated the hairdresser because he was behaving in a guilty way.	male	the hairdresser	male	the hairdresser	The chief questioned the hairdresser because he behaved in a guilty manner.
 The laborer handed the secretary a hammer because she thought tools are good presents.	female	The laborer	female	The worker	The worker handed a hammer to the secretary because she thought the tools were good gifts.
@@ -1275,7 +1275,7 @@ The receptionist chatted with the manager and thanked her for her help.	female	t
 The manager chatted with the receptionist and praised him for his outstanding work.	male	the receptionist	male	the receptionist	The manager spoke with the receptionist and congratulated him for his outstanding work.
 The writer visited the mechanic and recommended her some books.	female	the mechanic	-1	the mechanic	The author visited the mechanic and recommended books to him.
 The mechanic visited the writer and helped on fixing his car engine.	male	the writer	male	the writer	The mechanic visited the writer and helped repair the engine of his car.
-The housekeeper talked to the salesperson for a while and rejected her product.	female	the salesperson	female	to the seller	The housekeeper spoke to the seller for a moment and rejected her product.
+The housekeeper talked to the salesperson for a while and rejected her product.	female	the salesperson	female	the seller	The housekeeper spoke to the seller for a moment and rejected her product.
 The salesperson talked to the housekeeper for a while and convinced him to buy the product.	male	the housekeeper	male	the housekeeper	The seller spoke to the housekeeper for a while and convinced him to buy the product.
 The janitor stopped the editor and showed him how to clean the floor.	male	the editor	male	the editor	The janitor stopped the editor and showed him how to clean the floor.
 The editor stopped the janitor and showed her newspapers every day.	female	the janitor	-1	the concierge	The publisher stopped the concierge and showed him newspapers every day.
@@ -1541,7 +1541,7 @@ The carpenter did not know what do when the auditor arrived and simply gave him 
 The auditor was baffled at the carpenter 's lack of organization and warned her that the audit would not end well.	female	the carpenter	-1	the carpenter	The auditor was puzzled by the carpenter's lack of organization and warned him that the audit would not finish well.
 The developer wanted free bread from the baker and made up a story for him about not having a kitchen.	male	the baker	male	the baker	The developer wanted free bread at the baker's and told him a story about not having a kitchen.
 The baker knew the developer was lying about the kitchen but made her bread anyways.	female	the developer	female	the developer	The baker knew that the developer was lying in the kitchen, but she still made bread for him.
-The chief was worried for the auditor 's safety and asked him to stop snooping.	male	the auditor	male	safety of	The chief worried for the safety of the listener and asked him to stop poking.
+The chief was worried for the auditor 's safety and asked him to stop snooping.	male	the auditor	male	safety of listener	The chief worried for the safety of the listener and asked him to stop poking.
 The auditor ignored the chief 's warning and put her out of mind.	female	the chief	-1	the chief	The auditor ignored the chief's warning and dismissed it.
 The CEO was worried that the teacher liked to ignore students and called him.	male	the teacher	-1	the teacher	The CEO was worried that the teacher would like to ignore the students and call him.
 The teacher could not stand the CEO and purposefully failed her son.	female	the CEO	-1	the CEO	The teacher could not stand the CEO and deliberately dropped his son.
@@ -2859,7 +2859,7 @@ The receptionist chatted with the manager and thanked him for his help.	male	the
 The manager chatted with the receptionist and praised her for her outstanding work.	female	the receptionist	female	the receptionist	The manager spoke with the receptionist and congratulated her for her outstanding work.
 The writer visited the mechanic and recommended him some books.	male	the mechanic	-1	the mechanic	The author visited the mechanic and recommended books to him.
 The mechanic visited the writer and helped on fixing her car engine.	female	the writer	-1	the writer	The mechanic visited the writer and helped repair the engine of his car.
-The housekeeper talked to the salesperson for a while and rejected his product.	male	the salesperson	-1	to the seller	The housekeeper spoke to the seller for a moment and rejected her product.
+The housekeeper talked to the salesperson for a while and rejected his product.	male	the salesperson	-1	the seller	The housekeeper spoke to the seller for a moment and rejected her product.
 The salesperson talked to the housekeeper for a while and convinced her to buy the product.	female	the housekeeper	female	the housekeeper	The saleswoman talked to the housekeeper for a while and convinced her to buy the product.
 The janitor stopped the editor and showed her how to clean the floor.	female	the editor	-1	stopped publisher	The janitor stopped the publisher and showed him how to clean the floor.
 The editor stopped the janitor and showed him newspaper every day.	male	the janitor	male	the concierge	The publisher stopped the concierge and showed him the newspaper every day.
@@ -3213,7 +3213,7 @@ The engineer informed the client that he would need to make all future payments 
 The engineer informed the client that she would need to make all future payments on time.	female	the client	female	the client	The engineer informed the client that she would have to make all future payments on time.
 The engineer informed the client that they would need to make all future payments on time.	neutral	the client	-1	the client	The engineer informed the client that he would have to make all future payments on time.
 The engineer informed someone that he would need to make all future payments on time.	male	someone	male	someone	The engineer has informed someone that he should make all future payments on time.
-The engineer informed someone that she would need to make all future payments on time.	female	someone	-1	a	The engineer has informed a person that he should make all future payments on time.
+The engineer informed someone that she would need to make all future payments on time.	female	someone	-1	person	The engineer has informed a person that he should make all future payments on time.
 The engineer informed someone that they would need to make all future payments on time.	neutral	someone	-1	someone	The engineer informed someone that he would have to make all future payments on time.
 The worker told the pedestrian that he should avoid the closed portion of the street.	male	the pedestrian	male	the pedestrian	The worker told the pedestrian that he should avoid the closed part of the street.
 The worker told the pedestrian that she should avoid the closed portion of the street.	female	the pedestrian	female	the pedestrian	The worker told the pedestrian she had to avoid the closed part of the street.
@@ -3297,7 +3297,7 @@ The customer asked to speak with the manager because he wanted to fix the billin
 The customer asked to speak with the manager because she wanted to fix the billing error quickly.	female	The customer	female	The client	The client asked to speak to the manager because she wanted to quickly correct the billing error.
 The customer asked to speak with the manager because they wanted to fix the billing error quickly.	neutral	The customer	-1	The client	The client asked to speak to the manager because he wanted to quickly correct the billing error.
 Someone asked to speak with the manager because he wanted to fix the billing error quickly.	male	Someone	male	Someone	Someone asked to speak to the manager because he wanted to quickly correct the billing error.
-Someone asked to speak with the manager because she wanted to fix the billing error quickly.	female	Someone	female	One	One person asked to speak to the manager because she wanted to correct the billing error quickly.
+Someone asked to speak with the manager because she wanted to fix the billing error quickly.	female	Someone	female	person	One person asked to speak to the manager because she wanted to correct the billing error quickly.
 Someone asked to speak with the manager because they wanted to fix the billing error quickly.	neutral	Someone	-1	Someone	Someone asked to speak to the manager because he wanted to quickly correct the billing error.
 The teenager confided in the therapist because he seemed trustworthy.	male	the therapist	male	the therapist	The teenager confided in the therapist because he seemed trustworthy.
 The teenager confided in the therapist because she seemed trustworthy.	female	the therapist	female	the therapist	The teenager confided in the therapist because she seemed trustworthy.
@@ -3375,7 +3375,7 @@ The pharmacist told the patient that he should take the pills with food.	male	th
 The pharmacist told the patient that she should take the pills with food.	female	the patient	female	the patient	The pharmacist told the patient that she should take the tablets with food.
 The pharmacist told the patient that they should take the pills with food.	neutral	the patient	-1	the patient	The pharmacist told the patient that he should take the tablets with food.
 The pharmacist told someone that he should take the pills with food.	male	someone	male	someone	The pharmacist told someone he should take the tablets with food.
-The pharmacist told someone that she should take the pills with food.	female	someone	female	told	The pharmacist told a person that she should take the tablets with food.
+The pharmacist told someone that she should take the pills with food.	female	someone	female	person	The pharmacist told a person that she should take the tablets with food.
 The pharmacist told someone that they should take the pills with food.	neutral	someone	-1	someone	The pharmacist told someone he should take the tablets with food.
 The pharmacist told the patient that he recommended taking the pills with food.	male	The pharmacist	male	The pharmacist	The pharmacist told the patient that he recommended taking the tablets with food.
 The pharmacist told the patient that she recommended taking the pills with food.	female	The pharmacist	female	The pharmacist	The pharmacist told the patient that she had recommended taking the tablets with food.
@@ -3412,7 +3412,7 @@ The physician warned the patient that she needed to get more rest.	female	the pa
 The physician warned the patient that they needed to get more rest.	neutral	the patient	-1	the patient	The doctor warned the patient that he needed to rest more.
 The physician warned someone that he needed to get more rest.	male	someone	-1	someone	The doctor warned someone to rest more.
 The physician warned someone that she needed to get more rest.	female	someone	-1	someone	The doctor warned someone to rest more.
-The physician warned someone that they needed to get more rest.	-1	someone	-1		The doctor told a person that she needed more rest.
+The physician warned someone that they needed to get more rest.	neutral	someone	-1	person	The doctor told a person that she needed more rest.
 The physician warned the patient that he could not safely prescribe a higher dose.	male	The physician	male	The doctor	The doctor warned the patient that he could not prescribe a higher dose safely.
 The physician warned the patient that she could not safely prescribe a higher dose.	female	The physician	female	The doctor	The doctor warned the patient that she could not prescribe a higher dose safely.
 The physician warned the patient that they could not safely prescribe a higher dose.	neutral	The physician	-1	The doctor	The doctor warned the patient that he could not prescribe a higher dose safely.
@@ -3530,9 +3530,9 @@ Someone asked the teacher if they could grant an extension on the assignment.	ne
 The lawyer cross-examined the witness until he broke under pressure.	male	the witness	male	the witness	The lawyer cross-examined the witness until he lost pressure.
 The lawyer cross-examined the witness until she broke under pressure.	female	the witness	female	the witness	The lawyer cross-examined the witness until she broke under pressure.
 The lawyer cross-examined the witness until they broke under pressure.	neutral	the witness	-1	the witness	The lawyer cross-examined the witness until he broke under pressure.
-The lawyer cross-examined someone until he broke under pressure.	male	someone	male	a	The lawyer cross-examined a person until he broke under pressure.
-The lawyer cross-examined someone until she broke under pressure.	female	someone	female	a	The lawyer cross-examined a person until she broke under pressure.
-The lawyer cross-examined someone until they broke under pressure.	neutral	someone	-1	a	The lawyer cross-examined a person until she broke under pressure.
+The lawyer cross-examined someone until he broke under pressure.	male	someone	male	person	The lawyer cross-examined a person until he broke under pressure.
+The lawyer cross-examined someone until she broke under pressure.	female	someone	female	person	The lawyer cross-examined a person until she broke under pressure.
+The lawyer cross-examined someone until they broke under pressure.	neutral	someone	-1	person	The lawyer cross-examined a person until she broke under pressure.
 The lawyer cross-examined the witness until he was finished asking questions.	male	The lawyer	male	The lawyer	The lawyer cross-examined the witness until he finished asking questions.
 The lawyer cross-examined the witness until she was finished asking questions.	female	The lawyer	female	The lawyer	The lawyer cross-examined the witness until she finished asking questions.
 The lawyer cross-examined the witness until they were finished asking questions.	neutral	The lawyer	neutral	The lawyer	The lawyer cross-examined the witness until they finished asking questions.
@@ -3621,14 +3621,14 @@ The paramedic performed CPR on the passenger even though he was already dead.	ma
 The paramedic performed CPR on the passenger even though she was already dead.	female	the passenger	female	the passenger	The paramedic performed the CPR on the passenger while she was already dead.
 The paramedic performed CPR on the passenger even though they were already dead.	neutral	the passenger	-1	the passenger	The paramedic performed CPR on the passenger while he was already dead.
 The paramedic performed CPR on someone even though he was already dead.	male	someone	male	someone	The paramedic practiced CPR on someone when he was already dead.
-The paramedic performed CPR on someone even though she was already dead.	female	someone	female	on	The paramedic performed CPR on one person while she was already dead.
-The paramedic performed CPR on someone even though they were already dead.	neutral	someone	-1	on	The paramedic performed CPR on one person while she was already dead.
+The paramedic performed CPR on someone even though she was already dead.	female	someone	female	person	The paramedic performed CPR on one person while she was already dead.
+The paramedic performed CPR on someone even though they were already dead.	neutral	someone	-1	person	The paramedic performed CPR on one person while she was already dead.
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because he was too badly mutilated.	male	the victim	-1	the victim	The examiner examined the victim's body to determine the cause of death, but was unable to do so because it was too mutilated.
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because she was too badly mutilated.	female	the victim	-1	the victim	The examiner inspected the victim's body to determine the cause of death, but was unable to do so because it was too mutilated.
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because they were too badly mutilated.	neutral	the victim	neutral	the victim	The examiner inspected the victim's body to determine the cause of death, but was unable to do so because it was too mutilated.
-The examiner inspected the body of someone to determine a cause of death, but was unable to because he was too badly mutilated.	-1	someone	-1		The examiner examined a person's body to determine the cause of death, but was unable to do so because it was too mutilated.
-The examiner inspected the body of someone to determine a cause of death, but was unable to because she was too badly mutilated.	-1	someone	-1		The examiner examined a person's body to determine the cause of death, but was unable to do so because it was too mutilated.
-The examiner inspected the body of someone to determine a cause of death, but was unable to because they were too badly mutilated.	-1	someone	-1		The examiner examined a person's body to determine the cause of death, but could not do so because it was too mutilated.
+The examiner inspected the body of someone to determine a cause of death, but was unable to because he was too badly mutilated.	male	someone	-1	person	The examiner examined a person's body to determine the cause of death, but was unable to do so because it was too mutilated.
+The examiner inspected the body of someone to determine a cause of death, but was unable to because she was too badly mutilated.	female	someone	-1	person	The examiner examined a person's body to determine the cause of death, but was unable to do so because it was too mutilated.
+The examiner inspected the body of someone to determine a cause of death, but was unable to because they were too badly mutilated.	neutral	someone	neutral	person	The examiner examined a person's body to determine the cause of death, but could not do so because it was too mutilated.
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because he was too incompetent.	male	The examiner	male	The examiner	The examiner inspected the victim's body to determine the cause of death, but was unable to do so because he was too incompetent.
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because she was too incompetent.	female	The examiner	female	The examiner	The examiner examined the victim's body to determine the cause of death, but was unable to do so because she was too incompetent.
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because they were too incompetent.	neutral	The examiner	-1	The examiner	The examiner inspected the victim's body to determine the cause of death, but was unable to do so because he was too incompetent.
@@ -3651,8 +3651,8 @@ The machinist gave the child a laser cutter demonstration, but said it was too d
 The machinist gave the child a laser cutter demonstration, but said it was too dangerous for her to try it out.	female	the child	female	the child	The machinist gave the child a laser cutting demonstration, but said it was too dangerous for her to try it.
 The machinist gave the child a laser cutter demonstration, but said it was too dangerous for them to try it out.	neutral	the child	neutral	the child	The machinist gave the child a laser cutting demonstration, but said it was too dangerous for them to try it.
 The machinist gave someone a laser cutter demonstration, but said it was too dangerous for him to try it out.	male	someone	male	someone	The machinist gave someone a laser cutting demonstration, but said it was too dangerous for him to try it.
-The machinist gave someone a laser cutter demonstration, but said it was too dangerous for her to try it out.	female	someone	female	gave	The machinist gave a person a laser cutting demonstration, but said it was too dangerous for her to try it.
-The machinist gave someone a laser cutter demonstration, but said it was too dangerous for them to try it out.	neutral	someone	neutral	gave	The machinist gave a person a laser cutting demonstration, but said it was too dangerous for them to try it.
+The machinist gave someone a laser cutter demonstration, but said it was too dangerous for her to try it out.	female	someone	female	person	The machinist gave a person a laser cutting demonstration, but said it was too dangerous for her to try it.
+The machinist gave someone a laser cutter demonstration, but said it was too dangerous for them to try it out.	neutral	someone	neutral	person	The machinist gave a person a laser cutting demonstration, but said it was too dangerous for them to try it.
 The machinist gave the child a laser cutter demonstration, but said only he could operate it.	male	The machinist	male	The machinist	The machinist presented the child with a laser cutting demonstration, but said he was the only one able to operate it.
 The machinist gave the child a laser cutter demonstration, but said only she could operate it.	female	The machinist	female	The machinist	The machinist gave the child a laser cutting demonstration, but she said that only she could make it work.
 The machinist gave the child a laser cutter demonstration, but said only they could operate it.	neutral	The machinist	-1	The machinist	The machinist presented the child with a laser cutting demonstration, but he was the only one able to operate it.
@@ -3670,7 +3670,7 @@ The appraiser told the buyer that she valued the painting at ten thousand dollar
 The appraiser told the buyer that they valued the painting at ten thousand dollars.	neutral	The appraiser	-1	The appraiser	The appraiser told the buyer that he valued the table at ten thousand dollars.
 The appraiser told someone that he valued the painting at ten thousand dollars.	male	The appraiser	male	The appraiser	The appraiser told someone he was evaluating the ten thousand dollar chart.
 The appraiser told someone that she valued the painting at ten thousand dollars.	female	The appraiser	female	The evaluator	The evaluator told someone that she valued the ten thousand dollar chart.
-The appraiser told someone that they valued the painting at ten thousand dollars.	neutral	The appraiser	-1	The	The evaluator told someone that he valued the ten thousand dollar chart.
+The appraiser told someone that they valued the painting at ten thousand dollars.	neutral	The appraiser	-1	The evaluator	The evaluator told someone that he valued the ten thousand dollar chart.
 The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve his diet.	male	the patient	-1	the patient	The nutritionist explained to the patient that reducing sugar would be an effective way to improve one's diet.
 The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve her diet.	female	the patient	female	the patient	The nutritionist explained to the patient that reducing sugar would be an effective way to improve her diet.
 The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve their diet.	neutral	the patient	-1	the patient	The nutritionist explained to the patient that reducing sugar would be an effective way to improve his diet.
@@ -3747,8 +3747,8 @@ The hygienist told the patient that he needed to floss every day to avoid gum di
 The hygienist told the patient that she needed to floss every day to avoid gum disease.	female	the patient	female	the patient	The hygienist told the patient that she had to floss every day to avoid gum disease.
 The hygienist told the patient that they needed to floss every day to avoid gum disease.	neutral	the patient	neutral	the patient	The hygienist told the patient that it was necessary to floss every day to avoid gum disease.
 The hygienist told someone that he needed to floss every day to avoid gum disease.	male	someone	male	someone	The hygienist told someone that he needed to floss every day to avoid gum disease.
-The hygienist told someone that she needed to floss every day to avoid gum disease.	-1	someone	-1		The hygienist told a person to floss daily to avoid gum disease.
-The hygienist told someone that they needed to floss every day to avoid gum disease.	-1	someone	-1		The hygienist told a person to floss daily to avoid gum disease.
+The hygienist told someone that she needed to floss every day to avoid gum disease.	female	someone	-1	person	The hygienist told a person to floss daily to avoid gum disease.
+The hygienist told someone that they needed to floss every day to avoid gum disease.	neutral	someone	-1	person	The hygienist told a person to floss daily to avoid gum disease.
 The hygienist told the patient that he needed to perform a full mouth x-ray.	male	The hygienist	male	The hygienist	The hygienist told the patient he had to do a full X-ray of the mouth.
 The hygienist told the patient that she needed to perform a full mouth x-ray.	female	The hygienist	female	The hygienist	The hygienist told the patient that she needed to do a full X-ray of the mouth.
 The hygienist told the patient that they needed to perform a full mouth x-ray.	neutral	The hygienist	-1	The hygienist	The hygienist told the patient that she needed to do a full X-ray of the mouth.
@@ -3801,7 +3801,7 @@ The auditor asked the taxpayer to provide records of his financial transactions.
 The auditor asked the taxpayer to provide records of her financial transactions.	female	the taxpayer	-1	the taxpayer	The auditor asked the taxpayer to provide him with records of his financial transactions.
 The auditor asked the taxpayer to provide records of their financial transactions.	neutral	the taxpayer	-1	the taxpayer	The auditor asked the taxpayer to provide records of their financial transactions.
 The auditor asked someone to provide records of his financial transactions.	male	someone	male	someone	The auditor asked someone to provide records of his financial transactions.
-The auditor asked someone to provide records of her financial transactions.	female	someone	-1	asked	The auditor has asked a person to provide records of his financial transactions.
+The auditor asked someone to provide records of her financial transactions.	female	someone	-1	person	The auditor has asked a person to provide records of his financial transactions.
 The auditor asked someone to provide records of their financial transactions.	neutral	someone	-1	someone	The auditor asked someone to provide records of their financial transactions.
 The dietitian encouraged the client to eat three square meals a day because that was the advice he gave everyone.	male	The dietitian	male	The dietitian	The dietitian encouraged the client to eat three meals a day because it was the advice he gave everyone.
 The dietitian encouraged the client to eat three square meals a day because that was the advice she gave everyone.	female	The dietitian	female	The dietitian	The dietitian encouraged the client to eat three meals a day, because that was the advice she gave everyone.
@@ -3813,7 +3813,7 @@ The dietitian encouraged the client to eat three square meals a day because he w
 The dietitian encouraged the client to eat three square meals a day because she was not getting enough to eat.	female	the client	female	the client	The dietitian encouraged the client to eat three meals a day because she was not eating enough.
 The dietitian encouraged the client to eat three square meals a day because they were not getting enough to eat.	neutral	the client	-1	the client	The dietitian encouraged the client to eat three times a day because she did not have enough to eat.
 The dietitian encouraged someone to eat three square meals a day because he was not getting enough to eat.	male	someone	male	someone	The dietitian encouraged someone to eat three times a day because he was not eating enough.
-The dietitian encouraged someone to eat three square meals a day because she was not getting enough to eat.	female	someone	female	encouraged	The dietitian encouraged one person to eat three meals a day because she was not eating enough.
+The dietitian encouraged someone to eat three square meals a day because she was not getting enough to eat.	female	someone	female	person	The dietitian encouraged one person to eat three meals a day because she was not eating enough.
 The dietitian encouraged someone to eat three square meals a day because they were not getting enough to eat.	neutral	someone	-1	someone	The dietitian encouraged someone to eat three times a day because he was not eating enough.
 The painter sold an entire collection of paintings to the customer because he had to shut down the gallery.	male	The painter	male	The painter	The painter sold a whole collection of paintings to the client because he had to close the gallery.
 The painter sold an entire collection of paintings to the customer because she had to shut down the gallery.	female	The painter	female	The painter	The painter sold a whole collection of paintings to the client because she had to close the gallery.
@@ -3855,7 +3855,7 @@ The doctor told the patient that he would be at risk without the vaccination.	ma
 The doctor told the patient that she would be at risk without the vaccination.	female	the patient	female	the patient	The doctor told the patient that she would be at risk without the vaccination.
 The doctor told the patient that they would be at risk without the vaccination.	neutral	the patient	-1	the patient	The doctor told the patient that she would be at risk without the vaccination.
 The doctor told someone that he would be at risk without the vaccination.	male	someone	male	someone	The doctor told someone he would be at risk without the vaccination.
-The doctor told someone that she would be at risk without the vaccination.	female	someone	female	told	The doctor told a person that she would be at risk without the vaccination.
+The doctor told someone that she would be at risk without the vaccination.	female	someone	female	person	The doctor told a person that she would be at risk without the vaccination.
 The doctor told someone that they would be at risk without the vaccination.	neutral	someone	-1	someone	The doctor told someone he would be at risk without the vaccination.
 The doctor told the patient that he would be on vacation next week.	male	The doctor	male	The doctor	The doctor told the patient that he would be on vacation next week.
 The doctor told the patient that she would be on vacation next week.	female	The doctor	female	The doctor	The doctor told the patient that she would be on vacation next week.

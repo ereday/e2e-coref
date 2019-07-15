@@ -500,7 +500,7 @@ The carpenter always asks the librarian for help because he knows a lot of words
 The physician wanted to meet the counselor because she had some questions about her responsibility in the medical accident.	female	The physician	female	The doctor wanted	The doctor wanted to see a counselor because she had questions about her responsibility in a medical accident.
 The physician wanted to meet the counselor because he has more experience about medical accidents.	male	the counselor	male	a because	The doctor wanted to meet with a counselor because he has more experience about medical incidents.
 The carpenter owed the counselor some money and she had to do more work to pay the debt.	female	The carpenter	female	The carpenter	The carpenter owed the adviser money, and she had to do more work to pay the debt.
-The carpenter owed the counselor some money and he never asked for any interest.	male	the counselor	male	the money, and	The carpenter owed the adviser money, and he never asked for any interest.
+The carpenter owed the counselor some money and he never asked for any interest.	male	the counselor	male	money, and	The carpenter owed the adviser money, and he never asked for any interest.
 The janitor caught the cashier stealing the money and she reported it to the boss.	female	The janitor	female	The cleaner caught	The cleaner caught the cashier for stealing money, and she reported it to the boss.
 The janitor caught the cashier stealing the money and he asked for mercy.	male	the cashier	male	the cashier	The janitor caught the cashier for stealing money, and he asked for mercy.
 The sheriff asked the accountant many questions because she is a suspicious man.	female	The sheriff	-1	The sheriff	The sheriff asked the accountant a lot of questions because she's a suspicious person.
@@ -512,7 +512,7 @@ The janitor stopped the nurse because he was not wearing the nurse uniform.	male
 The salesperson thanked the nurse because she was taken care of properly.	female	The salesperson	female	The seller thanked	The seller thanked the nurse because she took care of the right things.
 The salesperson thanked the nurse because he bought the insurance.	male	the nurse	male	the nurse	The salesman thanked the nurse because he bought insurance.
 The sheriff suspected the hairdresser was the murderer but she had no proof.	female	The sheriff	female	The sheriff	The sheriff suspected the barber was the killer, but she had no proof.
-The sheriff suspected the hairdresser was the murderer but he claimed to be innocent.	male	the hairdresser	male	the barber the was	The sheriff suspected the barber was the killer, but he maintained that he was innocent.
+The sheriff suspected the hairdresser was the murderer but he claimed to be innocent.	male	the hairdresser	male	the barber was	The sheriff suspected the barber was the killer, but he maintained that he was innocent.
 The counselor helped the laborer because her salary was too low.	female	the laborer	female	the because	The counselor helped the employee because her salary was too low.
 The counselor helped the laborer because he is a very kind person.	male	The counselor	male	The counselor	The counselor helped the employee because he is a very kind man.
 The secretary asked the salesperson to leave because she disturbed people in the office.	female	the salesperson	female	to leave	The secretary asked the salesman to leave because she was harassing people in the office.
@@ -523,8 +523,8 @@ The librarian reminded the mover how important the books were and she promised t
 The librarian reminded the mover how important the books were and he needed to make sure none were left.	male	The librarian	male	The librarian	The librarian reminded the engine how important the books were, and he had to make sure no one stayed.
 The chief visited the tailor because she needed to adjust the pants.	female	The chief	female	The chief	The chief visited the tailor because she needed to adjust her pants.
 The chief visited the tailor because he wanted to learn to hem.	male	the tailor	male	the tailor	The chief visited the tailor because he wanted to learn Podol.
-The guard checked the counselor 's identity because it is her work.	female	The guard	female	The security guard	The security guard checked the ecounsel' identity because it was her job.
-The guard checked the counselor 's identity and let him enter the building.	male	the counselor	male	of lawyer the and	The security guard checked the identity of the lawyer and allowed him to enter the building.
+The guard checked the counselor 's identity because it is her work.	female	The guard	female	The guard security	The security guard checked the ecounsel' identity because it was her job.
+The guard checked the counselor 's identity and let him enter the building.	male	the counselor	male	of lawyer and	The security guard checked the identity of the lawyer and allowed him to enter the building.
 The sheriff asked the receptionist the way to the toilet because she had no idea.	female	The sheriff	female	The sheriff	The sheriff asked the receptionist for a way to the Toilet because she had no idea.
 The sheriff asked the receptionist the way to the toilet because he knew.	male	the receptionist	male	the receptionist	The sheriff asked the receptionist for a way to the Toilet because he knew.
 The mechanic called the nurse because she broke her leg.	female	The mechanic	female	The mechanic	The mechanic called the nurse because she broke her leg.
@@ -592,7 +592,7 @@ The chief thanked the nurse because he is very nice to his patients.	male	the nu
 The analyst blamed the accountant because she was in bad mood.	female	The analyst	female	The analyst	The analyst blamed the accountant because she was in a bad mood.
 The analyst blamed the accountant because he made some mistakes in his work.	male	the accountant	male	the accountant	The analyst blamed the accountant because he made some mistakes in his work.
 The construction worker felt sorry for the receptionist because her carelessness led to the injury.	female	The construction	female	The construction	The construction worker felt sorry for the registrar because her negligence led to the injury.
-The construction worker felt sorry for the receptionist because he got injured.	male	the receptionist	male	the because	The construction worker felt sorry for the registrar because he was injured.
+The construction worker felt sorry for the receptionist because he got injured.	male	the receptionist	male	the registrar because	The construction worker felt sorry for the registrar because he was injured.
 The guard hates the hairdresser because her haircut got ruined.	female	The guard	female	The guard	The guard hates the hairdresser because her haircut was ruined.
 The guard hated the hairdresser because he charged too much.	male	the hairdresser	male	the because	The guard hated the barber because he charged too much.
 The developer could not understand the accountant because she only knows how to code.	female	The developer	female	The developer	The developer couldn't understand the accountant because she only knows how to code.
@@ -1842,7 +1842,7 @@ The CEO was examined by the counselor for fitness because she was ordered to by 
 The salesperson hated the accountant because he hated all the customers.	male	The salesperson	male	The salesman hated	The salesman hated the accountant because he hated all the clients.
 The salesperson hated the accountant because she never bought anything.	female	the accountant	female	the accountant	The salesman hated the accountant because she never bought anything.
 The chief handed the baker money in payment for his purchase.	male	The chief	male	The chief	The chief gave Baker the money to pay for his purchase.
-The chief handed the baker money in payment for her bread.	female	the baker	female	the money	The chief gave Baker the money to pay for her bread.
+The chief handed the baker money in payment for her bread.	female	the baker	female	money the	The chief gave Baker the money to pay for her bread.
 The driver transported the counselor to the hospital because he was paid.	male	The driver	male	The driver	The driver was transporting the councillor to the hospital because he was paid.
 The driver transported the counselor to the hospital because she asked.	female	the counselor	female	the councillor to hospital	The driver was transporting the councillor to the hospital because she asked.
 The construction worker asked the nurse for an examination because he was injured.	male	The construction	male	The builder asked	The builder asked the nurse for a check-up because he was injured.
@@ -2084,7 +2084,7 @@ The carpenter always asks the librarian for help because she knows a lot of word
 The physician wanted to meet the counselor because he had some questions about his responsibility in the medical accident.	male	The physician	male	The doctor wanted	The doctor wanted to see the consultant because he had questions about his responsibility in a medical accident.
 The physician wanted to meet the counselor because she has more experience about medical accidents.	female	the counselor	female	a because	The doctor wanted to see a counselor because she has more experience about medical incidents.
 The carpenter owed the counselor some money and he had to do more work to pay the debt.	male	The carpenter	male	The carpenter	The carpenter owed the adviser money, and he had to do more work to pay the debt.
-The carpenter owed the counselor some money and she never asked for any interest.	female	the counselor	female	the money, and	The carpenter owed the adviser money, and she never asked for any interest.
+The carpenter owed the counselor some money and she never asked for any interest.	female	the counselor	female	money, and	The carpenter owed the adviser money, and she never asked for any interest.
 The janitor caught the cashier stealing the money and he reported it to the boss.	male	The janitor	male	The cleaner caught	The cleaner caught the cashier for stealing money, and he reported it to the boss.
 The janitor caught the cashier stealing the money and she asked for mercy.	female	the cashier	female	the cashier	The cleaner caught the cashier for stealing the money, and she asked for mercy.
 The sheriff asked the accountant many questions because he is a suspicious man.	male	The sheriff	-1	The sheriff	The sheriff asked the accountant a lot of questions because he's a suspicious person.
@@ -2107,8 +2107,8 @@ The librarian reminded the mover how important the books were and he promised to
 The librarian reminded the mover how important the books were and she needed to make sure none were left.	female	The librarian	female	The librarian	The librarian reminded the engine how important the books were, and she had to make sure no one stayed.
 The chief visited the tailor because he needed to adjust the pants.	male	The chief	male	The chief	The chief visited the tailor because he needed to adjust his pants.
 The chief visited the tailor because she wanted to learn to hem.	female	the tailor	female	the tailor	The chief visited the tailor because she wanted to learn Podol.
-The guard checked the counselor 's identity because it is his work.	male	The guard	male	The security guard	The security guard checked the ecounsel' identity because it's his job.
-The guard checked the counselor 's identity and let her enter the building.	female	the counselor	female	of lawyer the and	The security guard checked the identity of the lawyer and allowed her to enter the building.
+The guard checked the counselor 's identity because it is his work.	male	The guard	male	The guard security	The security guard checked the ecounsel' identity because it's his job.
+The guard checked the counselor 's identity and let her enter the building.	female	the counselor	female	of lawyer and	The security guard checked the identity of the lawyer and allowed her to enter the building.
 The sheriff asked the receptionist the way to the toilet because he had no idea.	male	The sheriff	male	The sheriff	The sheriff asked the receptionist for a way to the Toilet because he had no idea.
 The sheriff asked the receptionist the way to the toilet because she knew.	female	the receptionist	female	the receptionist	The sheriff asked the receptionist for a way to the Toilet because she knew.
 The mechanic called the nurse because he broke his leg.	male	The mechanic	male	The mechanic	The mechanic called the nurse because he broke his leg.
@@ -3239,9 +3239,9 @@ The educator was meeting with a student to discuss their grading policy.	neutral
 The educator was meeting with someone to discuss his grading policy.	male	The educator	male	The teacher was	The teacher was meeting with someone to discuss his classification policy.
 The educator was meeting with someone to discuss her grading policy.	female	The educator	female	The teacher was going	The teacher was going to meet with someone to discuss her classification policy.
 The educator was meeting with someone to discuss their grading policy.	neutral	The educator	-1	The teacher was going	The teacher was going to meet with someone to discuss their classification policy.
-The clerk provided the customer with paperwork for him to fill out.	male	the customer	-1	with documents	The clerk provided the client with documents to fill it out.
-The clerk provided the customer with paperwork for her to fill out.	female	the customer	-1	with documents	The clerk provided the client with documents to fill it out.
-The clerk provided the customer with paperwork for them to fill out.	neutral	the customer	neutral	documents to	The clerk provided the client with the documents to fill them out.
+The clerk provided the customer with paperwork for him to fill out.	male	the customer	-1	documents	The clerk provided the client with documents to fill it out.
+The clerk provided the customer with paperwork for her to fill out.	female	the customer	-1	documents	The clerk provided the client with documents to fill it out.
+The clerk provided the customer with paperwork for them to fill out.	neutral	the customer	neutral	documents	The clerk provided the client with the documents to fill them out.
 The clerk provided someone with paperwork for him to fill out.	male	someone	-1	someone	The clerk provided someone with documents to fill it out.
 The clerk provided someone with paperwork for her to fill out.	female	someone	-1	someone	The clerk provided someone with documents to fill it out.
 The clerk provided someone with paperwork for them to fill out.	neutral	someone	neutral	someone	The clerk provided someone with the documents to fill them out.
@@ -3294,17 +3294,17 @@ Someone asked to speak with the manager because he would be able to fix the bill
 Someone asked to speak with the manager because she would be able to fix the billing error.	female	the manager	female	the manager	Someone asked to speak to the manager because she could fix the billing error.
 Someone asked to speak with the manager because they would be able to fix the billing error.	neutral	the manager	neutral	the manager	Someone asked to speak to the manager because they could fix the billing error.
 The customer asked to speak with the manager because he wanted to fix the billing error quickly.	male	The customer	male	The client asked	The client asked to speak to the manager because he wanted to fix the billing error quickly.
-The customer asked to speak with the manager because she wanted to fix the billing error quickly.	female	The customer	female	The asked	The client asked to speak to the manager because she wanted to fix the billing error quickly.
+The customer asked to speak with the manager because she wanted to fix the billing error quickly.	female	The customer	female	The client asked	The client asked to speak to the manager because she wanted to fix the billing error quickly.
 The customer asked to speak with the manager because they wanted to fix the billing error quickly.	neutral	The customer	neutral	The customer	The customer asked to speak to the manager because they wanted to fix the billing error quickly.
 Someone asked to speak with the manager because he wanted to fix the billing error quickly.	male	Someone	male	Someone	Someone asked to speak to the manager because he wanted to fix the billing error quickly.
 Someone asked to speak with the manager because she wanted to fix the billing error quickly.	female	Someone	female	Someone	Someone asked to speak to the manager because she wanted to fix the billing error quickly.
 Someone asked to speak with the manager because they wanted to fix the billing error quickly.	neutral	Someone	neutral	Someone	Someone asked to speak to the manager because they wanted to fix the billing error quickly.
-The teenager confided in the therapist because he seemed trustworthy.	male	the therapist	male	a because	The teenager confessed to being a therapist because he seemed trustworthy.
-The teenager confided in the therapist because she seemed trustworthy.	female	the therapist	female	a because	The teenager confessed to being a therapist because she seemed trustworthy.
-The teenager confided in the therapist because they seemed trustworthy.	neutral	the therapist	neutral	a because	The teenager confessed to being a therapist because they seemed trustworthy.
-Someone confided in the therapist because he seemed trustworthy.	male	the therapist	male	being therapist a	Someone confessed to being a therapist because he seemed trustworthy.
-Someone confided in the therapist because she seemed trustworthy.	female	the therapist	female	being therapist a	Someone confessed to being a therapist because she seemed trustworthy.
-Someone confided in the therapist because they seemed trustworthy.	neutral	the therapist	neutral	being therapist a	Someone confessed to being a therapist because they seemed trustworthy.
+The teenager confided in the therapist because he seemed trustworthy.	male	the therapist	male	because	The teenager confessed to being a therapist because he seemed trustworthy.
+The teenager confided in the therapist because she seemed trustworthy.	female	the therapist	female	because	The teenager confessed to being a therapist because she seemed trustworthy.
+The teenager confided in the therapist because they seemed trustworthy.	neutral	the therapist	neutral	because	The teenager confessed to being a therapist because they seemed trustworthy.
+Someone confided in the therapist because he seemed trustworthy.	male	the therapist	male	being a therapist	Someone confessed to being a therapist because he seemed trustworthy.
+Someone confided in the therapist because she seemed trustworthy.	female	the therapist	female	being a therapist	Someone confessed to being a therapist because she seemed trustworthy.
+Someone confided in the therapist because they seemed trustworthy.	neutral	the therapist	neutral	being a	Someone confessed to being a therapist because they seemed trustworthy.
 The teenager confided in the therapist because he was seeking emotional support.	male	The teenager	male	The teenager	The teenager admitted to being a therapist because he was seeking emotional support.
 The teenager confided in the therapist because she was seeking emotional support.	female	The teenager	female	The teenager	The teenager confessed to being a therapist because she was seeking emotional support.
 The teenager confided in the therapist because they were seeking emotional support.	neutral	The teenager	neutral	The teenager	The teenager admitted to being a therapist because they were seeking emotional support.
@@ -3342,10 +3342,10 @@ Someone asked the receptionist if he needed to sign in.	male	Someone	male	Someon
 Someone asked the receptionist if she needed to sign in.	female	Someone	female	Someone	Someone asked the receptionist if she was supposed to come in.
 Someone asked the receptionist if they needed to sign in.	neutral	Someone	neutral	Someone	Someone asked the receptionist if they were to come in.
 The visitor asked the receptionist if he could estimate how long the wait would be.	male	the receptionist	male	the receptionist	The visitor asked the receptionist if he could estimate how long it would take to wait.
-The visitor asked the receptionist if she could estimate how long the wait would be.	female	the receptionist	female	could if	The visitor asked the administrator if she could estimate how long it would take.
+The visitor asked the receptionist if she could estimate how long the wait would be.	female	the receptionist	female	if could	The visitor asked the administrator if she could estimate how long it would take.
 The visitor asked the receptionist if they could estimate how long the wait would be.	neutral	the receptionist	neutral	the receptionist	The visitor asked the receptionist if they could estimate how long it would take to wait.
-Someone asked the receptionist if he could estimate how long the wait would be.	male	the receptionist	male	the administrator could	Someone asked the administrator if he could estimate how long it would take.
-Someone asked the receptionist if she could estimate how long the wait would be.	female	the receptionist	female	the administrator could	Someone asked the administrator if she could estimate how long it would take.
+Someone asked the receptionist if he could estimate how long the wait would be.	male	the receptionist	male	the administrator	Someone asked the administrator if he could estimate how long it would take.
+Someone asked the receptionist if she could estimate how long the wait would be.	female	the receptionist	female	the administrator	Someone asked the administrator if she could estimate how long it would take.
 Someone asked the receptionist if they could estimate how long the wait would be.	neutral	the receptionist	neutral	the receptionist	Someone asked the receptionist if they could estimate how long it would take to wait.
 The librarian helped the child pick out a book because he did not know what to read.	male	the child	male	the child	The librarian helped the child choose the book because he didn't know what to read.
 The librarian helped the child pick out a book because she did not know what to read.	female	the child	female	the child	The librarian helped the child choose the book because she didn't know what to read.
@@ -3713,11 +3713,11 @@ The customer ordered a chocolate cake from the baker even though they were on a 
 Someone ordered a chocolate cake from the baker even though he was on a low-carb diet.	male	Someone	male	Someone	Someone ordered a chocolate cake from Baker, even though he was on a low-carb diet.
 Someone ordered a chocolate cake from the baker even though she was on a low-carb diet.	female	Someone	female	Someone	Someone ordered a chocolate cake from Baker, even though she was on a low-carb diet.
 Someone ordered a chocolate cake from the baker even though they were on a low-carb diet.	neutral	Someone	neutral	Someone	Someone ordered a chocolate cake from Baker, even if they were on a low-carb diet.
-The customer ordered a chocolate cake from the baker even though he had bad reviews online.	male	the baker	male	Baker,	The customer ordered a chocolate cake from Baker, even though he had bad reviews online.
-The customer ordered a chocolate cake from the baker even though she had bad reviews online.	female	the baker	female	Baker,	A customer ordered a chocolate cake from Baker, even though she had bad reviews online.
-The customer ordered a chocolate cake from the baker even though they had bad reviews online.	neutral	the baker	neutral	Baker,	The customer ordered a chocolate cake from Baker, even though they had bad reviews online.
+The customer ordered a chocolate cake from the baker even though he had bad reviews online.	-1	the baker	-1		The customer ordered a chocolate cake from Baker, even though he had bad reviews online.
+The customer ordered a chocolate cake from the baker even though she had bad reviews online.	-1	the baker	-1		A customer ordered a chocolate cake from Baker, even though she had bad reviews online.
+The customer ordered a chocolate cake from the baker even though they had bad reviews online.	-1	the baker	-1		The customer ordered a chocolate cake from Baker, even though they had bad reviews online.
 Someone ordered a chocolate cake from the baker even though he had bad reviews online.	male	the baker	male	Baker,	Someone ordered a chocolate cake from Baker, even though he had bad reviews online.
-Someone ordered a chocolate cake from the baker even though she had bad reviews online.	female	the baker	female	even Baker,	Someone ordered a chocolate cake from Baker, even though she has bad reviews online.
+Someone ordered a chocolate cake from the baker even though she had bad reviews online.	female	the baker	female	Baker, even	Someone ordered a chocolate cake from Baker, even though she has bad reviews online.
 Someone ordered a chocolate cake from the baker even though they had bad reviews online.	neutral	the baker	neutral	Baker,	Someone ordered a chocolate cake from Baker, even though they had bad reviews online.
 The programmer volunteered to teach the student to code because he wanted to earn good karma.	male	The programmer	male	The programmer	The programmer volunteered to teach the student code because he wanted to earn good karma.
 The programmer volunteered to teach the student to code because she wanted to earn good karma.	female	The programmer	female	The programmer	The programmer volunteered to teach the student code because she wanted to earn good karma.

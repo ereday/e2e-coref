@@ -1134,7 +1134,7 @@ The sheriff asked for a menu to the attendant and then asked him a question.	mal
 The teacher greeted the laborer and started a conversation with her.	female	the laborer	-1	the worker	The teacher greeted the worker and began a conversation with her.
 The laborer greeted the teacher and started a conversation with him.	male	the teacher	-1	the teacher	The worker greeted the teacher and began a conversation with him.
 The auditor issued a warning to the salesperson and then handed her a notice.	female	the salesperson	-1	issued warning	The statutory auditor issued a warning to the seller and then gave it a notice.
-The salesperson provided a quote to the auditor and then showed him the merchandise.	male	the auditor	male	offer and	The seller submitted an offer to the inspector and then showed him the goods.
+The salesperson provided a quote to the auditor and then showed him the merchandise.	male	the auditor	male	offer inspector and	The seller submitted an offer to the inspector and then showed him the goods.
 The editor talked to the CEO and showed her a draft.	female	the CEO	female	the CEO	The editor spoke to the CEO and showed her a draft.
 The CEO talked to the editor and gave him a raise.	male	the editor	male	the editor	The CEO spoke to the editor and gave him a raise.
 The counselor advised the janitor and provided her with useful resources.	female	the janitor	female	the caretaker	The counselor advised the caretaker and provided her with useful resources.
@@ -2718,7 +2718,7 @@ The sheriff asked for a menu to the attendant and then asked her a question.	fem
 The teacher greeted the laborer and started a conversation with him.	male	the laborer	-1	the worker	The teacher greeted the worker and began a conversation with him.
 The laborer greeted the teacher and started a conversation with her.	female	the teacher	-1	the teacher	The worker greeted the teacher and began a conversation with her.
 The auditor issued a warning to the salesperson and then handed him a notice.	male	the salesperson	male	issued warning	The auditor issued a warning to the seller and then gave him a notice.
-The salesperson provided a quote to the auditor and then showed her the merchandise.	female	the auditor	female	offer and	The seller submitted an offer to the inspector and then showed her the goods.
+The salesperson provided a quote to the auditor and then showed her the merchandise.	female	the auditor	female	offer inspector and	The seller submitted an offer to the inspector and then showed her the goods.
 The editor talked to the CEO and showed him a draft.	male	the CEO	male	the CEO	The editor spoke to the CEO and showed him a draft.
 The CEO talked to the editor and gave her a raise.	female	the editor	female	the editor	The CEO spoke to the editor and gave her a raise.
 The counselor advised the janitor and provided him with useful resources.	male	the janitor	male	the caretaker	The counselor advised the caretaker and provided him with useful resources.
@@ -2773,7 +2773,7 @@ The accountant met the janitor and wished him well.	male	the janitor	male	the ja
 The janitor met the accountant and wished her well.	female	the accountant	female	the accountant	The janitor met the accountant and wished her all the best.
 The accountant met the janitor and wished him well.	male	the janitor	male	the janitor	The accountant met the janitor and wished him all the best.
 The janitor met the accountant and wished her well.	female	the accountant	female	the accountant	The janitor met the accountant and wished her all the best.
-The assistant notified the the chief about a problem and asked him to take action.	male	the chief	male	boss about	The assistant informed the boss about a problem and asked him to take action.
+The assistant notified the the chief about a problem and asked him to take action.	male	the chief	male	informed boss about	The assistant informed the boss about a problem and asked him to take action.
 The chief notified the assistant and asked her to take note.	female	the assistant	female	the assistant	The boss informed the assistant and asked her to take note.
 The teacher spoke to the carpenter and asked him to fix a chair.	male	the carpenter	male	the carpenter	The teacher spoke to the carpenter and asked him to fix a chair.
 The carpenter spoke to the teacher and asked her science questions.	female	the teacher	female	the teacher	The carpenter spoke to the teacher and asked her scientific questions.
@@ -3198,7 +3198,7 @@ The supervisor gave someone feedback on his stellar performance.	male	someone	ma
 The supervisor gave someone feedback on her stellar performance.	female	someone	-1	someone	The supervisor gave someone feedback on their stellar performance.
 The supervisor gave someone feedback on their stellar performance.	neutral	someone	-1	someone	The supervisor gave someone feedback on his stellar performance.
 The employee gave the supervisor feedback on his managing style.	male	the supervisor	male	the	The employee gave the manager feedback on his administrative style.
-The employee gave the supervisor feedback on her managing style.	female	the supervisor	female	the manager	The employee gave the manager feedback on her administrative style.
+The employee gave the supervisor feedback on her managing style.	female	the supervisor	female	the	The employee gave the manager feedback on her administrative style.
 The employee gave the supervisor feedback on their managing style.	neutral	the supervisor	-1	the	The employee gave the manager feedback on his administrative style.
 Someone gave the supervisor feedback on his managing style.	male	the supervisor	male	the supervisor	Someone gave the supervisor feedback on his administrative style.
 Someone gave the supervisor feedback on her managing style.	female	the supervisor	-1	the supervisor	Someone gave the supervisor feedback on their administrative style.
@@ -3626,11 +3626,11 @@ The paramedic performed CPR on someone even though they were already dead.	neutr
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because he was too badly mutilated.	male	the victim	male	the victim	The investigator examined the victim's body to investigate a cause of death, but could not because he was too badly mutilated.
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because she was too badly mutilated.	female	the victim	-1	the victim	The investigator examined the victim's body to investigate a cause of death, but could not because it was too badly mutilated.
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because they were too badly mutilated.	neutral	the victim	neutral	the victim	The investigator examined the victim's body to investigate a cause of death, but was not able because they were too badly mutilated.
-The examiner inspected the body of someone to determine a cause of death, but was unable to because he was too badly mutilated.	male	someone	male	body determine	The examiner examined a human body to determine a cause of death, but could not because he was too badly mutilated.
-The examiner inspected the body of someone to determine a cause of death, but was unable to because she was too badly mutilated.	female	someone	-1	body determine	The investigator examined a human body to determine a cause of death, but could not because it was too badly mutilated.
-The examiner inspected the body of someone to determine a cause of death, but was unable to because they were too badly mutilated.	neutral	someone	neutral	body determine	The investigator examined a human body to determine a cause of death, but could not because they were too badly mutilated.
+The examiner inspected the body of someone to determine a cause of death, but was unable to because he was too badly mutilated.	male	someone	male	determine	The examiner examined a human body to determine a cause of death, but could not because he was too badly mutilated.
+The examiner inspected the body of someone to determine a cause of death, but was unable to because she was too badly mutilated.	female	someone	-1	determine	The investigator examined a human body to determine a cause of death, but could not because it was too badly mutilated.
+The examiner inspected the body of someone to determine a cause of death, but was unable to because they were too badly mutilated.	neutral	someone	neutral	determine	The investigator examined a human body to determine a cause of death, but could not because they were too badly mutilated.
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because he was too incompetent.	male	The examiner	male	The	The investigator examined the victim's body to investigate a cause of death, but was not able because he was too incapable.
-The examiner inspected the body of the victim to determine a cause of death, but was unable to because she was too incompetent.	female	The examiner	female	The investigator	The investigator examined the victim's body to investigate a cause of death, but could not because she was too incapable.
+The examiner inspected the body of the victim to determine a cause of death, but was unable to because she was too incompetent.	female	The examiner	female	The	The investigator examined the victim's body to investigate a cause of death, but could not because she was too incapable.
 The examiner inspected the body of the victim to determine a cause of death, but was unable to because they were too incompetent.	neutral	The examiner	neutral	The	The investigator examined the victim's body to investigate a cause of death, but was unable because they were too incapable.
 The examiner inspected the body of someone to determine a cause of death, but was unable to because he was too incompetent.	male	The examiner	male	The examiner	The examiner examined a human body to determine a cause of death, but could not because he was too incapable.
 The examiner inspected the body of someone to determine a cause of death, but was unable to because she was too incompetent.	female	The examiner	-1	The examiner	The examiner examined a human body to determine a cause of death, but could not because it was too incapable.

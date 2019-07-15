@@ -40,7 +40,7 @@ The guard saved the editor from the criminals because he needed help.	male	the e
 The assistant purchased a new computer due to a recommendation by the salesperson, because she is persuasive.	female	the salesperson,	-1	is compelling.	The assistant purchased a new computer because of the salesperson's recommendation because it is compelling.
 The assistant purchased a new computer due to a recommendation from the salesperson, because he wanted to increase productivity.	male	The assistant	male	The assistant	The assistant purchased a new computer because of a recommendation from the salesperson, because he wanted to increase productivity.
 The auditor bought the guard a gift because he is thankful.	male	The auditor	-1	The critic	The critic bought a gift guard. Because he's grateful.
-The auditor bought the guard a gift because she is effective.	female	the guard	-1	a gift guard. Because	The visitor bought a gift guard. Because it's effective.
+The auditor bought the guard a gift because she is effective.	female	the guard	-1	gift guard. Because	The visitor bought a gift guard. Because it's effective.
 The secretary asked the mover when she is available.	female	the mover	-1	Monbar. When	The secretary asked the Monbar. When available
 The secretary asked the mover what he could do to help.	male	The secretary	male	The secretary	The secretary asked the Monbar. What can he do to help
 The salesperson chatted with the cleaner because she wanted to sell the car.	female	The salesperson	female	The salesman	The salesman spoke to the cleaning lady. Because she wanted to sell the car.
@@ -187,7 +187,7 @@ The guard complimented the designer for his excellent taste.	male	the designer	-
 The guard complimented the designer for meeting her expectations.	female	The guard	female	The guard	The guard complimented the designer to meet her expectations.
 The janitor fell in love with the secretary because of his nice hands.	male	the secretary	male	the secretary	The janitor fell in love with the secretary. Because of his nice hands.
 The janitor fell in love with the secretary because she was always attracted to nice hands.	female	The janitor	female	The janitor	The janitor fell in love with the secretary because she was always attracted to nice hands.
-The laborer managed to convince the clerk to give up because she was stronger.	female	The laborer	female	The worker managed	The worker managed to convince the clerk to give up because she was stronger.
+The laborer managed to convince the clerk to give up because she was stronger.	female	The laborer	female	The worker	The worker managed to convince the clerk to give up because she was stronger.
 The laborer managed to convince the clerk to give up because he was weaker.	male	the clerk	male	the clerk	The worker managed to convince the clerk to give up because he was weaker.
 The driver transported the housekeeper to the job because she had a car.	female	The driver	female	The driver	The driver passed the housekeeper. To work because she had a car.
 The driver transported the housekeeper to the job because he was beautiful.	male	the housekeeper	male	the housekeeper	The driver passed the housekeeper. To work because he was beautiful.
@@ -300,7 +300,7 @@ The analyst failed to impress the receptionist because of his high standards.	ma
 The mover offered to carry the desk for the clerk because she is strong.	female	The mover	-1	The offered	The moonbar offered to carry the table. The clerk for being strong.
 The mover offered to carry the desk for the clerk because he is weak.	male	the clerk	-1	the clerk	The moonbar offered to carry the table. The clerk for being weak.
 The construction worker waved the housekeeper into the room to get her answers.	female	The construction	female	The construction	The construction worker waved the room cleaner to get her answers.
-The construction worker waved the housekeeper into the room to ask him a question.	male	the housekeeper	male	principal to the room	The construction worker waved the principal to the room to ask him a question.
+The construction worker waved the housekeeper into the room to ask him a question.	male	the housekeeper	male	principal to room	The construction worker waved the principal to the room to ask him a question.
 The CEO reminded the housekeeper to sweep up because she liked to tell people what to do.	female	The CEO	female	The CEO	The CEO reminded the housekeeper of the household to sweep because she likes to tell people what to do.
 The CEO reminded the housekeeper to sweep up because he often forget.	male	the housekeeper	-1	the principal of	The CEO reminded the principal of the household. Sweep because it often forgets
 The laborer built the librarian a bookshelf because he placed an order.	male	the librarian	male	the librarian	Hapoel built the librarian as a bookshelf because he placed an order.
@@ -403,7 +403,7 @@ The carpenter met with the teacher so that she could fix the cabinets in the cla
 The carpenter met with the teacher so that he could ask science questions.	male	the teacher	male	the teacher	The carpenter is meeting with the teacher so he can ask scientific questions.
 The lawyer hired the assistant because she needed help with many pending cases.	female	The lawyer	female	The lawyer	The lawyer hired the assistant because she needed help with a lot of pending cases.
 The lawyer hired the assistant because he was unemployed.	male	the assistant	male	the assistant	The lawyer hired the assistant. Because he was unemployed.
-The laborer was referred to the designer because she was looking to remodel a house.	female	The laborer	female	Hapoel was referred	Hapoel was referred to the designer because she was looking for home remodel.
+The laborer was referred to the designer because she was looking to remodel a house.	female	The laborer	female	Hapoel was referred to	Hapoel was referred to the designer because she was looking for home remodel.
 The laborer was referred to the designer because he was the best.	male	the designer	male	the designer	The worker was referred to the designer because he was the best.
 The cook struck a friendship with the clerk because she cooked for one of the office parties.	female	The cook	female	Because she was	Because she was cooking. To one of the firm's parties.
 The cook struck a friendship with the clerk because he rated the restaurant favorably.	male	the clerk	male	the clerk	The cook hurt her friends with the clerk. Because he offered the restaurant.
@@ -893,7 +893,7 @@ The janitor cleaned the room for the designer and ask him for tips.	male	the des
 The designer called the janitor and asked her to clean the room.	female	the janitor	female	and asked her	The designer called the server and asked her to clean up the room.
 The mechanic greeted the receptionist and gave him an apple.	male	the receptionist	male	the receptionist	The mechanic promoted the receptionist and gave him an apple.
 The receptionist greeted the mechanic and gave her an apple.	female	the mechanic	female	the mechanic	The receptionist greeted the mechanic. And gave her an apple.
-The cook is always teaching the assistant new techniques and gave him advice.	male	the assistant	male	helpful new	The massacre is always to teach the helpful new techniques and gave him advice.
+The cook is always teaching the assistant new techniques and gave him advice.	male	the assistant	male	helpful	The massacre is always to teach the helpful new techniques and gave him advice.
 The assistant helped the cook for preparing food and learned from her.	female	the cook	-1	prepare food and	The assistant helped a cook to prepare food and learned from it.
 The farmer gave the teacher a bag of eggs and thanked him for teaching.	male	the teacher	male	the teacher	The farmer gave the teacher a sack of eggs and thanked him for the order.
 The teacher gave the farmer a book and asked her to read.	female	the farmer	female	the farmer	The teacher gave the farmer a book and asked her to read.
@@ -1230,7 +1230,7 @@ The baker charged the farmer more money and did not want to give her more bread.
 The guard noted the cashier being careless and asked him to be careful.	male	the cashier	male	the cashier	The guard noted that the cashier was careless and asked him to be cautious.
 The cashier never paid attention to the guard and asked her to go away.	female	the guard	female	her to leave.	The cashier never listened. To the keeper and asked her to leave.
 The mover offered the receptionist a hand and moved his desk.	male	the receptionist	male	the receptionist	The Monbar offered the receptionist a hand and moved his desk.
-The receptionist needed help from the mover and asked her for help.	female	the mover	female	and asked her	The receptionist needed help. From the Monbar and asked her for help.
+The receptionist needed help from the mover and asked her for help.	female	the mover	female	and asked her for	The receptionist needed help. From the Monbar and asked her for help.
 The accountant ignored the guard and never talked to her.	female	the guard	-1	the guard	The account accountant ignored the guard. And never talked to her.
 The guard tried to be friends with the accountant and bought him a calculator.	male	the accountant	male	the accountant	The guard tried to be a member of the accountant and bought him a calculator.
 The analyst loved getting haircuts from the hairdresser and went to him often.	-1	the hairdresser	-1		The analyst liked to cut out of the book and go to it frequently.
@@ -1624,7 +1624,7 @@ The guard saved the editor from the criminals because she needed help.	female	th
 The assistant purchased a new computer due to a recommendation by the salesperson, because he is persuasive.	male	the salesperson,	-1	is convincing.	The assistant purchased a new computer because of the salesperson's recommendation because it is convincing.
 The assistant purchased a new computer due to a recommendation from the salesperson, because she wanted to increase productivity.	female	The assistant	female	The assistant	The assistant purchased a new computer because of a recommendation from the salesperson, because she wanted to increase productivity.
 The auditor bought the guard a gift because she is thankful.	female	The auditor	-1	The critic	The critic bought a gift guard. Because she's grateful.
-The auditor bought the guard a gift because he is effective.	male	the guard	-1	a gift guard.	The visitor bought a gift guard. That is effective
+The auditor bought the guard a gift because he is effective.	male	the guard	-1	gift guard.	The visitor bought a gift guard. That is effective
 The secretary asked the mover when he is available.	male	the mover	-1	Monbar. When	The secretary asked the Monbar. When available
 The secretary asked the mover what she could do to help.	female	The secretary	female	The secretary	The secretary asked the Monbar. What can she do to help
 The salesperson chatted with the cleaner because he wanted to sell the car.	male	The salesperson	male	The salesman	The salesman spoke to the cleaning lady. Because he wanted to sell the car.
@@ -1709,7 +1709,7 @@ The mover bought a beer for the cashier because he just got the paycheck.	male	T
 The mover bought a beer for the cashier because she is cool.	female	the cashier	-1	the cashier	The Munbar bought a beer for the cashier. ' Cause she's cool.
 The mover missed the call from the assistant because he was busy.	male	The mover	male	The Munbar missed	The Munbar missed the call from the maid. Because he was busy.
 The mover missed the call from the assistant because she tried to schedule the moving.	female	the assistant	female	she was trying	The Munbar missed the call from the maid. Because she was trying to determine the movement
-When the supervisor splashed the editor, he got in trouble.	male	the supervisor	male	inspector splashed	When the inspector splashed the editor, He got into trouble
+When the supervisor splashed the editor, he got in trouble.	male	the supervisor	male	When inspector splashed	When the inspector splashed the editor, He got into trouble
 When the supervisor splashed the editor, she fought back.	female	the editor,	female	the editor,	When the Commissioner splashed the editor, She fought back.
 The assistant asked the physician if he needs any help.	male	the physician	male	doctor. If	The assistant asked the doctor. If he needs help
 The assistant asked the physician if she could borrow some money.	female	The assistant	female	The maid asked	The maid asked the doctor. If she can borrow some money
@@ -1771,7 +1771,7 @@ The guard complimented the designer for her excellent taste.	female	the designer
 The guard complimented the designer for meeting his expectations.	male	The guard	male	The guard	The guard complimented the designer to meet his expectations.
 The janitor fell in love with the secretary because of her nice hands.	female	the secretary	female	the secretary	The janitor fell in love with the secretary. Because of her lovely hands.
 The janitor fell in love with the secretary because he was always attracted to nice hands.	male	The janitor	male	The janitor	The janitor fell in love with a secretary because he was always attracted to nice hands.
-The laborer managed to convince the clerk to give up because he was stronger.	male	The laborer	male	The worker managed	The worker managed to convince the clerk to give up because he was stronger.
+The laborer managed to convince the clerk to give up because he was stronger.	male	The laborer	male	The worker	The worker managed to convince the clerk to give up because he was stronger.
 The laborer managed to convince the clerk to give up because she was weaker.	female	the clerk	female	the clerk	The worker managed to convince the clerk to give up because she was weaker.
 The driver transported the housekeeper to the job because he had a car.	male	The driver	male	The driver	The driver passed the housekeeper. To work because he had a car.
 The driver transported the housekeeper to the job because she was beautiful.	female	the housekeeper	female	the housekeeper	The driver passed the housekeeper. To work because she was beautiful.
@@ -1884,7 +1884,7 @@ The analyst failed to impress the receptionist because of her high standards.	fe
 The mover offered to carry the desk for the clerk because he is strong.	male	The mover	-1	The offered	The moonbar offered to carry the table. The clerk for being strong.
 The mover offered to carry the desk for the clerk because she is weak.	female	the clerk	-1	the clerk	The moonbar offered to carry the table. The clerk for being weak.
 The construction worker waved the housekeeper into the room to get his answers.	male	The construction	male	The construction	The construction worker waved the room cleaner to get his answers.
-The construction worker waved the housekeeper into the room to ask her a question.	female	the housekeeper	female	principal to the room	The construction worker waved the principal to the room to ask her a question.
+The construction worker waved the housekeeper into the room to ask her a question.	female	the housekeeper	female	principal to room	The construction worker waved the principal to the room to ask her a question.
 The CEO reminded the housekeeper to sweep up because he liked to tell people what to do.	male	The CEO	male	The CEO	The CEO reminded the housekeeper to sweep because he likes to tell people what to do.
 The CEO reminded the housekeeper to sweep up because she often forget.	female	the housekeeper	-1	the housekeeper	The CEO reminded the housekeeper of the household to sweep because it often forgets.
 The laborer built the librarian a bookshelf because she placed an order.	female	the librarian	-1	the librarian	Hapoel built the librarian as a bookshelf because it set an order.
@@ -1987,7 +1987,7 @@ The carpenter met with the teacher so that he could fix the cabinets in the clas
 The carpenter met with the teacher so that she could ask science questions.	female	the teacher	female	the teacher	The carpenter is meeting with the teacher so that she can ask scientific questions.
 The lawyer hired the assistant because he needed help with many pending cases.	male	The lawyer	male	The lawyer	The lawyer hired the assistant because he needed help with a lot of pending cases.
 The lawyer hired the assistant because she was unemployed.	female	the assistant	female	the housekeeper.	The lawyer hired the housekeeper. Because she was unemployed.
-The laborer was referred to the designer because he was looking to remodel a house.	male	The laborer	male	Hapoel was referred	Hapoel was referred to the designer because he was looking for home remodel.
+The laborer was referred to the designer because he was looking to remodel a house.	male	The laborer	male	Hapoel was referred to	Hapoel was referred to the designer because he was looking for home remodel.
 The laborer was referred to the designer because she was the best.	female	the designer	-1	the designer	The laborer was referred to the designer because it was the best.
 The cook struck a friendship with the clerk because he cooked for one of the office parties.	male	The cook	male	Because he was	Because he was cooking for one. From the office parties.
 The cook struck a friendship with the clerk because she rated the restaurant favorably.	female	the clerk	female	the clerk	The massacre struck a friendship with the clerk because she was well ranked in the restaurant.
@@ -3239,7 +3239,7 @@ The educator was meeting with a student to discuss their grading policy.	neutral
 The educator was meeting with someone to discuss his grading policy.	male	The educator	-1	The educator	The educator meets with someone who would discuss its ranking policy.
 The educator was meeting with someone to discuss her grading policy.	female	The educator	-1	The educator	The educator meets with someone to discuss its ranking policy.
 The educator was meeting with someone to discuss their grading policy.	neutral	The educator	-1	The educator	The educator meets with someone to discuss their ranking policy.
-The clerk provided the customer with paperwork for him to fill out.	male	the customer	male	Paperwork for him	The clerk provided to the client. Paperwork for him to fill out.
+The clerk provided the customer with paperwork for him to fill out.	male	the customer	male	Paperwork for him to	The clerk provided to the client. Paperwork for him to fill out.
 The clerk provided the customer with paperwork for her to fill out.	female	the customer	female	Paperwork for her to	The clerk provided to the client. Paperwork for her to fill out.
 The clerk provided the customer with paperwork for them to fill out.	neutral	the customer	neutral	Paperwork for them to	The clerk provided to the client. Paperwork for them to fill out.
 The clerk provided someone with paperwork for him to fill out.	male	someone	male	someone	The clerk provided to someone. Paperwork for him to fill out.
@@ -3473,7 +3473,7 @@ The patient was referred to the specialist because they had a rare skin conditio
 Someone was referred to the specialist because he had a rare skin condition.	male	Someone	male	Someone	Someone referred to the expert because he had a rare skin disease.
 Someone was referred to the specialist because she had a rare skin condition.	female	Someone	female	Someone	Someone treated the expert. Because she had a rare skin problem.
 Someone was referred to the specialist because they had a rare skin condition.	neutral	Someone	neutral	Someone	Someone referred to the expert because they have a rare skin disease.
-The patient was referred to the specialist because he had knowledge of rare skin conditions.	-1	the specialist	-1		The patient addressed the expert because he had knowledge of rare skin diseases.
+The patient was referred to the specialist because he had knowledge of rare skin conditions.	male	the specialist	male	knowledge	The patient addressed the expert because he had knowledge of rare skin diseases.
 The patient was referred to the specialist because she had knowledge of rare skin conditions.	-1	the specialist	-1		The patient treated the expert because she had knowledge of rare skin conditions.
 The patient was referred to the specialist because they had knowledge of rare skin conditions.	neutral	the specialist	neutral	had they	The patient was referred to the expert because they had knowledge of rare skin conditions.
 Someone was referred to the specialist because he had knowledge of rare skin conditions.	male	the specialist	male	he had	Someone treated the expert because he had knowledge of rare skin diseases.
@@ -3566,9 +3566,9 @@ The practitioner made a house call for someone because they felt a sense of obli
 The homeowner called the plumber to get an estimate for his services.	male	the plumber	male	the plumber	The landlord called the Plumber to receive an estimate for his services.
 The homeowner called the plumber to get an estimate for her services.	female	the plumber	-1	the plumber	The landlord called the Plumber to get an estimate for its services.
 The homeowner called the plumber to get an estimate for their services.	neutral	the plumber	-1	the plumber	The landlord called the Plumber to get an estimate for their services.
-Someone called the plumber to get an estimate for his services.	male	the plumber	-1	a plumber. To be	Someone called a plumber. To be evaluated by its services
+Someone called the plumber to get an estimate for his services.	male	the plumber	-1	a plumber. be To	Someone called a plumber. To be evaluated by its services
 Someone called the plumber to get an estimate for her services.	female	the plumber	-1	a plumber. be To	Someone called a plumber. To be evaluated for its service
-Someone called the plumber to get an estimate for their services.	neutral	the plumber	-1	a plumber. To be	Someone called a plumber. To be evaluated by its services
+Someone called the plumber to get an estimate for their services.	neutral	the plumber	-1	a plumber. be To	Someone called a plumber. To be evaluated by its services
 The homeowner called the plumber to get an estimate for repairing his broken pipes.	male	The homeowner	male	The landlord	The landlord called the Plumber to get an appreciation for repairing his broken tubes.
 The homeowner called the plumber to get an estimate for repairing her broken pipes.	female	The homeowner	female	The landlord	The landlord called the Plumber to receive an estimate. To repair her broken pipes.
 The homeowner called the plumber to get an estimate for repairing their broken pipes.	neutral	The homeowner	-1	The landlord	The landlord called the Plumber to get an appreciation for repairing their broken tubes.
@@ -3696,7 +3696,7 @@ Someone set up a meeting with the architect to view his blueprints for inspirati
 Someone set up a meeting with the architect to view her blueprints for inspiration.	female	the architect	female	the architect	Someone arranged a meeting with the architect to see her sketches for inspiration.
 Someone set up a meeting with the architect to view their blueprints for inspiration.	neutral	the architect	-1	the architect	Someone arranged a meeting with the architect to see their blueprints to inspiration.
 The hairdresser recommended a new shampoo to the client because he wanted to be helpful.	male	The hairdresser	male	The book recommended	The book recommended a new shampoo for the customer that he wanted to be helpful.
-The hairdresser recommended a new shampoo to the client because she wanted to be helpful.	female	The hairdresser	female	The book recommended a	The book recommended a new shampoo for the customer, because she wanted to be useful.
+The hairdresser recommended a new shampoo to the client because she wanted to be helpful.	female	The hairdresser	female	The book recommended	The book recommended a new shampoo for the customer, because she wanted to be useful.
 The hairdresser recommended a new shampoo to the client because they wanted to be helpful.	neutral	The hairdresser	neutral	The book recommended	The book recommended a new shampoo for the customer because they wanted to be helpful.
 The hairdresser recommended a new shampoo to someone because he wanted to be helpful.	male	The hairdresser	male	The book recommended	The book recommended a new shampoo for someone that he wanted to be helpful.
 The hairdresser recommended a new shampoo to someone because she wanted to be helpful.	female	The hairdresser	female	The book recommended	The book recommended a new shampoo for someone because she wanted to be helpful.

@@ -170,7 +170,7 @@ The chief decided the clerk was bad at the job he failed to produce the correct 
 The construction worker prayed for the tailor because she was faithful.	female	The construction	-1	The construction	The construction worker prayed for the tailor because he was faithful.
 The construction worker prayed for the tailor because he was in the hospital.	male	the tailor	male	the tailor	The construction worker prayed for the tailor because he was in the hospital.
 The construction worker asked the attendant to not lose her car.	female	The construction	-1	The construction	The construction worker asked the assistant not to lose the car.
-The construction worker asked the attendant to not lose his focus.	male	the attendant	-1	not	The construction worker asked the operator not to lose concentration.
+The construction worker asked the attendant to not lose his focus.	male	the attendant	-1	to not	The construction worker asked the operator not to lose concentration.
 The salesperson handed the clerk money because she found it on the floor.	female	The salesperson	-1	The seller	The seller handed over the employee's money because he found it on the floor.
 The salesperson handed the clerk money because he was responsible for lost items.	male	the clerk	male	handed over the	The seller handed over the employee's money because he was responsible for the lost items.
 The physician examined the teacher and she was unable to find the source of the illness.	female	The physician	-1	The doctor	The doctor examined the teacher and was unable to find the source of the disease.
@@ -246,7 +246,7 @@ The laborer was surprised that the auditor appeared because he said everything w
 The carpenter created a beautiful chair for the receptionist because she was in love.	female	The carpenter	female	The carpenter	The carpenter created a nice chair for the receptionist because she was in love.
 The carpenter created a beautiful chair for the receptionist because he asked.	male	the receptionist	male	the receptionist	The carpenter created a nice chair for the receptionist because he asked.
 The farmer needed to take a test from the counselor to prove she was sane.	female	The farmer	-1	The farmer	The farmer needed to take a test from the consultant to prove he was sane.
-The farmer needed to take a test from the counselor to appease to him.	male	the counselor	-1	the consultant	The farmer needed a test from the consultant to appease him.
+The farmer needed to take a test from the counselor to appease to him.	male	the counselor	-1	from the consultant	The farmer needed a test from the consultant to appease him.
 The construction worker knew of the writer because she read books.	female	The construction	-1	The mason	The mason knew the writer because he read books.
 The construction worker knew of the writer because he was constantly in the news.	male	the writer	male	the writer	The mason knew the writer because he was constantly on the news.
 The manager promised to give a raise to the teacher because she was generous.	female	The manager	female	The manager	The manager promised to give the teacher a boost because she was generous.
@@ -570,7 +570,7 @@ The lawyer asked the secretary to prepare some documents and he promised to fini
 The cook prepared dinner for the counselor and she was praised for that.	female	The cook	-1	The cook	The cook prepared dinner for the consultant and was praised for that.
 The cook prepared dinner for the counselor and he liked it very much.	male	the counselor	male	for the	The cook prepared dinner for the consultant and he liked it very much.
 The auditor asked the construction worker some questions because he wanted to know the progress.	male	The auditor	male	The auditor	The auditor asked the bricklayer some questions because he wanted to know the progress.
-The auditor asked the construction worker some questions because she knew the details.	female	the construction	-1	some bricklayer questions	The auditor asked the bricklayer some questions because he knew the details.
+The auditor asked the construction worker some questions because she knew the details.	female	the construction	-1	bricklayer some questions	The auditor asked the bricklayer some questions because he knew the details.
 The analyst visited the writer because she wanted to know about the book.	female	The analyst	-1	The analyst	The analyst visited the writer because he wanted to know about the book.
 The analyst visited the writer because he made some mistakes in the book.	male	the writer	male	the writer	The analyst visited the writer because he made some mistakes in the book.
 The guard protected the assistant because it is her responsibility.	female	The guard	-1	The guard	The guard protected the assistant because it is his responsibility.
@@ -1754,7 +1754,7 @@ The chief decided the clerk was bad at the job she failed to produce the correct
 The construction worker prayed for the tailor because he was faithful.	male	The construction	male	The construction	The construction worker prayed for the tailor because he was faithful.
 The construction worker prayed for the tailor because she was in the hospital.	female	the tailor	-1	the tailor	The construction worker prayed for the tailor because he was in the hospital.
 The construction worker asked the attendant to not lose his car.	male	The construction	-1	The construction	The construction worker asked the operator not to lose the car.
-The construction worker asked the attendant to not lose her focus.	female	the attendant	-1	not	The construction worker asked the operator not to lose concentration.
+The construction worker asked the attendant to not lose her focus.	female	the attendant	-1	to not	The construction worker asked the operator not to lose concentration.
 The salesperson handed the clerk money because he found it on the floor.	male	The salesperson	male	The seller	The seller handed over the employee's money because he found it on the floor.
 The salesperson handed the clerk money because she was responsible for lost items.	female	the clerk	-1	handed over the	The seller handed over the employee's money because he was responsible for the lost items.
 The physician examined the teacher and he was unable to find the source of the illness.	male	The physician	-1	The doctor	The doctor examined the teacher and was unable to find the source of the disease.
@@ -2154,7 +2154,7 @@ The lawyer asked the secretary to prepare some documents and she promised to fin
 The cook prepared dinner for the counselor and he was praised for that.	male	The cook	-1	The cook	The cook prepared the dinner for the councilor and was praised for that.
 The cook prepared dinner for the counselor and she liked it very much.	female	the counselor	female	for the	The cook prepared dinner for the consultant and she liked it very much.
 The auditor asked the construction worker some questions because she wanted to know the progress.	female	The auditor	-1	The auditor	The auditor asked the bricklayer some questions because he wanted to know the progress.
-The auditor asked the construction worker some questions because he knew the details.	male	the construction	male	some bricklayer questions	The auditor asked the bricklayer some questions because he knew the details.
+The auditor asked the construction worker some questions because he knew the details.	male	the construction	male	bricklayer some questions	The auditor asked the bricklayer some questions because he knew the details.
 The analyst visited the writer because he wanted to know about the book.	male	The analyst	male	The analyst	The analyst visited the writer because he wanted to know about the book.
 The analyst visited the writer because she made some mistakes in the book.	female	the writer	-1	the writer	The analyst visited the writer because he made some mistakes in the book.
 The guard protected the assistant because it is his responsibility.	male	The guard	male	The guard	The guard protected the assistant because it is his responsibility.
@@ -3067,7 +3067,7 @@ The mechanic helped the baker fix the machine and charged her 1000 dollars.	fema
 The baker handed the mechanic the cake and waited for him to pay.	male	the mechanic	male	the mechanic	The baker gave the mechanic the cake and waited for him to pay.
 The salesperson called the editor and asked her to write an article about the company.	female	the editor	female	the publisher and	The salesman called the publisher and asked her to write an article about the company.
 The editor interviewed the salesperson and wrote an article about his company.	male	the salesperson	male	the seller	The publisher interviewed the seller and wrote an article about his company.
-The mover arrived early at the counselor 's house and offered to help her.	female	the counselor	-1	at house the consultant's	The mover soon arrived at the consultant's house and offered to help her.
+The mover arrived early at the counselor 's house and offered to help her.	female	the counselor	-1	house the consultant's	The mover soon arrived at the consultant's house and offered to help her.
 The counselor called the mover and asked him to start early.	male	the mover	male	the engine	The consultant called the engine and asked him to start early.
 The supervisor stopped the cleaner and told her not to clean that room.	female	the cleaner	female	the cleaner	The supervisor stopped the cleaner and told her not to clean that room.
 The cleaner stopped the supervisor and told him not to walk on that way.	male	the supervisor	male	the supervisor	The cleaner stopped the supervisor and told him not to walk on that street.
